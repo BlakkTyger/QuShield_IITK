@@ -1,0 +1,4166 @@
+{
+  "metadata": {
+    "scan_id": "eee8b202-2a4a-499d-98e7-ca37fefe3e05",
+    "domain": "pnb.bank.in",
+    "scan_start": "2026-03-30T23:31:46.142090+00:00",
+    "scan_end": "2026-03-30T23:33:45.929986+00:00",
+    "duration_ms": 119787.89600000001
+  },
+  "dashboard": {
+    "counts": {
+      "total_assets": 48,
+      "public_web_apps": 11,
+      "apis": 6,
+      "servers": 20,
+      "expiring_certificates": 0,
+      "high_risk_assets": 0
+    },
+    "distributions": {
+      "asset_type": {
+        "Server": 20,
+        "Web Application": 11,
+        "API": 6,
+        "Mail Server": 3,
+        "VPN": 2,
+        "Gateway": 1,
+        "CDN": 5
+      },
+      "risk": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 4,
+        "LOW": 0
+      },
+      "certificate_expiry_timeline": {
+        "0-30 days": 0,
+        "30-60 days": 0,
+        "60-90 days": 0,
+        "90+ days": 4,
+        "Expired": 0
+      },
+      "ip_version_breakdown": {
+        "IPv4": 100.0,
+        "IPv6": 0.0
+      }
+    },
+    "lists": {
+      "all_assets": [
+        "pnb.bank.in",
+        "www.pnb.bank.in",
+        "api.pnb.bank.in",
+        "app.pnb.bank.in",
+        "mobile.pnb.bank.in",
+        "m.pnb.bank.in",
+        "portal.pnb.bank.in",
+        "secure.pnb.bank.in",
+        "login.pnb.bank.in",
+        "auth.pnb.bank.in",
+        "sso.pnb.bank.in",
+        "admin.pnb.bank.in",
+        "mail.pnb.bank.in",
+        "email.pnb.bank.in",
+        "webmail.pnb.bank.in",
+        "vpn.pnb.bank.in",
+        "remote.pnb.bank.in",
+        "gateway.pnb.bank.in",
+        "payments.pnb.bank.in",
+        "pay.pnb.bank.in",
+        "checkout.pnb.bank.in",
+        "transaction.pnb.bank.in",
+        "netbanking.pnb.bank.in",
+        "ibanking.pnb.bank.in",
+        "onlinebanking.pnb.bank.in",
+        "ebanking.pnb.bank.in",
+        "corporate.pnb.bank.in",
+        "business.pnb.bank.in",
+        "retail.pnb.bank.in",
+        "cdn.pnb.bank.in",
+        "static.pnb.bank.in",
+        "assets.pnb.bank.in",
+        "img.pnb.bank.in",
+        "images.pnb.bank.in",
+        "dev.pnb.bank.in",
+        "staging.pnb.bank.in",
+        "test.pnb.bank.in",
+        "uat.pnb.bank.in",
+        "qa.pnb.bank.in",
+        "api-v1.pnb.bank.in",
+        "api-v2.pnb.bank.in",
+        "api-gateway.pnb.bank.in",
+        "ws.pnb.bank.in",
+        "websocket.pnb.bank.in",
+        "socket.pnb.bank.in",
+        "docs.pnb.bank.in",
+        "developer.pnb.bank.in",
+        "developers.pnb.bank.in"
+      ],
+      "web_apps": [
+        "www.pnb.bank.in",
+        "app.pnb.bank.in",
+        "portal.pnb.bank.in",
+        "secure.pnb.bank.in",
+        "login.pnb.bank.in",
+        "netbanking.pnb.bank.in",
+        "ibanking.pnb.bank.in",
+        "onlinebanking.pnb.bank.in",
+        "ebanking.pnb.bank.in",
+        "corporate.pnb.bank.in",
+        "retail.pnb.bank.in"
+      ],
+      "apis": [
+        "api.pnb.bank.in",
+        "api-v1.pnb.bank.in",
+        "api-v2.pnb.bank.in",
+        "api-gateway.pnb.bank.in",
+        "ws.pnb.bank.in",
+        "websocket.pnb.bank.in"
+      ],
+      "servers": [
+        "pnb.bank.in",
+        "mobile.pnb.bank.in",
+        "m.pnb.bank.in",
+        "auth.pnb.bank.in",
+        "sso.pnb.bank.in",
+        "admin.pnb.bank.in",
+        "payments.pnb.bank.in",
+        "pay.pnb.bank.in",
+        "checkout.pnb.bank.in",
+        "transaction.pnb.bank.in",
+        "business.pnb.bank.in",
+        "dev.pnb.bank.in",
+        "staging.pnb.bank.in",
+        "test.pnb.bank.in",
+        "uat.pnb.bank.in",
+        "qa.pnb.bank.in",
+        "socket.pnb.bank.in",
+        "docs.pnb.bank.in",
+        "developer.pnb.bank.in",
+        "developers.pnb.bank.in"
+      ],
+      "expiring_certificates": [],
+      "high_risk_assets": []
+    }
+  },
+  "inventory": {
+    "assets": [
+      {
+        "asset_name": "pnb",
+        "url": "https://pnb.bank.in:443",
+        "fqdn": "pnb.bank.in",
+        "port": 443,
+        "ipv4_address": "49.50.72.184",
+        "ipv6_address": null,
+        "asn": 55470,
+        "asn_name": "CYFUTURE-AS-IN Cyfuture India Pvt. Ltd., IN",
+        "country": "",
+        "country_code": "IN",
+        "city": "",
+        "isp": "CYFUTURE-AS-IN Cyfuture India Pvt. Ltd., IN",
+        "asset_type": "Server",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [
+          443
+        ],
+        "services": [],
+        "risk_level": "MEDIUM",
+        "hndl_score": 0.541,
+        "quantum_safety": "QUANTUM_VULNERABLE",
+        "certificate_status": "Valid",
+        "key_length": 2048,
+        "detection_date": "2026-03-30T23:32:28.400875",
+        "last_scan_time": "2026-03-30T23:32:55.943846",
+        "discovery_source": "base_domain"
+      },
+      {
+        "asset_name": "www",
+        "url": "https://www.pnb.bank.in:443",
+        "fqdn": "www.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": "49.50.72.184",
+        "ipv6_address": null,
+        "asn": 55470,
+        "asn_name": "CYFUTURE-AS-IN Cyfuture India Pvt. Ltd., IN",
+        "country": "",
+        "country_code": "IN",
+        "city": "",
+        "isp": "CYFUTURE-AS-IN Cyfuture India Pvt. Ltd., IN",
+        "asset_type": "Web Application",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [
+          443
+        ],
+        "services": [],
+        "risk_level": "MEDIUM",
+        "hndl_score": 0.541,
+        "quantum_safety": "QUANTUM_VULNERABLE",
+        "certificate_status": "Valid",
+        "key_length": 2048,
+        "detection_date": "2026-03-30T23:31:46.195885",
+        "last_scan_time": "2026-03-30T23:32:55.943413",
+        "discovery_source": "subdomain_enum"
+      },
+      {
+        "asset_name": "api",
+        "url": "https://api.pnb.bank.in:443",
+        "fqdn": "api.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": null,
+        "ipv6_address": null,
+        "asn": null,
+        "asn_name": "",
+        "country": "",
+        "country_code": "",
+        "city": "",
+        "isp": "",
+        "asset_type": "API",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [],
+        "services": [],
+        "risk_level": "Unknown",
+        "hndl_score": null,
+        "quantum_safety": "Unknown",
+        "certificate_status": "Unknown",
+        "key_length": null,
+        "detection_date": "2026-03-30T23:31:46.195891",
+        "last_scan_time": "",
+        "discovery_source": "subdomain_enum"
+      },
+      {
+        "asset_name": "app",
+        "url": "https://app.pnb.bank.in:443",
+        "fqdn": "app.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": null,
+        "ipv6_address": null,
+        "asn": null,
+        "asn_name": "",
+        "country": "",
+        "country_code": "",
+        "city": "",
+        "isp": "",
+        "asset_type": "Web Application",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [],
+        "services": [],
+        "risk_level": "Unknown",
+        "hndl_score": null,
+        "quantum_safety": "Unknown",
+        "certificate_status": "Unknown",
+        "key_length": null,
+        "detection_date": "2026-03-30T23:31:46.195894",
+        "last_scan_time": "",
+        "discovery_source": "subdomain_enum"
+      },
+      {
+        "asset_name": "mobile",
+        "url": "https://mobile.pnb.bank.in:443",
+        "fqdn": "mobile.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": null,
+        "ipv6_address": null,
+        "asn": null,
+        "asn_name": "",
+        "country": "",
+        "country_code": "",
+        "city": "",
+        "isp": "",
+        "asset_type": "Server",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [],
+        "services": [],
+        "risk_level": "Unknown",
+        "hndl_score": null,
+        "quantum_safety": "Unknown",
+        "certificate_status": "Unknown",
+        "key_length": null,
+        "detection_date": "2026-03-30T23:31:46.195895",
+        "last_scan_time": "",
+        "discovery_source": "subdomain_enum"
+      },
+      {
+        "asset_name": "m",
+        "url": "https://m.pnb.bank.in:443",
+        "fqdn": "m.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": null,
+        "ipv6_address": null,
+        "asn": null,
+        "asn_name": "",
+        "country": "",
+        "country_code": "",
+        "city": "",
+        "isp": "",
+        "asset_type": "Server",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [],
+        "services": [],
+        "risk_level": "Unknown",
+        "hndl_score": null,
+        "quantum_safety": "Unknown",
+        "certificate_status": "Unknown",
+        "key_length": null,
+        "detection_date": "2026-03-30T23:31:46.195897",
+        "last_scan_time": "",
+        "discovery_source": "subdomain_enum"
+      },
+      {
+        "asset_name": "portal",
+        "url": "https://portal.pnb.bank.in:443",
+        "fqdn": "portal.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": null,
+        "ipv6_address": null,
+        "asn": null,
+        "asn_name": "",
+        "country": "",
+        "country_code": "",
+        "city": "",
+        "isp": "",
+        "asset_type": "Web Application",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [],
+        "services": [],
+        "risk_level": "Unknown",
+        "hndl_score": null,
+        "quantum_safety": "Unknown",
+        "certificate_status": "Unknown",
+        "key_length": null,
+        "detection_date": "2026-03-30T23:31:46.195898",
+        "last_scan_time": "",
+        "discovery_source": "subdomain_enum"
+      },
+      {
+        "asset_name": "secure",
+        "url": "https://secure.pnb.bank.in:443",
+        "fqdn": "secure.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": null,
+        "ipv6_address": null,
+        "asn": null,
+        "asn_name": "",
+        "country": "",
+        "country_code": "",
+        "city": "",
+        "isp": "",
+        "asset_type": "Web Application",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [],
+        "services": [],
+        "risk_level": "Unknown",
+        "hndl_score": null,
+        "quantum_safety": "Unknown",
+        "certificate_status": "Unknown",
+        "key_length": null,
+        "detection_date": "2026-03-30T23:31:46.195900",
+        "last_scan_time": "",
+        "discovery_source": "subdomain_enum"
+      },
+      {
+        "asset_name": "login",
+        "url": "https://login.pnb.bank.in:443",
+        "fqdn": "login.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": null,
+        "ipv6_address": null,
+        "asn": null,
+        "asn_name": "",
+        "country": "",
+        "country_code": "",
+        "city": "",
+        "isp": "",
+        "asset_type": "Web Application",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [],
+        "services": [],
+        "risk_level": "Unknown",
+        "hndl_score": null,
+        "quantum_safety": "Unknown",
+        "certificate_status": "Unknown",
+        "key_length": null,
+        "detection_date": "2026-03-30T23:31:46.195901",
+        "last_scan_time": "",
+        "discovery_source": "subdomain_enum"
+      },
+      {
+        "asset_name": "auth",
+        "url": "https://auth.pnb.bank.in:443",
+        "fqdn": "auth.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": null,
+        "ipv6_address": null,
+        "asn": null,
+        "asn_name": "",
+        "country": "",
+        "country_code": "",
+        "city": "",
+        "isp": "",
+        "asset_type": "Server",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [],
+        "services": [],
+        "risk_level": "Unknown",
+        "hndl_score": null,
+        "quantum_safety": "Unknown",
+        "certificate_status": "Unknown",
+        "key_length": null,
+        "detection_date": "2026-03-30T23:31:46.195902",
+        "last_scan_time": "",
+        "discovery_source": "subdomain_enum"
+      },
+      {
+        "asset_name": "sso",
+        "url": "https://sso.pnb.bank.in:443",
+        "fqdn": "sso.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": null,
+        "ipv6_address": null,
+        "asn": null,
+        "asn_name": "",
+        "country": "",
+        "country_code": "",
+        "city": "",
+        "isp": "",
+        "asset_type": "Server",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [],
+        "services": [],
+        "risk_level": "Unknown",
+        "hndl_score": null,
+        "quantum_safety": "Unknown",
+        "certificate_status": "Unknown",
+        "key_length": null,
+        "detection_date": "2026-03-30T23:31:46.195903",
+        "last_scan_time": "",
+        "discovery_source": "subdomain_enum"
+      },
+      {
+        "asset_name": "admin",
+        "url": "https://admin.pnb.bank.in:443",
+        "fqdn": "admin.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": "1.7.178.30",
+        "ipv6_address": null,
+        "asn": 9583,
+        "asn_name": "SIFY-AS-IN Sify Limited, IN",
+        "country": "",
+        "country_code": "IN",
+        "city": "",
+        "isp": "SIFY-AS-IN Sify Limited, IN",
+        "asset_type": "Server",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [
+          443
+        ],
+        "services": [],
+        "risk_level": "Unknown",
+        "hndl_score": null,
+        "quantum_safety": "Unknown",
+        "certificate_status": "Unknown",
+        "key_length": null,
+        "detection_date": "2026-03-30T23:31:46.195905",
+        "last_scan_time": "",
+        "discovery_source": "subdomain_enum"
+      },
+      {
+        "asset_name": "mail",
+        "url": "https://mail.pnb.bank.in:443",
+        "fqdn": "mail.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": "1.6.46.95",
+        "ipv6_address": null,
+        "asn": 9583,
+        "asn_name": "SIFY-AS-IN Sify Limited, IN",
+        "country": "",
+        "country_code": "IN",
+        "city": "",
+        "isp": "SIFY-AS-IN Sify Limited, IN",
+        "asset_type": "Mail Server",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [
+          443
+        ],
+        "services": [],
+        "risk_level": "Unknown",
+        "hndl_score": null,
+        "quantum_safety": "Unknown",
+        "certificate_status": "Unknown",
+        "key_length": null,
+        "detection_date": "2026-03-30T23:31:46.195906",
+        "last_scan_time": "",
+        "discovery_source": "subdomain_enum"
+      },
+      {
+        "asset_name": "email",
+        "url": "https://email.pnb.bank.in:443",
+        "fqdn": "email.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": "1.6.46.95",
+        "ipv6_address": null,
+        "asn": 9583,
+        "asn_name": "SIFY-AS-IN Sify Limited, IN",
+        "country": "",
+        "country_code": "IN",
+        "city": "",
+        "isp": "SIFY-AS-IN Sify Limited, IN",
+        "asset_type": "Mail Server",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [
+          443
+        ],
+        "services": [],
+        "risk_level": "Unknown",
+        "hndl_score": null,
+        "quantum_safety": "Unknown",
+        "certificate_status": "Unknown",
+        "key_length": null,
+        "detection_date": "2026-03-30T23:31:46.195907",
+        "last_scan_time": "",
+        "discovery_source": "subdomain_enum"
+      },
+      {
+        "asset_name": "webmail",
+        "url": "https://webmail.pnb.bank.in:443",
+        "fqdn": "webmail.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": null,
+        "ipv6_address": null,
+        "asn": null,
+        "asn_name": "",
+        "country": "",
+        "country_code": "",
+        "city": "",
+        "isp": "",
+        "asset_type": "Mail Server",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [],
+        "services": [],
+        "risk_level": "Unknown",
+        "hndl_score": null,
+        "quantum_safety": "Unknown",
+        "certificate_status": "Unknown",
+        "key_length": null,
+        "detection_date": "2026-03-30T23:31:46.195909",
+        "last_scan_time": "",
+        "discovery_source": "subdomain_enum"
+      },
+      {
+        "asset_name": "vpn",
+        "url": "https://vpn.pnb.bank.in:443",
+        "fqdn": "vpn.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": null,
+        "ipv6_address": null,
+        "asn": null,
+        "asn_name": "",
+        "country": "",
+        "country_code": "",
+        "city": "",
+        "isp": "",
+        "asset_type": "VPN",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [],
+        "services": [],
+        "risk_level": "Unknown",
+        "hndl_score": null,
+        "quantum_safety": "Unknown",
+        "certificate_status": "Unknown",
+        "key_length": null,
+        "detection_date": "2026-03-30T23:31:46.195910",
+        "last_scan_time": "",
+        "discovery_source": "subdomain_enum"
+      },
+      {
+        "asset_name": "remote",
+        "url": "https://remote.pnb.bank.in:443",
+        "fqdn": "remote.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": null,
+        "ipv6_address": null,
+        "asn": null,
+        "asn_name": "",
+        "country": "",
+        "country_code": "",
+        "city": "",
+        "isp": "",
+        "asset_type": "VPN",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [],
+        "services": [],
+        "risk_level": "Unknown",
+        "hndl_score": null,
+        "quantum_safety": "Unknown",
+        "certificate_status": "Unknown",
+        "key_length": null,
+        "detection_date": "2026-03-30T23:31:46.195911",
+        "last_scan_time": "",
+        "discovery_source": "subdomain_enum"
+      },
+      {
+        "asset_name": "gateway",
+        "url": "https://gateway.pnb.bank.in:443",
+        "fqdn": "gateway.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": null,
+        "ipv6_address": null,
+        "asn": null,
+        "asn_name": "",
+        "country": "",
+        "country_code": "",
+        "city": "",
+        "isp": "",
+        "asset_type": "Gateway",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [],
+        "services": [],
+        "risk_level": "Unknown",
+        "hndl_score": null,
+        "quantum_safety": "Unknown",
+        "certificate_status": "Unknown",
+        "key_length": null,
+        "detection_date": "2026-03-30T23:31:46.195912",
+        "last_scan_time": "",
+        "discovery_source": "subdomain_enum"
+      },
+      {
+        "asset_name": "payments",
+        "url": "https://payments.pnb.bank.in:443",
+        "fqdn": "payments.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": null,
+        "ipv6_address": null,
+        "asn": null,
+        "asn_name": "",
+        "country": "",
+        "country_code": "",
+        "city": "",
+        "isp": "",
+        "asset_type": "Server",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [],
+        "services": [],
+        "risk_level": "Unknown",
+        "hndl_score": null,
+        "quantum_safety": "Unknown",
+        "certificate_status": "Unknown",
+        "key_length": null,
+        "detection_date": "2026-03-30T23:31:46.195914",
+        "last_scan_time": "",
+        "discovery_source": "subdomain_enum"
+      },
+      {
+        "asset_name": "pay",
+        "url": "https://pay.pnb.bank.in:443",
+        "fqdn": "pay.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": null,
+        "ipv6_address": null,
+        "asn": null,
+        "asn_name": "",
+        "country": "",
+        "country_code": "",
+        "city": "",
+        "isp": "",
+        "asset_type": "Server",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [],
+        "services": [],
+        "risk_level": "Unknown",
+        "hndl_score": null,
+        "quantum_safety": "Unknown",
+        "certificate_status": "Unknown",
+        "key_length": null,
+        "detection_date": "2026-03-30T23:31:46.195915",
+        "last_scan_time": "",
+        "discovery_source": "subdomain_enum"
+      },
+      {
+        "asset_name": "checkout",
+        "url": "https://checkout.pnb.bank.in:443",
+        "fqdn": "checkout.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": null,
+        "ipv6_address": null,
+        "asn": null,
+        "asn_name": "",
+        "country": "",
+        "country_code": "",
+        "city": "",
+        "isp": "",
+        "asset_type": "Server",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [],
+        "services": [],
+        "risk_level": "Unknown",
+        "hndl_score": null,
+        "quantum_safety": "Unknown",
+        "certificate_status": "Unknown",
+        "key_length": null,
+        "detection_date": "2026-03-30T23:31:46.195916",
+        "last_scan_time": "",
+        "discovery_source": "subdomain_enum"
+      },
+      {
+        "asset_name": "transaction",
+        "url": "https://transaction.pnb.bank.in:443",
+        "fqdn": "transaction.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": null,
+        "ipv6_address": null,
+        "asn": null,
+        "asn_name": "",
+        "country": "",
+        "country_code": "",
+        "city": "",
+        "isp": "",
+        "asset_type": "Server",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [],
+        "services": [],
+        "risk_level": "Unknown",
+        "hndl_score": null,
+        "quantum_safety": "Unknown",
+        "certificate_status": "Unknown",
+        "key_length": null,
+        "detection_date": "2026-03-30T23:31:46.195917",
+        "last_scan_time": "",
+        "discovery_source": "subdomain_enum"
+      },
+      {
+        "asset_name": "netbanking",
+        "url": "https://netbanking.pnb.bank.in:443",
+        "fqdn": "netbanking.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": null,
+        "ipv6_address": null,
+        "asn": null,
+        "asn_name": "",
+        "country": "",
+        "country_code": "",
+        "city": "",
+        "isp": "",
+        "asset_type": "Web Application",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [],
+        "services": [],
+        "risk_level": "Unknown",
+        "hndl_score": null,
+        "quantum_safety": "Unknown",
+        "certificate_status": "Unknown",
+        "key_length": null,
+        "detection_date": "2026-03-30T23:31:46.195919",
+        "last_scan_time": "",
+        "discovery_source": "subdomain_enum"
+      },
+      {
+        "asset_name": "ibanking",
+        "url": "https://ibanking.pnb.bank.in:443",
+        "fqdn": "ibanking.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": "103.109.227.175",
+        "ipv6_address": null,
+        "asn": 137130,
+        "asn_name": "ITDPNB-AS Punjab National Bank, IN",
+        "country": "",
+        "country_code": "IN",
+        "city": "",
+        "isp": "ITDPNB-AS Punjab National Bank, IN",
+        "asset_type": "Web Application",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [
+          443
+        ],
+        "services": [],
+        "risk_level": "MEDIUM",
+        "hndl_score": 0.541,
+        "quantum_safety": "QUANTUM_VULNERABLE",
+        "certificate_status": "Valid",
+        "key_length": 2048,
+        "detection_date": "2026-03-30T23:31:46.195920",
+        "last_scan_time": "2026-03-30T23:33:14.277845",
+        "discovery_source": "subdomain_enum"
+      },
+      {
+        "asset_name": "onlinebanking",
+        "url": "https://onlinebanking.pnb.bank.in:443",
+        "fqdn": "onlinebanking.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": null,
+        "ipv6_address": null,
+        "asn": null,
+        "asn_name": "",
+        "country": "",
+        "country_code": "",
+        "city": "",
+        "isp": "",
+        "asset_type": "Web Application",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [],
+        "services": [],
+        "risk_level": "Unknown",
+        "hndl_score": null,
+        "quantum_safety": "Unknown",
+        "certificate_status": "Unknown",
+        "key_length": null,
+        "detection_date": "2026-03-30T23:31:46.195921",
+        "last_scan_time": "",
+        "discovery_source": "subdomain_enum"
+      },
+      {
+        "asset_name": "ebanking",
+        "url": "https://ebanking.pnb.bank.in:443",
+        "fqdn": "ebanking.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": null,
+        "ipv6_address": null,
+        "asn": null,
+        "asn_name": "",
+        "country": "",
+        "country_code": "",
+        "city": "",
+        "isp": "",
+        "asset_type": "Web Application",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [],
+        "services": [],
+        "risk_level": "Unknown",
+        "hndl_score": null,
+        "quantum_safety": "Unknown",
+        "certificate_status": "Unknown",
+        "key_length": null,
+        "detection_date": "2026-03-30T23:31:46.195922",
+        "last_scan_time": "",
+        "discovery_source": "subdomain_enum"
+      },
+      {
+        "asset_name": "corporate",
+        "url": "https://corporate.pnb.bank.in:443",
+        "fqdn": "corporate.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": null,
+        "ipv6_address": null,
+        "asn": null,
+        "asn_name": "",
+        "country": "",
+        "country_code": "",
+        "city": "",
+        "isp": "",
+        "asset_type": "Web Application",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [],
+        "services": [],
+        "risk_level": "Unknown",
+        "hndl_score": null,
+        "quantum_safety": "Unknown",
+        "certificate_status": "Unknown",
+        "key_length": null,
+        "detection_date": "2026-03-30T23:31:46.195923",
+        "last_scan_time": "",
+        "discovery_source": "subdomain_enum"
+      },
+      {
+        "asset_name": "business",
+        "url": "https://business.pnb.bank.in:443",
+        "fqdn": "business.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": null,
+        "ipv6_address": null,
+        "asn": null,
+        "asn_name": "",
+        "country": "",
+        "country_code": "",
+        "city": "",
+        "isp": "",
+        "asset_type": "Server",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [],
+        "services": [],
+        "risk_level": "Unknown",
+        "hndl_score": null,
+        "quantum_safety": "Unknown",
+        "certificate_status": "Unknown",
+        "key_length": null,
+        "detection_date": "2026-03-30T23:31:46.195925",
+        "last_scan_time": "",
+        "discovery_source": "subdomain_enum"
+      },
+      {
+        "asset_name": "retail",
+        "url": "https://retail.pnb.bank.in:443",
+        "fqdn": "retail.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": null,
+        "ipv6_address": null,
+        "asn": null,
+        "asn_name": "",
+        "country": "",
+        "country_code": "",
+        "city": "",
+        "isp": "",
+        "asset_type": "Web Application",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [],
+        "services": [],
+        "risk_level": "Unknown",
+        "hndl_score": null,
+        "quantum_safety": "Unknown",
+        "certificate_status": "Unknown",
+        "key_length": null,
+        "detection_date": "2026-03-30T23:31:46.195926",
+        "last_scan_time": "",
+        "discovery_source": "subdomain_enum"
+      },
+      {
+        "asset_name": "cdn",
+        "url": "https://cdn.pnb.bank.in:443",
+        "fqdn": "cdn.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": null,
+        "ipv6_address": null,
+        "asn": null,
+        "asn_name": "",
+        "country": "",
+        "country_code": "",
+        "city": "",
+        "isp": "",
+        "asset_type": "CDN",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [],
+        "services": [],
+        "risk_level": "Unknown",
+        "hndl_score": null,
+        "quantum_safety": "Unknown",
+        "certificate_status": "Unknown",
+        "key_length": null,
+        "detection_date": "2026-03-30T23:31:46.195928",
+        "last_scan_time": "",
+        "discovery_source": "subdomain_enum"
+      },
+      {
+        "asset_name": "static",
+        "url": "https://static.pnb.bank.in:443",
+        "fqdn": "static.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": null,
+        "ipv6_address": null,
+        "asn": null,
+        "asn_name": "",
+        "country": "",
+        "country_code": "",
+        "city": "",
+        "isp": "",
+        "asset_type": "CDN",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [],
+        "services": [],
+        "risk_level": "Unknown",
+        "hndl_score": null,
+        "quantum_safety": "Unknown",
+        "certificate_status": "Unknown",
+        "key_length": null,
+        "detection_date": "2026-03-30T23:31:46.195929",
+        "last_scan_time": "",
+        "discovery_source": "subdomain_enum"
+      },
+      {
+        "asset_name": "assets",
+        "url": "https://assets.pnb.bank.in:443",
+        "fqdn": "assets.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": null,
+        "ipv6_address": null,
+        "asn": null,
+        "asn_name": "",
+        "country": "",
+        "country_code": "",
+        "city": "",
+        "isp": "",
+        "asset_type": "CDN",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [],
+        "services": [],
+        "risk_level": "Unknown",
+        "hndl_score": null,
+        "quantum_safety": "Unknown",
+        "certificate_status": "Unknown",
+        "key_length": null,
+        "detection_date": "2026-03-30T23:31:46.195930",
+        "last_scan_time": "",
+        "discovery_source": "subdomain_enum"
+      },
+      {
+        "asset_name": "img",
+        "url": "https://img.pnb.bank.in:443",
+        "fqdn": "img.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": null,
+        "ipv6_address": null,
+        "asn": null,
+        "asn_name": "",
+        "country": "",
+        "country_code": "",
+        "city": "",
+        "isp": "",
+        "asset_type": "CDN",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [],
+        "services": [],
+        "risk_level": "Unknown",
+        "hndl_score": null,
+        "quantum_safety": "Unknown",
+        "certificate_status": "Unknown",
+        "key_length": null,
+        "detection_date": "2026-03-30T23:31:46.195931",
+        "last_scan_time": "",
+        "discovery_source": "subdomain_enum"
+      },
+      {
+        "asset_name": "images",
+        "url": "https://images.pnb.bank.in:443",
+        "fqdn": "images.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": "1.7.178.31",
+        "ipv6_address": null,
+        "asn": 9583,
+        "asn_name": "SIFY-AS-IN Sify Limited, IN",
+        "country": "",
+        "country_code": "IN",
+        "city": "",
+        "isp": "SIFY-AS-IN Sify Limited, IN",
+        "asset_type": "CDN",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [
+          443
+        ],
+        "services": [],
+        "risk_level": "MEDIUM",
+        "hndl_score": 0.541,
+        "quantum_safety": "QUANTUM_VULNERABLE",
+        "certificate_status": "Valid",
+        "key_length": 2048,
+        "detection_date": "2026-03-30T23:31:46.195933",
+        "last_scan_time": "2026-03-30T23:33:27.353582",
+        "discovery_source": "subdomain_enum"
+      },
+      {
+        "asset_name": "dev",
+        "url": "https://dev.pnb.bank.in:443",
+        "fqdn": "dev.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": null,
+        "ipv6_address": null,
+        "asn": null,
+        "asn_name": "",
+        "country": "",
+        "country_code": "",
+        "city": "",
+        "isp": "",
+        "asset_type": "Server",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [],
+        "services": [],
+        "risk_level": "Unknown",
+        "hndl_score": null,
+        "quantum_safety": "Unknown",
+        "certificate_status": "Unknown",
+        "key_length": null,
+        "detection_date": "2026-03-30T23:31:46.195934",
+        "last_scan_time": "",
+        "discovery_source": "subdomain_enum"
+      },
+      {
+        "asset_name": "staging",
+        "url": "https://staging.pnb.bank.in:443",
+        "fqdn": "staging.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": null,
+        "ipv6_address": null,
+        "asn": null,
+        "asn_name": "",
+        "country": "",
+        "country_code": "",
+        "city": "",
+        "isp": "",
+        "asset_type": "Server",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [],
+        "services": [],
+        "risk_level": "Unknown",
+        "hndl_score": null,
+        "quantum_safety": "Unknown",
+        "certificate_status": "Unknown",
+        "key_length": null,
+        "detection_date": "2026-03-30T23:31:46.195935",
+        "last_scan_time": "",
+        "discovery_source": "subdomain_enum"
+      },
+      {
+        "asset_name": "test",
+        "url": "https://test.pnb.bank.in:443",
+        "fqdn": "test.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": null,
+        "ipv6_address": null,
+        "asn": null,
+        "asn_name": "",
+        "country": "",
+        "country_code": "",
+        "city": "",
+        "isp": "",
+        "asset_type": "Server",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [],
+        "services": [],
+        "risk_level": "Unknown",
+        "hndl_score": null,
+        "quantum_safety": "Unknown",
+        "certificate_status": "Unknown",
+        "key_length": null,
+        "detection_date": "2026-03-30T23:31:46.195936",
+        "last_scan_time": "",
+        "discovery_source": "subdomain_enum"
+      },
+      {
+        "asset_name": "uat",
+        "url": "https://uat.pnb.bank.in:443",
+        "fqdn": "uat.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": null,
+        "ipv6_address": null,
+        "asn": null,
+        "asn_name": "",
+        "country": "",
+        "country_code": "",
+        "city": "",
+        "isp": "",
+        "asset_type": "Server",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [],
+        "services": [],
+        "risk_level": "Unknown",
+        "hndl_score": null,
+        "quantum_safety": "Unknown",
+        "certificate_status": "Unknown",
+        "key_length": null,
+        "detection_date": "2026-03-30T23:31:46.195938",
+        "last_scan_time": "",
+        "discovery_source": "subdomain_enum"
+      },
+      {
+        "asset_name": "qa",
+        "url": "https://qa.pnb.bank.in:443",
+        "fqdn": "qa.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": null,
+        "ipv6_address": null,
+        "asn": null,
+        "asn_name": "",
+        "country": "",
+        "country_code": "",
+        "city": "",
+        "isp": "",
+        "asset_type": "Server",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [],
+        "services": [],
+        "risk_level": "Unknown",
+        "hndl_score": null,
+        "quantum_safety": "Unknown",
+        "certificate_status": "Unknown",
+        "key_length": null,
+        "detection_date": "2026-03-30T23:31:46.195939",
+        "last_scan_time": "",
+        "discovery_source": "subdomain_enum"
+      },
+      {
+        "asset_name": "api-v1",
+        "url": "https://api-v1.pnb.bank.in:443",
+        "fqdn": "api-v1.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": null,
+        "ipv6_address": null,
+        "asn": null,
+        "asn_name": "",
+        "country": "",
+        "country_code": "",
+        "city": "",
+        "isp": "",
+        "asset_type": "API",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [],
+        "services": [],
+        "risk_level": "Unknown",
+        "hndl_score": null,
+        "quantum_safety": "Unknown",
+        "certificate_status": "Unknown",
+        "key_length": null,
+        "detection_date": "2026-03-30T23:31:46.195940",
+        "last_scan_time": "",
+        "discovery_source": "subdomain_enum"
+      },
+      {
+        "asset_name": "api-v2",
+        "url": "https://api-v2.pnb.bank.in:443",
+        "fqdn": "api-v2.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": null,
+        "ipv6_address": null,
+        "asn": null,
+        "asn_name": "",
+        "country": "",
+        "country_code": "",
+        "city": "",
+        "isp": "",
+        "asset_type": "API",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [],
+        "services": [],
+        "risk_level": "Unknown",
+        "hndl_score": null,
+        "quantum_safety": "Unknown",
+        "certificate_status": "Unknown",
+        "key_length": null,
+        "detection_date": "2026-03-30T23:31:46.195941",
+        "last_scan_time": "",
+        "discovery_source": "subdomain_enum"
+      },
+      {
+        "asset_name": "api-gateway",
+        "url": "https://api-gateway.pnb.bank.in:443",
+        "fqdn": "api-gateway.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": null,
+        "ipv6_address": null,
+        "asn": null,
+        "asn_name": "",
+        "country": "",
+        "country_code": "",
+        "city": "",
+        "isp": "",
+        "asset_type": "API",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [],
+        "services": [],
+        "risk_level": "Unknown",
+        "hndl_score": null,
+        "quantum_safety": "Unknown",
+        "certificate_status": "Unknown",
+        "key_length": null,
+        "detection_date": "2026-03-30T23:31:46.195942",
+        "last_scan_time": "",
+        "discovery_source": "subdomain_enum"
+      },
+      {
+        "asset_name": "ws",
+        "url": "https://ws.pnb.bank.in:443",
+        "fqdn": "ws.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": null,
+        "ipv6_address": null,
+        "asn": null,
+        "asn_name": "",
+        "country": "",
+        "country_code": "",
+        "city": "",
+        "isp": "",
+        "asset_type": "API",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [],
+        "services": [],
+        "risk_level": "Unknown",
+        "hndl_score": null,
+        "quantum_safety": "Unknown",
+        "certificate_status": "Unknown",
+        "key_length": null,
+        "detection_date": "2026-03-30T23:31:46.195944",
+        "last_scan_time": "",
+        "discovery_source": "subdomain_enum"
+      },
+      {
+        "asset_name": "websocket",
+        "url": "https://websocket.pnb.bank.in:443",
+        "fqdn": "websocket.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": null,
+        "ipv6_address": null,
+        "asn": null,
+        "asn_name": "",
+        "country": "",
+        "country_code": "",
+        "city": "",
+        "isp": "",
+        "asset_type": "API",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [],
+        "services": [],
+        "risk_level": "Unknown",
+        "hndl_score": null,
+        "quantum_safety": "Unknown",
+        "certificate_status": "Unknown",
+        "key_length": null,
+        "detection_date": "2026-03-30T23:31:46.195945",
+        "last_scan_time": "",
+        "discovery_source": "subdomain_enum"
+      },
+      {
+        "asset_name": "socket",
+        "url": "https://socket.pnb.bank.in:443",
+        "fqdn": "socket.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": null,
+        "ipv6_address": null,
+        "asn": null,
+        "asn_name": "",
+        "country": "",
+        "country_code": "",
+        "city": "",
+        "isp": "",
+        "asset_type": "Server",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [],
+        "services": [],
+        "risk_level": "Unknown",
+        "hndl_score": null,
+        "quantum_safety": "Unknown",
+        "certificate_status": "Unknown",
+        "key_length": null,
+        "detection_date": "2026-03-30T23:31:46.195946",
+        "last_scan_time": "",
+        "discovery_source": "subdomain_enum"
+      },
+      {
+        "asset_name": "docs",
+        "url": "https://docs.pnb.bank.in:443",
+        "fqdn": "docs.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": null,
+        "ipv6_address": null,
+        "asn": null,
+        "asn_name": "",
+        "country": "",
+        "country_code": "",
+        "city": "",
+        "isp": "",
+        "asset_type": "Server",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [],
+        "services": [],
+        "risk_level": "Unknown",
+        "hndl_score": null,
+        "quantum_safety": "Unknown",
+        "certificate_status": "Unknown",
+        "key_length": null,
+        "detection_date": "2026-03-30T23:31:46.195947",
+        "last_scan_time": "",
+        "discovery_source": "subdomain_enum"
+      },
+      {
+        "asset_name": "developer",
+        "url": "https://developer.pnb.bank.in:443",
+        "fqdn": "developer.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": null,
+        "ipv6_address": null,
+        "asn": null,
+        "asn_name": "",
+        "country": "",
+        "country_code": "",
+        "city": "",
+        "isp": "",
+        "asset_type": "Server",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [],
+        "services": [],
+        "risk_level": "Unknown",
+        "hndl_score": null,
+        "quantum_safety": "Unknown",
+        "certificate_status": "Unknown",
+        "key_length": null,
+        "detection_date": "2026-03-30T23:31:46.195952",
+        "last_scan_time": "",
+        "discovery_source": "subdomain_enum"
+      },
+      {
+        "asset_name": "developers",
+        "url": "https://developers.pnb.bank.in:443",
+        "fqdn": "developers.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": null,
+        "ipv6_address": null,
+        "asn": null,
+        "asn_name": "",
+        "country": "",
+        "country_code": "",
+        "city": "",
+        "isp": "",
+        "asset_type": "Server",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [],
+        "services": [],
+        "risk_level": "Unknown",
+        "hndl_score": null,
+        "quantum_safety": "Unknown",
+        "certificate_status": "Unknown",
+        "key_length": null,
+        "detection_date": "2026-03-30T23:31:46.195953",
+        "last_scan_time": "",
+        "discovery_source": "subdomain_enum"
+      }
+    ],
+    "certificates": [
+      {
+        "detection_date": "2026-03-30T23:32:55.943846",
+        "sha256_fingerprint": "59684eb8f189f5a15be5ae7c9d0af26b814fe79ce188b27c6f1d9808bbe89416",
+        "valid_from": "2025-12-23T00:00:00+00:00",
+        "valid_until": "2026-08-10T23:59:59+00:00",
+        "common_name": "CN=pnb.bank.in,O=Punjab National Bank,L=New Delhi,ST=Delhi,C=IN,2.5.4.5=Government Entity,2.5.4.15=Government Entity,1.3.6.1.4.1.311.60.2.1.3=IN",
+        "organization": "Punjab National Bank",
+        "certificate_authority": "CN=GeoTrust EV RSA CA G2,O=DigiCert Inc,C=US",
+        "public_key_algorithm": "RSA",
+        "public_key_size": 2048,
+        "signature_algorithm": "sha256WithRSAEncryption",
+        "san_entries": [
+          "pnb.bank.in",
+          "www.pnb.bank.in"
+        ],
+        "is_expired": false,
+        "is_self_signed": false,
+        "days_until_expiry": 133,
+        "expiry_bucket": "90+ days"
+      },
+      {
+        "detection_date": "2026-03-30T23:32:55.943413",
+        "sha256_fingerprint": "59684eb8f189f5a15be5ae7c9d0af26b814fe79ce188b27c6f1d9808bbe89416",
+        "valid_from": "2025-12-23T00:00:00+00:00",
+        "valid_until": "2026-08-10T23:59:59+00:00",
+        "common_name": "CN=pnb.bank.in,O=Punjab National Bank,L=New Delhi,ST=Delhi,C=IN,2.5.4.5=Government Entity,2.5.4.15=Government Entity,1.3.6.1.4.1.311.60.2.1.3=IN",
+        "organization": "Punjab National Bank",
+        "certificate_authority": "CN=GeoTrust EV RSA CA G2,O=DigiCert Inc,C=US",
+        "public_key_algorithm": "RSA",
+        "public_key_size": 2048,
+        "signature_algorithm": "sha256WithRSAEncryption",
+        "san_entries": [
+          "pnb.bank.in",
+          "www.pnb.bank.in"
+        ],
+        "is_expired": false,
+        "is_self_signed": false,
+        "days_until_expiry": 133,
+        "expiry_bucket": "90+ days"
+      },
+      {
+        "detection_date": "2026-03-30T23:33:14.277845",
+        "sha256_fingerprint": "f8eefeb66bbe779107e656f839d40a357d103851d5cdb60ba5c4c5732bb35d1e",
+        "valid_from": "2025-08-21T00:00:00+00:00",
+        "valid_until": "2026-08-20T23:59:59+00:00",
+        "common_name": "CN=ibanking.pnb.bank.in,O=Punjab National Bank,L=New Delhi,ST=Delhi,C=IN,2.5.4.5=Government Entity,2.5.4.15=Government Entity,1.3.6.1.4.1.311.60.2.1.3=IN",
+        "organization": "Punjab National Bank",
+        "certificate_authority": "CN=GeoTrust EV RSA CA G2,O=DigiCert Inc,C=US",
+        "public_key_algorithm": "RSA",
+        "public_key_size": 2048,
+        "signature_algorithm": "sha256WithRSAEncryption",
+        "san_entries": [
+          "ibanking.pnb.bank.in",
+          "www.ibanking.pnb.bank.in",
+          "iretail.pnb.bank.in",
+          "icorp.pnb.bank.in",
+          "pnbibanking.in",
+          "www.netpnb.com",
+          "netpnb.com",
+          "www.pnbibanking.in",
+          "netbanking.netpnb.com",
+          "internetbanking.netpnb.com",
+          "netbanking.pnbibanking.in",
+          "internetbanking.pnbibanking.in"
+        ],
+        "is_expired": false,
+        "is_self_signed": false,
+        "days_until_expiry": 143,
+        "expiry_bucket": "90+ days"
+      },
+      {
+        "detection_date": "2026-03-30T23:33:27.353582",
+        "sha256_fingerprint": "b43623775c85dd30a940c3f2e2afc1283aee21cf45896a2a8c76fb7e12849bca",
+        "valid_from": "2025-09-11T00:00:00+00:00",
+        "valid_until": "2026-09-10T23:59:59+00:00",
+        "common_name": "CN=images.pnb.bank.in,O=Punjab National Bank,L=New Delhi,ST=Delhi,C=IN,2.5.4.5=Government Entity,2.5.4.15=Government Entity,1.3.6.1.4.1.311.60.2.1.3=IN",
+        "organization": "Punjab National Bank",
+        "certificate_authority": "CN=GeoTrust EV RSA CA G2,O=DigiCert Inc,C=US",
+        "public_key_algorithm": "RSA",
+        "public_key_size": 2048,
+        "signature_algorithm": "sha256WithRSAEncryption",
+        "san_entries": [
+          "images.pnb.bank.in"
+        ],
+        "is_expired": false,
+        "is_self_signed": false,
+        "days_until_expiry": 164,
+        "expiry_bucket": "90+ days"
+      }
+    ],
+    "dns_records": [
+      {
+        "hostname": "pnb.bank.in",
+        "record_type": "A",
+        "value": "49.50.72.184",
+        "ipv4_address": "49.50.72.184",
+        "ipv6_address": null,
+        "ttl": null
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "record_type": "A",
+        "value": "49.50.72.184",
+        "ipv4_address": "49.50.72.184",
+        "ipv6_address": null,
+        "ttl": null
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "record_type": "A",
+        "value": "49.50.72.184",
+        "ipv4_address": "49.50.72.184",
+        "ipv6_address": null,
+        "ttl": null
+      }
+    ],
+    "crypto_security": [
+      {
+        "asset": "pnb.bank.in",
+        "key_length": 2048,
+        "cipher_suite": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "tls_version": "TLS 1.2",
+        "certificate_authority": "GeoTrust EV RSA CA G2",
+        "last_scan_time": "2026-03-30T23:32:55.943846",
+        "quantum_safety": "QUANTUM_VULNERABLE"
+      },
+      {
+        "asset": "www.pnb.bank.in",
+        "key_length": 2048,
+        "cipher_suite": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "tls_version": "TLS 1.2",
+        "certificate_authority": "GeoTrust EV RSA CA G2",
+        "last_scan_time": "2026-03-30T23:32:55.943413",
+        "quantum_safety": "QUANTUM_VULNERABLE"
+      },
+      {
+        "asset": "ibanking.pnb.bank.in",
+        "key_length": 2048,
+        "cipher_suite": "",
+        "tls_version": "TLS 1.2",
+        "certificate_authority": "GeoTrust EV RSA CA G2",
+        "last_scan_time": "2026-03-30T23:33:14.277845",
+        "quantum_safety": "QUANTUM_VULNERABLE"
+      },
+      {
+        "asset": "images.pnb.bank.in",
+        "key_length": 2048,
+        "cipher_suite": "",
+        "tls_version": "TLS 1.3",
+        "certificate_authority": "GeoTrust EV RSA CA G2",
+        "last_scan_time": "2026-03-30T23:33:27.353582",
+        "quantum_safety": "QUANTUM_VULNERABLE"
+      }
+    ]
+  },
+  "nameserver_records": {
+    "ns_records": [
+      {
+        "hostname": "pnb.bank.in",
+        "nameserver": "ns2.pnbindia.com",
+        "ip_address": "49.50.79.113",
+        "ttl": 889
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "nameserver": "ns4.pnb.bank.in",
+        "ip_address": "49.50.122.27",
+        "ttl": 889
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "nameserver": "ns1.pnbindia.com",
+        "ip_address": "49.50.69.49",
+        "ttl": 889
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "nameserver": "ns2.pnb.bank.in",
+        "ip_address": "49.50.79.113",
+        "ttl": 889
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "nameserver": "ns3.pnb.bank.in",
+        "ip_address": "49.50.91.195",
+        "ttl": 889
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "nameserver": "ns4.pnbindia.com",
+        "ip_address": "49.50.122.27",
+        "ttl": 889
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "nameserver": "ns1.pnb.bank.in",
+        "ip_address": "49.50.69.49",
+        "ttl": 889
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "nameserver": "ns3.pnbindia.com",
+        "ip_address": "49.50.91.195",
+        "ttl": 889
+      }
+    ],
+    "mx_records": [
+      {
+        "hostname": "pnb.bank.in",
+        "mail_server": "cluster1a.us.messagelabs.com",
+        "priority": 20,
+        "ip_address": "34.75.172.113",
+        "ttl": 4909
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "mail_server": "pnb.bank.in",
+        "priority": 30,
+        "ip_address": "49.50.72.184",
+        "ttl": 4909
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "mail_server": "cluster1.us.messagelabs.com",
+        "priority": 10,
+        "ip_address": "67.219.246.215",
+        "ttl": 4909
+      }
+    ],
+    "txt_records": [
+      {
+        "hostname": "pnb.bank.in",
+        "value": "_globalsign-domain-verification=MGFDaI1yhBiiXu8jwfkLKW46YVDgzkevGMzwNpNhr1",
+        "record_type": "TXT",
+        "ttl": 199
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "value": "_b41ryz7u8lk8l732mzf8sonp1qg4aye",
+        "record_type": "TXT",
+        "ttl": 199
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "value": "v=spf1 mx ip4:1.7.178.12 ip4:1.7.178.13 ip4:115.249.110.106 ip4:115.249.110.67 ip4:1.6.46.71 ip4:1.6.46.83 ip4:1.6.46.99 ip4:115.249.110.81 include:spf.messagelabs.com include:spf.protection.outlook.com -all",
+        "record_type": "SPF",
+        "ttl": 199
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "value": "_cteinsmyfucefxpshrfbvazgyyb3t1v",
+        "record_type": "TXT",
+        "ttl": 199
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "value": "P0U4N88250",
+        "record_type": "TXT",
+        "ttl": 199
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "value": "_m8jhdslmnryv9yu9mhif1sef1pjbi8z",
+        "record_type": "TXT",
+        "ttl": 199
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "value": "MS=ms72997512",
+        "record_type": "Microsoft Verification",
+        "ttl": 199
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "value": "_h17gf50ky4g78x3znbxl0b24tf6k3r6",
+        "record_type": "TXT",
+        "ttl": 199
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "value": "v=DMARC1; p=reject; rua=mailto:smghelp@pnb.bank.in",
+        "record_type": "DMARC",
+        "ttl": 199
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "value": "v=DKIM1; k=rsa; t=s; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0VLMnYHSbAWFrO6wNVicHNdoAyr0ElTpQ6JB6hAvtkruOJ9+gptaxWYw2TADxD4qwhtw75zENYRdY5+1rMymFx1r0OTJSj4RpvWRMDexaRApYeB9auOT5Ul7aUa+zg2f3l9AECI4cxVpkj8fuwlVNqMkatEYmsQzPcG/KTP+EjvwooUMqW4cQZgQlevp\" \"2Tl1xKrVDGnM2e8j556fRkKV6PtwKWuODv8uA3uL6TKiskf3YjjVaTTy4scROCZxF2LFmr89PNtHqnwhGs9Q56Q1S+2zYoGgntsu1jY75gFq5ylUWNO4og+OYs0aDzEqPG003JQ+U2vS4IOXCFePR9h33QIDAQAB",
+        "record_type": "DKIM",
+        "ttl": 199
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "value": "_globalsign-domain-verification=emK7g9fiENuVQZ-ldewjC7ofIIY-OcQC4cgrUtvp4F",
+        "record_type": "TXT",
+        "ttl": 199
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "value": "_ie6ifn3sc1tevkmx23tbkyp63t4b1jq",
+        "record_type": "TXT",
+        "ttl": 199
+      },
+      {
+        "hostname": "_dmarc.pnb.bank.in",
+        "value": "v=DMARC1;p=reject;sp=reject;adkim=r;aspf=r;pct=100;fo=0;rf=afrf;ri=86400;rua=mailto:smghelp@pnb.bank.in",
+        "record_type": "DMARC",
+        "ttl": 200
+      }
+    ]
+  },
+  "whois": null,
+  "port_scan": {
+    "results": [],
+    "services": []
+  },
+  "detection": {
+    "cloud_assets": [],
+    "iot_devices": [],
+    "forms": []
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "domain:bank.in",
+        "label": "bank.in",
+        "node_type": "domain",
+        "metadata": {
+          "fqdn": "bank.in"
+        }
+      },
+      {
+        "id": "subdomain:pnb.bank.in",
+        "label": "pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "pnb.bank.in",
+          "asset_type": "Server"
+        }
+      },
+      {
+        "id": "ip:49.50.72.184",
+        "label": "49.50.72.184",
+        "node_type": "ip",
+        "metadata": {
+          "version": "IPv4"
+        }
+      },
+      {
+        "id": "subdomain:www.pnb.bank.in",
+        "label": "www.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "www.pnb.bank.in",
+          "asset_type": "Web Application"
+        }
+      },
+      {
+        "id": "subdomain:api.pnb.bank.in",
+        "label": "api.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "api.pnb.bank.in",
+          "asset_type": "API"
+        }
+      },
+      {
+        "id": "subdomain:app.pnb.bank.in",
+        "label": "app.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "app.pnb.bank.in",
+          "asset_type": "Web Application"
+        }
+      },
+      {
+        "id": "subdomain:mobile.pnb.bank.in",
+        "label": "mobile.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "mobile.pnb.bank.in",
+          "asset_type": "Server"
+        }
+      },
+      {
+        "id": "subdomain:m.pnb.bank.in",
+        "label": "m.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "m.pnb.bank.in",
+          "asset_type": "Server"
+        }
+      },
+      {
+        "id": "subdomain:portal.pnb.bank.in",
+        "label": "portal.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "portal.pnb.bank.in",
+          "asset_type": "Web Application"
+        }
+      },
+      {
+        "id": "subdomain:secure.pnb.bank.in",
+        "label": "secure.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "secure.pnb.bank.in",
+          "asset_type": "Web Application"
+        }
+      },
+      {
+        "id": "subdomain:login.pnb.bank.in",
+        "label": "login.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "login.pnb.bank.in",
+          "asset_type": "Web Application"
+        }
+      },
+      {
+        "id": "subdomain:auth.pnb.bank.in",
+        "label": "auth.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "auth.pnb.bank.in",
+          "asset_type": "Server"
+        }
+      },
+      {
+        "id": "subdomain:sso.pnb.bank.in",
+        "label": "sso.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "sso.pnb.bank.in",
+          "asset_type": "Server"
+        }
+      },
+      {
+        "id": "subdomain:admin.pnb.bank.in",
+        "label": "admin.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "admin.pnb.bank.in",
+          "asset_type": "Server"
+        }
+      },
+      {
+        "id": "ip:1.7.178.30",
+        "label": "1.7.178.30",
+        "node_type": "ip",
+        "metadata": {
+          "version": "IPv4"
+        }
+      },
+      {
+        "id": "subdomain:mail.pnb.bank.in",
+        "label": "mail.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "mail.pnb.bank.in",
+          "asset_type": "Mail Server"
+        }
+      },
+      {
+        "id": "ip:1.6.46.95",
+        "label": "1.6.46.95",
+        "node_type": "ip",
+        "metadata": {
+          "version": "IPv4"
+        }
+      },
+      {
+        "id": "subdomain:email.pnb.bank.in",
+        "label": "email.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "email.pnb.bank.in",
+          "asset_type": "Mail Server"
+        }
+      },
+      {
+        "id": "subdomain:webmail.pnb.bank.in",
+        "label": "webmail.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "webmail.pnb.bank.in",
+          "asset_type": "Mail Server"
+        }
+      },
+      {
+        "id": "subdomain:vpn.pnb.bank.in",
+        "label": "vpn.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "vpn.pnb.bank.in",
+          "asset_type": "VPN"
+        }
+      },
+      {
+        "id": "subdomain:remote.pnb.bank.in",
+        "label": "remote.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "remote.pnb.bank.in",
+          "asset_type": "VPN"
+        }
+      },
+      {
+        "id": "subdomain:gateway.pnb.bank.in",
+        "label": "gateway.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "gateway.pnb.bank.in",
+          "asset_type": "Gateway"
+        }
+      },
+      {
+        "id": "subdomain:payments.pnb.bank.in",
+        "label": "payments.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "payments.pnb.bank.in",
+          "asset_type": "Server"
+        }
+      },
+      {
+        "id": "subdomain:pay.pnb.bank.in",
+        "label": "pay.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "pay.pnb.bank.in",
+          "asset_type": "Server"
+        }
+      },
+      {
+        "id": "subdomain:checkout.pnb.bank.in",
+        "label": "checkout.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "checkout.pnb.bank.in",
+          "asset_type": "Server"
+        }
+      },
+      {
+        "id": "subdomain:transaction.pnb.bank.in",
+        "label": "transaction.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "transaction.pnb.bank.in",
+          "asset_type": "Server"
+        }
+      },
+      {
+        "id": "subdomain:netbanking.pnb.bank.in",
+        "label": "netbanking.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "netbanking.pnb.bank.in",
+          "asset_type": "Web Application"
+        }
+      },
+      {
+        "id": "subdomain:ibanking.pnb.bank.in",
+        "label": "ibanking.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "ibanking.pnb.bank.in",
+          "asset_type": "Web Application"
+        }
+      },
+      {
+        "id": "ip:103.109.227.175",
+        "label": "103.109.227.175",
+        "node_type": "ip",
+        "metadata": {
+          "version": "IPv4"
+        }
+      },
+      {
+        "id": "subdomain:onlinebanking.pnb.bank.in",
+        "label": "onlinebanking.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "onlinebanking.pnb.bank.in",
+          "asset_type": "Web Application"
+        }
+      },
+      {
+        "id": "subdomain:ebanking.pnb.bank.in",
+        "label": "ebanking.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "ebanking.pnb.bank.in",
+          "asset_type": "Web Application"
+        }
+      },
+      {
+        "id": "subdomain:corporate.pnb.bank.in",
+        "label": "corporate.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "corporate.pnb.bank.in",
+          "asset_type": "Web Application"
+        }
+      },
+      {
+        "id": "subdomain:business.pnb.bank.in",
+        "label": "business.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "business.pnb.bank.in",
+          "asset_type": "Server"
+        }
+      },
+      {
+        "id": "subdomain:retail.pnb.bank.in",
+        "label": "retail.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "retail.pnb.bank.in",
+          "asset_type": "Web Application"
+        }
+      },
+      {
+        "id": "subdomain:cdn.pnb.bank.in",
+        "label": "cdn.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "cdn.pnb.bank.in",
+          "asset_type": "CDN"
+        }
+      },
+      {
+        "id": "subdomain:static.pnb.bank.in",
+        "label": "static.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "static.pnb.bank.in",
+          "asset_type": "CDN"
+        }
+      },
+      {
+        "id": "subdomain:assets.pnb.bank.in",
+        "label": "assets.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "assets.pnb.bank.in",
+          "asset_type": "CDN"
+        }
+      },
+      {
+        "id": "subdomain:img.pnb.bank.in",
+        "label": "img.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "img.pnb.bank.in",
+          "asset_type": "CDN"
+        }
+      },
+      {
+        "id": "subdomain:images.pnb.bank.in",
+        "label": "images.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "images.pnb.bank.in",
+          "asset_type": "CDN"
+        }
+      },
+      {
+        "id": "ip:1.7.178.31",
+        "label": "1.7.178.31",
+        "node_type": "ip",
+        "metadata": {
+          "version": "IPv4"
+        }
+      },
+      {
+        "id": "subdomain:dev.pnb.bank.in",
+        "label": "dev.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "dev.pnb.bank.in",
+          "asset_type": "Server"
+        }
+      },
+      {
+        "id": "subdomain:staging.pnb.bank.in",
+        "label": "staging.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "staging.pnb.bank.in",
+          "asset_type": "Server"
+        }
+      },
+      {
+        "id": "subdomain:test.pnb.bank.in",
+        "label": "test.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "test.pnb.bank.in",
+          "asset_type": "Server"
+        }
+      },
+      {
+        "id": "subdomain:uat.pnb.bank.in",
+        "label": "uat.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "uat.pnb.bank.in",
+          "asset_type": "Server"
+        }
+      },
+      {
+        "id": "subdomain:qa.pnb.bank.in",
+        "label": "qa.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "qa.pnb.bank.in",
+          "asset_type": "Server"
+        }
+      },
+      {
+        "id": "subdomain:api-v1.pnb.bank.in",
+        "label": "api-v1.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "api-v1.pnb.bank.in",
+          "asset_type": "API"
+        }
+      },
+      {
+        "id": "subdomain:api-v2.pnb.bank.in",
+        "label": "api-v2.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "api-v2.pnb.bank.in",
+          "asset_type": "API"
+        }
+      },
+      {
+        "id": "subdomain:api-gateway.pnb.bank.in",
+        "label": "api-gateway.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "api-gateway.pnb.bank.in",
+          "asset_type": "API"
+        }
+      },
+      {
+        "id": "subdomain:ws.pnb.bank.in",
+        "label": "ws.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "ws.pnb.bank.in",
+          "asset_type": "API"
+        }
+      },
+      {
+        "id": "subdomain:websocket.pnb.bank.in",
+        "label": "websocket.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "websocket.pnb.bank.in",
+          "asset_type": "API"
+        }
+      },
+      {
+        "id": "subdomain:socket.pnb.bank.in",
+        "label": "socket.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "socket.pnb.bank.in",
+          "asset_type": "Server"
+        }
+      },
+      {
+        "id": "subdomain:docs.pnb.bank.in",
+        "label": "docs.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "docs.pnb.bank.in",
+          "asset_type": "Server"
+        }
+      },
+      {
+        "id": "subdomain:developer.pnb.bank.in",
+        "label": "developer.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "developer.pnb.bank.in",
+          "asset_type": "Server"
+        }
+      },
+      {
+        "id": "subdomain:developers.pnb.bank.in",
+        "label": "developers.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "developers.pnb.bank.in",
+          "asset_type": "Server"
+        }
+      },
+      {
+        "id": "ns:ns2.pnbindia.com",
+        "label": "ns2.pnbindia.com",
+        "node_type": "nameserver",
+        "metadata": {
+          "ip": "49.50.79.113"
+        }
+      },
+      {
+        "id": "ns:ns4.pnb.bank.in",
+        "label": "ns4.pnb.bank.in",
+        "node_type": "nameserver",
+        "metadata": {
+          "ip": "49.50.122.27"
+        }
+      },
+      {
+        "id": "ns:ns1.pnbindia.com",
+        "label": "ns1.pnbindia.com",
+        "node_type": "nameserver",
+        "metadata": {
+          "ip": "49.50.69.49"
+        }
+      },
+      {
+        "id": "ns:ns2.pnb.bank.in",
+        "label": "ns2.pnb.bank.in",
+        "node_type": "nameserver",
+        "metadata": {
+          "ip": "49.50.79.113"
+        }
+      },
+      {
+        "id": "ns:ns3.pnb.bank.in",
+        "label": "ns3.pnb.bank.in",
+        "node_type": "nameserver",
+        "metadata": {
+          "ip": "49.50.91.195"
+        }
+      },
+      {
+        "id": "ns:ns4.pnbindia.com",
+        "label": "ns4.pnbindia.com",
+        "node_type": "nameserver",
+        "metadata": {
+          "ip": "49.50.122.27"
+        }
+      },
+      {
+        "id": "ns:ns1.pnb.bank.in",
+        "label": "ns1.pnb.bank.in",
+        "node_type": "nameserver",
+        "metadata": {
+          "ip": "49.50.69.49"
+        }
+      },
+      {
+        "id": "ns:ns3.pnbindia.com",
+        "label": "ns3.pnbindia.com",
+        "node_type": "nameserver",
+        "metadata": {
+          "ip": "49.50.91.195"
+        }
+      },
+      {
+        "id": "mx:cluster1a.us.messagelabs.com",
+        "label": "cluster1a.us.messagelabs.com",
+        "node_type": "mail_server",
+        "metadata": {
+          "priority": 20,
+          "ip": "34.75.172.113"
+        }
+      },
+      {
+        "id": "mx:pnb.bank.in",
+        "label": "pnb.bank.in",
+        "node_type": "mail_server",
+        "metadata": {
+          "priority": 30,
+          "ip": "49.50.72.184"
+        }
+      },
+      {
+        "id": "mx:cluster1.us.messagelabs.com",
+        "label": "cluster1.us.messagelabs.com",
+        "node_type": "mail_server",
+        "metadata": {
+          "priority": 10,
+          "ip": "67.219.246.215"
+        }
+      },
+      {
+        "id": "cert:59684eb8f189f5a1",
+        "label": "CN=pnb.bank.in,O=Punjab National Bank,L=New Delhi,",
+        "node_type": "certificate",
+        "metadata": {
+          "issuer": "CN=GeoTrust EV RSA CA G2,O=DigiCert Inc,C=US",
+          "valid_until": "2026-08-10T23:59:59+00:00",
+          "algorithm": "RSA",
+          "organization": "Punjab National Bank"
+        }
+      },
+      {
+        "id": "org:punjab_national_bank",
+        "label": "Punjab National Bank",
+        "node_type": "organization",
+        "metadata": {
+          "name": "Punjab National Bank"
+        }
+      },
+      {
+        "id": "cert:59684eb8f189f5a1",
+        "label": "CN=pnb.bank.in,O=Punjab National Bank,L=New Delhi,",
+        "node_type": "certificate",
+        "metadata": {
+          "issuer": "CN=GeoTrust EV RSA CA G2,O=DigiCert Inc,C=US",
+          "valid_until": "2026-08-10T23:59:59+00:00",
+          "algorithm": "RSA",
+          "organization": "Punjab National Bank"
+        }
+      },
+      {
+        "id": "cert:f8eefeb66bbe7791",
+        "label": "CN=ibanking.pnb.bank.in,O=Punjab National Bank,L=N",
+        "node_type": "certificate",
+        "metadata": {
+          "issuer": "CN=GeoTrust EV RSA CA G2,O=DigiCert Inc,C=US",
+          "valid_until": "2026-08-20T23:59:59+00:00",
+          "algorithm": "RSA",
+          "organization": "Punjab National Bank"
+        }
+      },
+      {
+        "id": "cert:b43623775c85dd30",
+        "label": "CN=images.pnb.bank.in,O=Punjab National Bank,L=New",
+        "node_type": "certificate",
+        "metadata": {
+          "issuer": "CN=GeoTrust EV RSA CA G2,O=DigiCert Inc,C=US",
+          "valid_until": "2026-09-10T23:59:59+00:00",
+          "algorithm": "RSA",
+          "organization": "Punjab National Bank"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "subdomain:pnb.bank.in",
+        "target": "ip:49.50.72.184",
+        "relationship": "resolves_to"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:www.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "subdomain:www.pnb.bank.in",
+        "target": "ip:49.50.72.184",
+        "relationship": "resolves_to"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:api.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:app.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:mobile.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:m.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:portal.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:secure.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:login.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:auth.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:sso.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:admin.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "subdomain:admin.pnb.bank.in",
+        "target": "ip:1.7.178.30",
+        "relationship": "resolves_to"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:mail.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "subdomain:mail.pnb.bank.in",
+        "target": "ip:1.6.46.95",
+        "relationship": "resolves_to"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:email.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "subdomain:email.pnb.bank.in",
+        "target": "ip:1.6.46.95",
+        "relationship": "resolves_to"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:webmail.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:vpn.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:remote.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:gateway.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:payments.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:pay.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:checkout.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:transaction.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:netbanking.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:ibanking.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "subdomain:ibanking.pnb.bank.in",
+        "target": "ip:103.109.227.175",
+        "relationship": "resolves_to"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:onlinebanking.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:ebanking.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:corporate.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:business.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:retail.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:cdn.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:static.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:assets.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:img.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:images.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "subdomain:images.pnb.bank.in",
+        "target": "ip:1.7.178.31",
+        "relationship": "resolves_to"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:dev.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:staging.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:test.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:uat.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:qa.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:api-v1.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:api-v2.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:api-gateway.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:ws.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:websocket.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:socket.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:docs.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:developer.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:developers.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "ns:ns2.pnbindia.com",
+        "relationship": "uses_nameserver"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "ns:ns4.pnb.bank.in",
+        "relationship": "uses_nameserver"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "ns:ns1.pnbindia.com",
+        "relationship": "uses_nameserver"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "ns:ns2.pnb.bank.in",
+        "relationship": "uses_nameserver"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "ns:ns3.pnb.bank.in",
+        "relationship": "uses_nameserver"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "ns:ns4.pnbindia.com",
+        "relationship": "uses_nameserver"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "ns:ns1.pnb.bank.in",
+        "relationship": "uses_nameserver"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "ns:ns3.pnbindia.com",
+        "relationship": "uses_nameserver"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "mx:cluster1a.us.messagelabs.com",
+        "relationship": "uses_mail_server"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "mx:pnb.bank.in",
+        "relationship": "uses_mail_server"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "mx:cluster1.us.messagelabs.com",
+        "relationship": "uses_mail_server"
+      },
+      {
+        "source": "subdomain:pnb.bank.in",
+        "target": "cert:59684eb8f189f5a1",
+        "relationship": "has_certificate"
+      },
+      {
+        "source": "org:punjab_national_bank",
+        "target": "cert:59684eb8f189f5a1",
+        "relationship": "owns_certificate"
+      },
+      {
+        "source": "subdomain:www.pnb.bank.in",
+        "target": "cert:59684eb8f189f5a1",
+        "relationship": "has_certificate"
+      },
+      {
+        "source": "org:punjab_national_bank",
+        "target": "cert:59684eb8f189f5a1",
+        "relationship": "owns_certificate"
+      },
+      {
+        "source": "subdomain:ibanking.pnb.bank.in",
+        "target": "cert:f8eefeb66bbe7791",
+        "relationship": "has_certificate"
+      },
+      {
+        "source": "org:punjab_national_bank",
+        "target": "cert:f8eefeb66bbe7791",
+        "relationship": "owns_certificate"
+      },
+      {
+        "source": "subdomain:images.pnb.bank.in",
+        "target": "cert:b43623775c85dd30",
+        "relationship": "has_certificate"
+      },
+      {
+        "source": "org:punjab_national_bank",
+        "target": "cert:b43623775c85dd30",
+        "relationship": "owns_certificate"
+      }
+    ]
+  },
+  "summaries": {
+    "cbom": {
+      "total_applications": 48,
+      "active_certificates": 4,
+      "weak_cryptography_count": 0,
+      "certificate_issues": 0,
+      "key_length_distribution": {
+        "2048-bit": 4
+      },
+      "cipher_usage_distribution": {
+        "ECDHE": 4
+      },
+      "top_certificate_authorities": [
+        {
+          "name": "GeoTrust EV RSA CA G2",
+          "count": 4
+        }
+      ],
+      "protocol_distribution": {
+        "TLS 1.0": 0,
+        "TLS 1.1": 0,
+        "TLS 1.2": 3,
+        "TLS 1.3": 1
+      },
+      "per_app_crypto": []
+    },
+    "pqc_compliance": {
+      "assets_with_pqc_support": [
+        {
+          "asset_name": "pnb.bank.in",
+          "ip": "49.50.72.184",
+          "pqc_support": false,
+          "quantum_safety": "QUANTUM_VULNERABLE"
+        },
+        {
+          "asset_name": "www.pnb.bank.in",
+          "ip": "49.50.72.184",
+          "pqc_support": false,
+          "quantum_safety": "QUANTUM_VULNERABLE"
+        },
+        {
+          "asset_name": "ibanking.pnb.bank.in",
+          "ip": "103.109.227.175",
+          "pqc_support": false,
+          "quantum_safety": "QUANTUM_VULNERABLE"
+        },
+        {
+          "asset_name": "images.pnb.bank.in",
+          "ip": "1.7.178.31",
+          "pqc_support": false,
+          "quantum_safety": "QUANTUM_VULNERABLE"
+        }
+      ],
+      "classification_counts": {
+        "Elite": 0,
+        "Critical": 0,
+        "Standard": 0
+      },
+      "status_distribution": {
+        "PQC Ready": 0,
+        "Standard": 0,
+        "Legacy": 0,
+        "Critical": 0
+      },
+      "risk_heatmap": [
+        {
+          "asset": "pnb.bank.in",
+          "risk_score": 0.541,
+          "risk_label": "MEDIUM"
+        },
+        {
+          "asset": "www.pnb.bank.in",
+          "risk_score": 0.541,
+          "risk_label": "MEDIUM"
+        },
+        {
+          "asset": "ibanking.pnb.bank.in",
+          "risk_score": 0.541,
+          "risk_label": "MEDIUM"
+        },
+        {
+          "asset": "images.pnb.bank.in",
+          "risk_score": 0.541,
+          "risk_label": "MEDIUM"
+        }
+      ],
+      "pqc_adoption_progress": 0.0
+    },
+    "cyber_rating": {
+      "enterprise_score": 491,
+      "category": "Standard",
+      "per_url_scores": {
+        "pnb.bank.in": 392,
+        "www.pnb.bank.in": 392,
+        "api.pnb.bank.in": 500,
+        "app.pnb.bank.in": 500,
+        "mobile.pnb.bank.in": 500,
+        "m.pnb.bank.in": 500,
+        "portal.pnb.bank.in": 500,
+        "secure.pnb.bank.in": 500,
+        "login.pnb.bank.in": 500,
+        "auth.pnb.bank.in": 500,
+        "sso.pnb.bank.in": 500,
+        "admin.pnb.bank.in": 500,
+        "mail.pnb.bank.in": 500,
+        "email.pnb.bank.in": 500,
+        "webmail.pnb.bank.in": 500,
+        "vpn.pnb.bank.in": 500,
+        "remote.pnb.bank.in": 500,
+        "gateway.pnb.bank.in": 500,
+        "payments.pnb.bank.in": 500,
+        "pay.pnb.bank.in": 500,
+        "checkout.pnb.bank.in": 500,
+        "transaction.pnb.bank.in": 500,
+        "netbanking.pnb.bank.in": 500,
+        "ibanking.pnb.bank.in": 392,
+        "onlinebanking.pnb.bank.in": 500,
+        "ebanking.pnb.bank.in": 500,
+        "corporate.pnb.bank.in": 500,
+        "business.pnb.bank.in": 500,
+        "retail.pnb.bank.in": 500,
+        "cdn.pnb.bank.in": 500,
+        "static.pnb.bank.in": 500,
+        "assets.pnb.bank.in": 500,
+        "img.pnb.bank.in": 500,
+        "images.pnb.bank.in": 392,
+        "dev.pnb.bank.in": 500,
+        "staging.pnb.bank.in": 500,
+        "test.pnb.bank.in": 500,
+        "uat.pnb.bank.in": 500,
+        "qa.pnb.bank.in": 500,
+        "api-v1.pnb.bank.in": 500,
+        "api-v2.pnb.bank.in": 500,
+        "api-gateway.pnb.bank.in": 500,
+        "ws.pnb.bank.in": 500,
+        "websocket.pnb.bank.in": 500,
+        "socket.pnb.bank.in": 500,
+        "docs.pnb.bank.in": 500,
+        "developer.pnb.bank.in": 500,
+        "developers.pnb.bank.in": 500
+      },
+      "factors": {
+        "pqc_readiness": 0.0,
+        "certificate_health": 100.0,
+        "crypto_strength": 100.0
+      }
+    },
+    "metrics": {
+      "total_domains": 1,
+      "total_subdomains": 47,
+      "cloud_assets_count": 0,
+      "ssl_certificates_count": 4,
+      "software_count": 0,
+      "iot_devices_count": 0,
+      "login_forms_count": 0,
+      "vulnerable_components_count": 0,
+      "pqc_adoption_progress": 0.0
+    }
+  },
+  "layer_outputs": {
+    "layer1_discovery": {
+      "total_discovered": 48,
+      "sources": [
+        "base_domain",
+        "subdomain_enum"
+      ],
+      "assets": [
+        {
+          "fqdn": "pnb.bank.in",
+          "port": 443,
+          "source": "base_domain",
+          "discovered_at": "2026-03-30T23:32:28.400875",
+          "ipv4": "49.50.72.184",
+          "ipv6": null,
+          "asset_type": "Server"
+        },
+        {
+          "fqdn": "www.pnb.bank.in",
+          "port": 443,
+          "source": "subdomain_enum",
+          "discovered_at": "2026-03-30T23:31:46.195885",
+          "ipv4": "49.50.72.184",
+          "ipv6": null,
+          "asset_type": "Web Application"
+        },
+        {
+          "fqdn": "api.pnb.bank.in",
+          "port": 443,
+          "source": "subdomain_enum",
+          "discovered_at": "2026-03-30T23:31:46.195891",
+          "ipv4": null,
+          "ipv6": null,
+          "asset_type": "API"
+        },
+        {
+          "fqdn": "app.pnb.bank.in",
+          "port": 443,
+          "source": "subdomain_enum",
+          "discovered_at": "2026-03-30T23:31:46.195894",
+          "ipv4": null,
+          "ipv6": null,
+          "asset_type": "Web Application"
+        },
+        {
+          "fqdn": "mobile.pnb.bank.in",
+          "port": 443,
+          "source": "subdomain_enum",
+          "discovered_at": "2026-03-30T23:31:46.195895",
+          "ipv4": null,
+          "ipv6": null,
+          "asset_type": "Server"
+        },
+        {
+          "fqdn": "m.pnb.bank.in",
+          "port": 443,
+          "source": "subdomain_enum",
+          "discovered_at": "2026-03-30T23:31:46.195897",
+          "ipv4": null,
+          "ipv6": null,
+          "asset_type": "Server"
+        },
+        {
+          "fqdn": "portal.pnb.bank.in",
+          "port": 443,
+          "source": "subdomain_enum",
+          "discovered_at": "2026-03-30T23:31:46.195898",
+          "ipv4": null,
+          "ipv6": null,
+          "asset_type": "Web Application"
+        },
+        {
+          "fqdn": "secure.pnb.bank.in",
+          "port": 443,
+          "source": "subdomain_enum",
+          "discovered_at": "2026-03-30T23:31:46.195900",
+          "ipv4": null,
+          "ipv6": null,
+          "asset_type": "Web Application"
+        },
+        {
+          "fqdn": "login.pnb.bank.in",
+          "port": 443,
+          "source": "subdomain_enum",
+          "discovered_at": "2026-03-30T23:31:46.195901",
+          "ipv4": null,
+          "ipv6": null,
+          "asset_type": "Web Application"
+        },
+        {
+          "fqdn": "auth.pnb.bank.in",
+          "port": 443,
+          "source": "subdomain_enum",
+          "discovered_at": "2026-03-30T23:31:46.195902",
+          "ipv4": null,
+          "ipv6": null,
+          "asset_type": "Server"
+        },
+        {
+          "fqdn": "sso.pnb.bank.in",
+          "port": 443,
+          "source": "subdomain_enum",
+          "discovered_at": "2026-03-30T23:31:46.195903",
+          "ipv4": null,
+          "ipv6": null,
+          "asset_type": "Server"
+        },
+        {
+          "fqdn": "admin.pnb.bank.in",
+          "port": 443,
+          "source": "subdomain_enum",
+          "discovered_at": "2026-03-30T23:31:46.195905",
+          "ipv4": "1.7.178.30",
+          "ipv6": null,
+          "asset_type": "Server"
+        },
+        {
+          "fqdn": "mail.pnb.bank.in",
+          "port": 443,
+          "source": "subdomain_enum",
+          "discovered_at": "2026-03-30T23:31:46.195906",
+          "ipv4": "1.6.46.95",
+          "ipv6": null,
+          "asset_type": "Mail Server"
+        },
+        {
+          "fqdn": "email.pnb.bank.in",
+          "port": 443,
+          "source": "subdomain_enum",
+          "discovered_at": "2026-03-30T23:31:46.195907",
+          "ipv4": "1.6.46.95",
+          "ipv6": null,
+          "asset_type": "Mail Server"
+        },
+        {
+          "fqdn": "webmail.pnb.bank.in",
+          "port": 443,
+          "source": "subdomain_enum",
+          "discovered_at": "2026-03-30T23:31:46.195909",
+          "ipv4": null,
+          "ipv6": null,
+          "asset_type": "Mail Server"
+        },
+        {
+          "fqdn": "vpn.pnb.bank.in",
+          "port": 443,
+          "source": "subdomain_enum",
+          "discovered_at": "2026-03-30T23:31:46.195910",
+          "ipv4": null,
+          "ipv6": null,
+          "asset_type": "VPN"
+        },
+        {
+          "fqdn": "remote.pnb.bank.in",
+          "port": 443,
+          "source": "subdomain_enum",
+          "discovered_at": "2026-03-30T23:31:46.195911",
+          "ipv4": null,
+          "ipv6": null,
+          "asset_type": "VPN"
+        },
+        {
+          "fqdn": "gateway.pnb.bank.in",
+          "port": 443,
+          "source": "subdomain_enum",
+          "discovered_at": "2026-03-30T23:31:46.195912",
+          "ipv4": null,
+          "ipv6": null,
+          "asset_type": "Gateway"
+        },
+        {
+          "fqdn": "payments.pnb.bank.in",
+          "port": 443,
+          "source": "subdomain_enum",
+          "discovered_at": "2026-03-30T23:31:46.195914",
+          "ipv4": null,
+          "ipv6": null,
+          "asset_type": "Server"
+        },
+        {
+          "fqdn": "pay.pnb.bank.in",
+          "port": 443,
+          "source": "subdomain_enum",
+          "discovered_at": "2026-03-30T23:31:46.195915",
+          "ipv4": null,
+          "ipv6": null,
+          "asset_type": "Server"
+        },
+        {
+          "fqdn": "checkout.pnb.bank.in",
+          "port": 443,
+          "source": "subdomain_enum",
+          "discovered_at": "2026-03-30T23:31:46.195916",
+          "ipv4": null,
+          "ipv6": null,
+          "asset_type": "Server"
+        },
+        {
+          "fqdn": "transaction.pnb.bank.in",
+          "port": 443,
+          "source": "subdomain_enum",
+          "discovered_at": "2026-03-30T23:31:46.195917",
+          "ipv4": null,
+          "ipv6": null,
+          "asset_type": "Server"
+        },
+        {
+          "fqdn": "netbanking.pnb.bank.in",
+          "port": 443,
+          "source": "subdomain_enum",
+          "discovered_at": "2026-03-30T23:31:46.195919",
+          "ipv4": null,
+          "ipv6": null,
+          "asset_type": "Web Application"
+        },
+        {
+          "fqdn": "ibanking.pnb.bank.in",
+          "port": 443,
+          "source": "subdomain_enum",
+          "discovered_at": "2026-03-30T23:31:46.195920",
+          "ipv4": "103.109.227.175",
+          "ipv6": null,
+          "asset_type": "Web Application"
+        },
+        {
+          "fqdn": "onlinebanking.pnb.bank.in",
+          "port": 443,
+          "source": "subdomain_enum",
+          "discovered_at": "2026-03-30T23:31:46.195921",
+          "ipv4": null,
+          "ipv6": null,
+          "asset_type": "Web Application"
+        },
+        {
+          "fqdn": "ebanking.pnb.bank.in",
+          "port": 443,
+          "source": "subdomain_enum",
+          "discovered_at": "2026-03-30T23:31:46.195922",
+          "ipv4": null,
+          "ipv6": null,
+          "asset_type": "Web Application"
+        },
+        {
+          "fqdn": "corporate.pnb.bank.in",
+          "port": 443,
+          "source": "subdomain_enum",
+          "discovered_at": "2026-03-30T23:31:46.195923",
+          "ipv4": null,
+          "ipv6": null,
+          "asset_type": "Web Application"
+        },
+        {
+          "fqdn": "business.pnb.bank.in",
+          "port": 443,
+          "source": "subdomain_enum",
+          "discovered_at": "2026-03-30T23:31:46.195925",
+          "ipv4": null,
+          "ipv6": null,
+          "asset_type": "Server"
+        },
+        {
+          "fqdn": "retail.pnb.bank.in",
+          "port": 443,
+          "source": "subdomain_enum",
+          "discovered_at": "2026-03-30T23:31:46.195926",
+          "ipv4": null,
+          "ipv6": null,
+          "asset_type": "Web Application"
+        },
+        {
+          "fqdn": "cdn.pnb.bank.in",
+          "port": 443,
+          "source": "subdomain_enum",
+          "discovered_at": "2026-03-30T23:31:46.195928",
+          "ipv4": null,
+          "ipv6": null,
+          "asset_type": "CDN"
+        },
+        {
+          "fqdn": "static.pnb.bank.in",
+          "port": 443,
+          "source": "subdomain_enum",
+          "discovered_at": "2026-03-30T23:31:46.195929",
+          "ipv4": null,
+          "ipv6": null,
+          "asset_type": "CDN"
+        },
+        {
+          "fqdn": "assets.pnb.bank.in",
+          "port": 443,
+          "source": "subdomain_enum",
+          "discovered_at": "2026-03-30T23:31:46.195930",
+          "ipv4": null,
+          "ipv6": null,
+          "asset_type": "CDN"
+        },
+        {
+          "fqdn": "img.pnb.bank.in",
+          "port": 443,
+          "source": "subdomain_enum",
+          "discovered_at": "2026-03-30T23:31:46.195931",
+          "ipv4": null,
+          "ipv6": null,
+          "asset_type": "CDN"
+        },
+        {
+          "fqdn": "images.pnb.bank.in",
+          "port": 443,
+          "source": "subdomain_enum",
+          "discovered_at": "2026-03-30T23:31:46.195933",
+          "ipv4": "1.7.178.31",
+          "ipv6": null,
+          "asset_type": "CDN"
+        },
+        {
+          "fqdn": "dev.pnb.bank.in",
+          "port": 443,
+          "source": "subdomain_enum",
+          "discovered_at": "2026-03-30T23:31:46.195934",
+          "ipv4": null,
+          "ipv6": null,
+          "asset_type": "Server"
+        },
+        {
+          "fqdn": "staging.pnb.bank.in",
+          "port": 443,
+          "source": "subdomain_enum",
+          "discovered_at": "2026-03-30T23:31:46.195935",
+          "ipv4": null,
+          "ipv6": null,
+          "asset_type": "Server"
+        },
+        {
+          "fqdn": "test.pnb.bank.in",
+          "port": 443,
+          "source": "subdomain_enum",
+          "discovered_at": "2026-03-30T23:31:46.195936",
+          "ipv4": null,
+          "ipv6": null,
+          "asset_type": "Server"
+        },
+        {
+          "fqdn": "uat.pnb.bank.in",
+          "port": 443,
+          "source": "subdomain_enum",
+          "discovered_at": "2026-03-30T23:31:46.195938",
+          "ipv4": null,
+          "ipv6": null,
+          "asset_type": "Server"
+        },
+        {
+          "fqdn": "qa.pnb.bank.in",
+          "port": 443,
+          "source": "subdomain_enum",
+          "discovered_at": "2026-03-30T23:31:46.195939",
+          "ipv4": null,
+          "ipv6": null,
+          "asset_type": "Server"
+        },
+        {
+          "fqdn": "api-v1.pnb.bank.in",
+          "port": 443,
+          "source": "subdomain_enum",
+          "discovered_at": "2026-03-30T23:31:46.195940",
+          "ipv4": null,
+          "ipv6": null,
+          "asset_type": "API"
+        },
+        {
+          "fqdn": "api-v2.pnb.bank.in",
+          "port": 443,
+          "source": "subdomain_enum",
+          "discovered_at": "2026-03-30T23:31:46.195941",
+          "ipv4": null,
+          "ipv6": null,
+          "asset_type": "API"
+        },
+        {
+          "fqdn": "api-gateway.pnb.bank.in",
+          "port": 443,
+          "source": "subdomain_enum",
+          "discovered_at": "2026-03-30T23:31:46.195942",
+          "ipv4": null,
+          "ipv6": null,
+          "asset_type": "API"
+        },
+        {
+          "fqdn": "ws.pnb.bank.in",
+          "port": 443,
+          "source": "subdomain_enum",
+          "discovered_at": "2026-03-30T23:31:46.195944",
+          "ipv4": null,
+          "ipv6": null,
+          "asset_type": "API"
+        },
+        {
+          "fqdn": "websocket.pnb.bank.in",
+          "port": 443,
+          "source": "subdomain_enum",
+          "discovered_at": "2026-03-30T23:31:46.195945",
+          "ipv4": null,
+          "ipv6": null,
+          "asset_type": "API"
+        },
+        {
+          "fqdn": "socket.pnb.bank.in",
+          "port": 443,
+          "source": "subdomain_enum",
+          "discovered_at": "2026-03-30T23:31:46.195946",
+          "ipv4": null,
+          "ipv6": null,
+          "asset_type": "Server"
+        },
+        {
+          "fqdn": "docs.pnb.bank.in",
+          "port": 443,
+          "source": "subdomain_enum",
+          "discovered_at": "2026-03-30T23:31:46.195947",
+          "ipv4": null,
+          "ipv6": null,
+          "asset_type": "Server"
+        },
+        {
+          "fqdn": "developer.pnb.bank.in",
+          "port": 443,
+          "source": "subdomain_enum",
+          "discovered_at": "2026-03-30T23:31:46.195952",
+          "ipv4": null,
+          "ipv6": null,
+          "asset_type": "Server"
+        },
+        {
+          "fqdn": "developers.pnb.bank.in",
+          "port": 443,
+          "source": "subdomain_enum",
+          "discovered_at": "2026-03-30T23:31:46.195953",
+          "ipv4": null,
+          "ipv6": null,
+          "asset_type": "Server"
+        }
+      ],
+      "dns_records": [
+        {
+          "hostname": "pnb.bank.in",
+          "record_type": "A",
+          "value": "49.50.72.184",
+          "ipv4_address": "49.50.72.184",
+          "ipv6_address": null,
+          "ttl": null
+        },
+        {
+          "hostname": "pnb.bank.in",
+          "record_type": "A",
+          "value": "49.50.72.184",
+          "ipv4_address": "49.50.72.184",
+          "ipv6_address": null,
+          "ttl": null
+        },
+        {
+          "hostname": "pnb.bank.in",
+          "record_type": "A",
+          "value": "49.50.72.184",
+          "ipv4_address": "49.50.72.184",
+          "ipv6_address": null,
+          "ttl": null
+        }
+      ]
+    },
+    "layer2_scanning": {
+      "total_scanned": 48,
+      "successful_scans": 4,
+      "certificates_found": 4,
+      "scans": [
+        {
+          "target": "pnb.bank.in",
+          "port": 443,
+          "status": "success",
+          "scan_time": "2026-03-30T23:32:55.943846",
+          "duration_ms": 8096.65373200005,
+          "tls_versions": {
+            "tls_1_0": false,
+            "tls_1_1": false,
+            "tls_1_2": true,
+            "tls_1_3": false
+          },
+          "cipher_suites": {
+            "tls_1_2": [
+              "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+              "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+            ],
+            "tls_1_3": []
+          },
+          "key_exchange_algorithms": [
+            "ECDHE"
+          ],
+          "certificate": {
+            "subject": "CN=pnb.bank.in,O=Punjab National Bank,L=New Delhi,ST=Delhi,C=IN,2.5.4.5=Government Entity,2.5.4.15=Government Entity,1.3.6.1.4.1.311.60.2.1.3=IN",
+            "issuer": "CN=GeoTrust EV RSA CA G2,O=DigiCert Inc,C=US",
+            "not_after": "2026-08-10T23:59:59+00:00",
+            "public_key_algorithm": "RSA",
+            "public_key_size": 2048,
+            "signature_algorithm": "sha256WithRSAEncryption"
+          },
+          "pqc_assessment": {
+            "is_pqc": false,
+            "pqc_algorithm": null
+          },
+          "vulnerabilities": {
+            "heartbleed": false,
+            "downgrade_prevention": true
+          },
+          "error": null
+        },
+        {
+          "target": "www.pnb.bank.in",
+          "port": 443,
+          "status": "success",
+          "scan_time": "2026-03-30T23:32:55.943413",
+          "duration_ms": 7975.301901999956,
+          "tls_versions": {
+            "tls_1_0": false,
+            "tls_1_1": false,
+            "tls_1_2": true,
+            "tls_1_3": false
+          },
+          "cipher_suites": {
+            "tls_1_2": [
+              "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+              "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+            ],
+            "tls_1_3": []
+          },
+          "key_exchange_algorithms": [
+            "ECDHE"
+          ],
+          "certificate": {
+            "subject": "CN=pnb.bank.in,O=Punjab National Bank,L=New Delhi,ST=Delhi,C=IN,2.5.4.5=Government Entity,2.5.4.15=Government Entity,1.3.6.1.4.1.311.60.2.1.3=IN",
+            "issuer": "CN=GeoTrust EV RSA CA G2,O=DigiCert Inc,C=US",
+            "not_after": "2026-08-10T23:59:59+00:00",
+            "public_key_algorithm": "RSA",
+            "public_key_size": 2048,
+            "signature_algorithm": "sha256WithRSAEncryption"
+          },
+          "pqc_assessment": {
+            "is_pqc": false,
+            "pqc_algorithm": null
+          },
+          "vulnerabilities": {
+            "heartbleed": false,
+            "downgrade_prevention": true
+          },
+          "error": null
+        },
+        {
+          "target": "ibanking.pnb.bank.in",
+          "port": 443,
+          "status": "success",
+          "scan_time": "2026-03-30T23:33:14.277845",
+          "duration_ms": 21802.97595600041,
+          "tls_versions": {
+            "tls_1_0": false,
+            "tls_1_1": false,
+            "tls_1_2": true,
+            "tls_1_3": false
+          },
+          "cipher_suites": {
+            "tls_1_2": [],
+            "tls_1_3": []
+          },
+          "key_exchange_algorithms": [],
+          "certificate": {
+            "subject": "CN=ibanking.pnb.bank.in,O=Punjab National Bank,L=New Delhi,ST=Delhi,C=IN,2.5.4.5=Government Entity,2.5.4.15=Government Entity,1.3.6.1.4.1.311.60.2.1.3=IN",
+            "issuer": "CN=GeoTrust EV RSA CA G2,O=DigiCert Inc,C=US",
+            "not_after": "2026-08-20T23:59:59+00:00",
+            "public_key_algorithm": "RSA",
+            "public_key_size": 2048,
+            "signature_algorithm": "sha256WithRSAEncryption"
+          },
+          "pqc_assessment": {
+            "is_pqc": false,
+            "pqc_algorithm": null
+          },
+          "vulnerabilities": {
+            "heartbleed": false,
+            "downgrade_prevention": true
+          },
+          "error": null
+        },
+        {
+          "target": "images.pnb.bank.in",
+          "port": 443,
+          "status": "success",
+          "scan_time": "2026-03-30T23:33:27.353582",
+          "duration_ms": 15870.652325000265,
+          "tls_versions": {
+            "tls_1_0": false,
+            "tls_1_1": false,
+            "tls_1_2": false,
+            "tls_1_3": true
+          },
+          "cipher_suites": {
+            "tls_1_2": [],
+            "tls_1_3": []
+          },
+          "key_exchange_algorithms": [],
+          "certificate": {
+            "subject": "CN=images.pnb.bank.in,O=Punjab National Bank,L=New Delhi,ST=Delhi,C=IN,2.5.4.5=Government Entity,2.5.4.15=Government Entity,1.3.6.1.4.1.311.60.2.1.3=IN",
+            "issuer": "CN=GeoTrust EV RSA CA G2,O=DigiCert Inc,C=US",
+            "not_after": "2026-09-10T23:59:59+00:00",
+            "public_key_algorithm": "RSA",
+            "public_key_size": 2048,
+            "signature_algorithm": "sha256WithRSAEncryption"
+          },
+          "pqc_assessment": {
+            "is_pqc": false,
+            "pqc_algorithm": null
+          },
+          "vulnerabilities": {
+            "heartbleed": false,
+            "downgrade_prevention": true
+          },
+          "error": null
+        }
+      ]
+    },
+    "layer3_analysis": {
+      "total_analyzed": 48,
+      "risk_distribution": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 4,
+        "LOW": 0
+      },
+      "analyses": [
+        {
+          "fqdn": "pnb.bank.in",
+          "port": 443,
+          "discovery_source": "base_domain",
+          "scan_success": true,
+          "quantum_safety": "QUANTUM_VULNERABLE",
+          "is_quantum_safe": false,
+          "hndl_score": 0.541,
+          "hndl_label": "MEDIUM",
+          "recommended_action": "MEDIUM: Schedule ECDHE migration to ML-KEM by 2027",
+          "key_exchange_algorithms": [
+            "ECDHE"
+          ],
+          "certificate_algorithm": "RSA",
+          "cert_tier": "VULNERABLE"
+        },
+        {
+          "fqdn": "www.pnb.bank.in",
+          "port": 443,
+          "discovery_source": "subdomain_enum",
+          "scan_success": true,
+          "quantum_safety": "QUANTUM_VULNERABLE",
+          "is_quantum_safe": false,
+          "hndl_score": 0.541,
+          "hndl_label": "MEDIUM",
+          "recommended_action": "MEDIUM: Schedule ECDHE migration to ML-KEM by 2027",
+          "key_exchange_algorithms": [
+            "ECDHE"
+          ],
+          "certificate_algorithm": "RSA",
+          "cert_tier": "VULNERABLE"
+        },
+        {
+          "fqdn": "ibanking.pnb.bank.in",
+          "port": 443,
+          "discovery_source": "subdomain_enum",
+          "scan_success": true,
+          "quantum_safety": "QUANTUM_VULNERABLE",
+          "is_quantum_safe": false,
+          "hndl_score": 0.541,
+          "hndl_label": "MEDIUM",
+          "recommended_action": "MEDIUM: Schedule RSA migration to ML-DSA by 2027",
+          "key_exchange_algorithms": [],
+          "certificate_algorithm": "RSA",
+          "cert_tier": "VULNERABLE"
+        },
+        {
+          "fqdn": "images.pnb.bank.in",
+          "port": 443,
+          "discovery_source": "subdomain_enum",
+          "scan_success": true,
+          "quantum_safety": "QUANTUM_VULNERABLE",
+          "is_quantum_safe": false,
+          "hndl_score": 0.541,
+          "hndl_label": "MEDIUM",
+          "recommended_action": "MEDIUM: Schedule RSA migration to ML-DSA by 2027",
+          "key_exchange_algorithms": [],
+          "certificate_algorithm": "RSA",
+          "cert_tier": "VULNERABLE"
+        }
+      ]
+    },
+    "layer4_certification": {
+      "total_certified": 0,
+      "certifications": [
+        {
+          "fqdn": "pnb.bank.in",
+          "cert_tier": "VULNERABLE",
+          "cert_issued": false,
+          "url_score": 392
+        },
+        {
+          "fqdn": "www.pnb.bank.in",
+          "cert_tier": "VULNERABLE",
+          "cert_issued": false,
+          "url_score": 392
+        },
+        {
+          "fqdn": "api.pnb.bank.in",
+          "cert_tier": "NOT_SCANNED",
+          "cert_issued": false,
+          "url_score": 500
+        },
+        {
+          "fqdn": "app.pnb.bank.in",
+          "cert_tier": "NOT_SCANNED",
+          "cert_issued": false,
+          "url_score": 500
+        },
+        {
+          "fqdn": "mobile.pnb.bank.in",
+          "cert_tier": "NOT_SCANNED",
+          "cert_issued": false,
+          "url_score": 500
+        },
+        {
+          "fqdn": "m.pnb.bank.in",
+          "cert_tier": "NOT_SCANNED",
+          "cert_issued": false,
+          "url_score": 500
+        },
+        {
+          "fqdn": "portal.pnb.bank.in",
+          "cert_tier": "NOT_SCANNED",
+          "cert_issued": false,
+          "url_score": 500
+        },
+        {
+          "fqdn": "secure.pnb.bank.in",
+          "cert_tier": "NOT_SCANNED",
+          "cert_issued": false,
+          "url_score": 500
+        },
+        {
+          "fqdn": "login.pnb.bank.in",
+          "cert_tier": "NOT_SCANNED",
+          "cert_issued": false,
+          "url_score": 500
+        },
+        {
+          "fqdn": "auth.pnb.bank.in",
+          "cert_tier": "NOT_SCANNED",
+          "cert_issued": false,
+          "url_score": 500
+        },
+        {
+          "fqdn": "sso.pnb.bank.in",
+          "cert_tier": "NOT_SCANNED",
+          "cert_issued": false,
+          "url_score": 500
+        },
+        {
+          "fqdn": "admin.pnb.bank.in",
+          "cert_tier": "NOT_SCANNED",
+          "cert_issued": false,
+          "url_score": 500
+        },
+        {
+          "fqdn": "mail.pnb.bank.in",
+          "cert_tier": "NOT_SCANNED",
+          "cert_issued": false,
+          "url_score": 500
+        },
+        {
+          "fqdn": "email.pnb.bank.in",
+          "cert_tier": "NOT_SCANNED",
+          "cert_issued": false,
+          "url_score": 500
+        },
+        {
+          "fqdn": "webmail.pnb.bank.in",
+          "cert_tier": "NOT_SCANNED",
+          "cert_issued": false,
+          "url_score": 500
+        },
+        {
+          "fqdn": "vpn.pnb.bank.in",
+          "cert_tier": "NOT_SCANNED",
+          "cert_issued": false,
+          "url_score": 500
+        },
+        {
+          "fqdn": "remote.pnb.bank.in",
+          "cert_tier": "NOT_SCANNED",
+          "cert_issued": false,
+          "url_score": 500
+        },
+        {
+          "fqdn": "gateway.pnb.bank.in",
+          "cert_tier": "NOT_SCANNED",
+          "cert_issued": false,
+          "url_score": 500
+        },
+        {
+          "fqdn": "payments.pnb.bank.in",
+          "cert_tier": "NOT_SCANNED",
+          "cert_issued": false,
+          "url_score": 500
+        },
+        {
+          "fqdn": "pay.pnb.bank.in",
+          "cert_tier": "NOT_SCANNED",
+          "cert_issued": false,
+          "url_score": 500
+        },
+        {
+          "fqdn": "checkout.pnb.bank.in",
+          "cert_tier": "NOT_SCANNED",
+          "cert_issued": false,
+          "url_score": 500
+        },
+        {
+          "fqdn": "transaction.pnb.bank.in",
+          "cert_tier": "NOT_SCANNED",
+          "cert_issued": false,
+          "url_score": 500
+        },
+        {
+          "fqdn": "netbanking.pnb.bank.in",
+          "cert_tier": "NOT_SCANNED",
+          "cert_issued": false,
+          "url_score": 500
+        },
+        {
+          "fqdn": "ibanking.pnb.bank.in",
+          "cert_tier": "VULNERABLE",
+          "cert_issued": false,
+          "url_score": 392
+        },
+        {
+          "fqdn": "onlinebanking.pnb.bank.in",
+          "cert_tier": "NOT_SCANNED",
+          "cert_issued": false,
+          "url_score": 500
+        },
+        {
+          "fqdn": "ebanking.pnb.bank.in",
+          "cert_tier": "NOT_SCANNED",
+          "cert_issued": false,
+          "url_score": 500
+        },
+        {
+          "fqdn": "corporate.pnb.bank.in",
+          "cert_tier": "NOT_SCANNED",
+          "cert_issued": false,
+          "url_score": 500
+        },
+        {
+          "fqdn": "business.pnb.bank.in",
+          "cert_tier": "NOT_SCANNED",
+          "cert_issued": false,
+          "url_score": 500
+        },
+        {
+          "fqdn": "retail.pnb.bank.in",
+          "cert_tier": "NOT_SCANNED",
+          "cert_issued": false,
+          "url_score": 500
+        },
+        {
+          "fqdn": "cdn.pnb.bank.in",
+          "cert_tier": "NOT_SCANNED",
+          "cert_issued": false,
+          "url_score": 500
+        },
+        {
+          "fqdn": "static.pnb.bank.in",
+          "cert_tier": "NOT_SCANNED",
+          "cert_issued": false,
+          "url_score": 500
+        },
+        {
+          "fqdn": "assets.pnb.bank.in",
+          "cert_tier": "NOT_SCANNED",
+          "cert_issued": false,
+          "url_score": 500
+        },
+        {
+          "fqdn": "img.pnb.bank.in",
+          "cert_tier": "NOT_SCANNED",
+          "cert_issued": false,
+          "url_score": 500
+        },
+        {
+          "fqdn": "images.pnb.bank.in",
+          "cert_tier": "VULNERABLE",
+          "cert_issued": false,
+          "url_score": 392
+        },
+        {
+          "fqdn": "dev.pnb.bank.in",
+          "cert_tier": "NOT_SCANNED",
+          "cert_issued": false,
+          "url_score": 500
+        },
+        {
+          "fqdn": "staging.pnb.bank.in",
+          "cert_tier": "NOT_SCANNED",
+          "cert_issued": false,
+          "url_score": 500
+        },
+        {
+          "fqdn": "test.pnb.bank.in",
+          "cert_tier": "NOT_SCANNED",
+          "cert_issued": false,
+          "url_score": 500
+        },
+        {
+          "fqdn": "uat.pnb.bank.in",
+          "cert_tier": "NOT_SCANNED",
+          "cert_issued": false,
+          "url_score": 500
+        },
+        {
+          "fqdn": "qa.pnb.bank.in",
+          "cert_tier": "NOT_SCANNED",
+          "cert_issued": false,
+          "url_score": 500
+        },
+        {
+          "fqdn": "api-v1.pnb.bank.in",
+          "cert_tier": "NOT_SCANNED",
+          "cert_issued": false,
+          "url_score": 500
+        },
+        {
+          "fqdn": "api-v2.pnb.bank.in",
+          "cert_tier": "NOT_SCANNED",
+          "cert_issued": false,
+          "url_score": 500
+        },
+        {
+          "fqdn": "api-gateway.pnb.bank.in",
+          "cert_tier": "NOT_SCANNED",
+          "cert_issued": false,
+          "url_score": 500
+        },
+        {
+          "fqdn": "ws.pnb.bank.in",
+          "cert_tier": "NOT_SCANNED",
+          "cert_issued": false,
+          "url_score": 500
+        },
+        {
+          "fqdn": "websocket.pnb.bank.in",
+          "cert_tier": "NOT_SCANNED",
+          "cert_issued": false,
+          "url_score": 500
+        },
+        {
+          "fqdn": "socket.pnb.bank.in",
+          "cert_tier": "NOT_SCANNED",
+          "cert_issued": false,
+          "url_score": 500
+        },
+        {
+          "fqdn": "docs.pnb.bank.in",
+          "cert_tier": "NOT_SCANNED",
+          "cert_issued": false,
+          "url_score": 500
+        },
+        {
+          "fqdn": "developer.pnb.bank.in",
+          "cert_tier": "NOT_SCANNED",
+          "cert_issued": false,
+          "url_score": 500
+        },
+        {
+          "fqdn": "developers.pnb.bank.in",
+          "cert_tier": "NOT_SCANNED",
+          "cert_issued": false,
+          "url_score": 500
+        }
+      ]
+    }
+  }
+}

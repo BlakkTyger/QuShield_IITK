@@ -1,0 +1,2276 @@
+{
+  "metadata": {
+    "scan_id": "11e15cc5-59db-462f-b1ca-f3cf4a263633",
+    "domain": "pnb.bank.in",
+    "scan_start": "2026-03-31T13:21:02.359882+00:00",
+    "scan_end": "2026-03-31T13:24:32.851366+00:00",
+    "duration_ms": 210491.48400000003
+  },
+  "dashboard": {
+    "counts": {
+      "total_assets": 9,
+      "public_web_apps": 1,
+      "apis": 1,
+      "servers": 7,
+      "expiring_certificates": 0,
+      "high_risk_assets": 0
+    },
+    "distributions": {
+      "asset_type": {
+        "Server": 7,
+        "API": 1,
+        "Web Application": 1
+      },
+      "risk": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 9,
+        "LOW": 0
+      },
+      "certificate_expiry_timeline": {
+        "0-30 days": 0,
+        "30-60 days": 0,
+        "60-90 days": 0,
+        "90+ days": 9,
+        "Expired": 0
+      },
+      "ip_version_breakdown": {
+        "IPv4": 90.0,
+        "IPv6": 10.0
+      }
+    },
+    "lists": {
+      "all_assets": [
+        "pnb.bank.in",
+        "digi2wl.pnb.bank.in",
+        "ams.pnb.bank.in",
+        "digihltopup.pnb.bank.in",
+        "mcaapi.pnb.bank.in",
+        "tncorpmbs.pnb.bank.in",
+        "weblens.pnb.bank.in",
+        "share.pnb.bank.in",
+        "udaan.pnb.bank.in"
+      ],
+      "web_apps": [
+        "weblens.pnb.bank.in"
+      ],
+      "apis": [
+        "mcaapi.pnb.bank.in"
+      ],
+      "servers": [
+        "pnb.bank.in",
+        "digi2wl.pnb.bank.in",
+        "ams.pnb.bank.in",
+        "digihltopup.pnb.bank.in",
+        "tncorpmbs.pnb.bank.in",
+        "share.pnb.bank.in",
+        "udaan.pnb.bank.in"
+      ],
+      "expiring_certificates": [],
+      "high_risk_assets": []
+    }
+  },
+  "inventory": {
+    "assets": [
+      {
+        "asset_name": "pnb",
+        "url": "https://pnb.bank.in:443",
+        "fqdn": "pnb.bank.in",
+        "port": 443,
+        "ipv4_address": "49.50.72.184",
+        "ipv6_address": null,
+        "asn": 55470,
+        "asn_name": "CYFUTURE-AS-IN Cyfuture India Pvt. Ltd., IN",
+        "country": "",
+        "country_code": "IN",
+        "city": "",
+        "isp": "CYFUTURE-AS-IN Cyfuture India Pvt. Ltd., IN",
+        "asset_type": "Server",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [
+          443
+        ],
+        "services": [],
+        "risk_level": "MEDIUM",
+        "hndl_score": 0.541,
+        "quantum_safety": "QUANTUM_VULNERABLE",
+        "certificate_status": "Valid",
+        "key_length": 2048,
+        "detection_date": "2026-03-31T13:21:55.667868",
+        "last_scan_time": "2026-03-31T13:22:00.956212",
+        "discovery_source": "base_domain"
+      },
+      {
+        "asset_name": "digi2wl",
+        "url": "https://digi2wl.pnb.bank.in:443",
+        "fqdn": "digi2wl.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": "103.109.224.211",
+        "ipv6_address": null,
+        "asn": 137130,
+        "asn_name": "ITDPNB-AS Punjab National Bank, IN",
+        "country": "",
+        "country_code": "IN",
+        "city": "",
+        "isp": "ITDPNB-AS Punjab National Bank, IN",
+        "asset_type": "Server",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [
+          443
+        ],
+        "services": [],
+        "risk_level": "MEDIUM",
+        "hndl_score": 0.541,
+        "quantum_safety": "QUANTUM_VULNERABLE",
+        "certificate_status": "Valid",
+        "key_length": 2048,
+        "detection_date": "2026-03-31T13:21:55.664926",
+        "last_scan_time": "2026-03-31T13:22:00.921700",
+        "discovery_source": "httpx"
+      },
+      {
+        "asset_name": "ams",
+        "url": "https://ams.pnb.bank.in:443",
+        "fqdn": "ams.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": "103.109.224.217",
+        "ipv6_address": null,
+        "asn": 137130,
+        "asn_name": "ITDPNB-AS Punjab National Bank, IN",
+        "country": "",
+        "country_code": "IN",
+        "city": "",
+        "isp": "ITDPNB-AS Punjab National Bank, IN",
+        "asset_type": "Server",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [
+          443
+        ],
+        "services": [],
+        "risk_level": "MEDIUM",
+        "hndl_score": 0.541,
+        "quantum_safety": "QUANTUM_VULNERABLE",
+        "certificate_status": "Valid",
+        "key_length": 2048,
+        "detection_date": "2026-03-31T13:21:55.665002",
+        "last_scan_time": "2026-03-31T13:22:00.924027",
+        "discovery_source": "httpx"
+      },
+      {
+        "asset_name": "digihltopup",
+        "url": "https://digihltopup.pnb.bank.in:443",
+        "fqdn": "digihltopup.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": "103.109.225.246",
+        "ipv6_address": "2001:df1:1580::224:a1",
+        "asn": 137130,
+        "asn_name": "ITDPNB-AS Punjab National Bank, IN",
+        "country": "",
+        "country_code": "IN",
+        "city": "",
+        "isp": "ITDPNB-AS Punjab National Bank, IN",
+        "asset_type": "Server",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [
+          443
+        ],
+        "services": [],
+        "risk_level": "MEDIUM",
+        "hndl_score": 0.541,
+        "quantum_safety": "QUANTUM_VULNERABLE",
+        "certificate_status": "Valid",
+        "key_length": 2048,
+        "detection_date": "2026-03-31T13:21:55.665152",
+        "last_scan_time": "2026-03-31T13:22:00.926420",
+        "discovery_source": "httpx"
+      },
+      {
+        "asset_name": "mcaapi",
+        "url": "https://mcaapi.pnb.bank.in:443",
+        "fqdn": "mcaapi.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": "103.109.227.36",
+        "ipv6_address": null,
+        "asn": 137130,
+        "asn_name": "ITDPNB-AS Punjab National Bank, IN",
+        "country": "",
+        "country_code": "IN",
+        "city": "",
+        "isp": "ITDPNB-AS Punjab National Bank, IN",
+        "asset_type": "API",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [
+          443
+        ],
+        "services": [],
+        "risk_level": "MEDIUM",
+        "hndl_score": 0.541,
+        "quantum_safety": "QUANTUM_VULNERABLE",
+        "certificate_status": "Valid",
+        "key_length": 2048,
+        "detection_date": "2026-03-31T13:21:55.665419",
+        "last_scan_time": "2026-03-31T13:22:00.929149",
+        "discovery_source": "httpx"
+      },
+      {
+        "asset_name": "tncorpmbs",
+        "url": "https://tncorpmbs.pnb.bank.in:443",
+        "fqdn": "tncorpmbs.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": "103.109.225.75",
+        "ipv6_address": null,
+        "asn": 137130,
+        "asn_name": "ITDPNB-AS Punjab National Bank, IN",
+        "country": "",
+        "country_code": "IN",
+        "city": "",
+        "isp": "ITDPNB-AS Punjab National Bank, IN",
+        "asset_type": "Server",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [
+          443
+        ],
+        "services": [],
+        "risk_level": "MEDIUM",
+        "hndl_score": 0.541,
+        "quantum_safety": "QUANTUM_VULNERABLE",
+        "certificate_status": "Valid",
+        "key_length": 2048,
+        "detection_date": "2026-03-31T13:21:55.665663",
+        "last_scan_time": "2026-03-31T13:22:08.258338",
+        "discovery_source": "httpx"
+      },
+      {
+        "asset_name": "weblens",
+        "url": "https://weblens.pnb.bank.in:443",
+        "fqdn": "weblens.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": "103.109.225.53",
+        "ipv6_address": null,
+        "asn": 137130,
+        "asn_name": "ITDPNB-AS Punjab National Bank, IN",
+        "country": "",
+        "country_code": "IN",
+        "city": "",
+        "isp": "ITDPNB-AS Punjab National Bank, IN",
+        "asset_type": "Web Application",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [
+          443
+        ],
+        "services": [],
+        "risk_level": "MEDIUM",
+        "hndl_score": 0.541,
+        "quantum_safety": "QUANTUM_VULNERABLE",
+        "certificate_status": "Valid",
+        "key_length": 2048,
+        "detection_date": "2026-03-31T13:21:55.665701",
+        "last_scan_time": "2026-03-31T13:22:11.540239",
+        "discovery_source": "httpx"
+      },
+      {
+        "asset_name": "share",
+        "url": "https://share.pnb.bank.in:443",
+        "fqdn": "share.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": "103.109.224.149",
+        "ipv6_address": null,
+        "asn": 137130,
+        "asn_name": "ITDPNB-AS Punjab National Bank, IN",
+        "country": "",
+        "country_code": "IN",
+        "city": "",
+        "isp": "ITDPNB-AS Punjab National Bank, IN",
+        "asset_type": "Server",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [
+          443
+        ],
+        "services": [],
+        "risk_level": "MEDIUM",
+        "hndl_score": 0.541,
+        "quantum_safety": "QUANTUM_VULNERABLE",
+        "certificate_status": "Valid",
+        "key_length": 2048,
+        "detection_date": "2026-03-31T13:21:55.665749",
+        "last_scan_time": "2026-03-31T13:22:18.208726",
+        "discovery_source": "httpx"
+      },
+      {
+        "asset_name": "udaan",
+        "url": "https://udaan.pnb.bank.in:443",
+        "fqdn": "udaan.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": "103.109.225.152",
+        "ipv6_address": null,
+        "asn": 137130,
+        "asn_name": "ITDPNB-AS Punjab National Bank, IN",
+        "country": "",
+        "country_code": "IN",
+        "city": "",
+        "isp": "ITDPNB-AS Punjab National Bank, IN",
+        "asset_type": "Server",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [
+          443
+        ],
+        "services": [],
+        "risk_level": "MEDIUM",
+        "hndl_score": 0.541,
+        "quantum_safety": "QUANTUM_VULNERABLE",
+        "certificate_status": "Valid",
+        "key_length": 4096,
+        "detection_date": "2026-03-31T13:21:55.665782",
+        "last_scan_time": "2026-03-31T13:22:24.212929",
+        "discovery_source": "httpx"
+      }
+    ],
+    "certificates": [
+      {
+        "detection_date": "2026-03-31T13:22:00.956212",
+        "sha256_fingerprint": "59684eb8f189f5a15be5ae7c9d0af26b814fe79ce188b27c6f1d9808bbe89416",
+        "valid_from": "2025-12-23T00:00:00+00:00",
+        "valid_until": "2026-08-10T23:59:59+00:00",
+        "common_name": "CN=pnb.bank.in,O=Punjab National Bank,L=New Delhi,ST=Delhi,C=IN,2.5.4.5=Government Entity,2.5.4.15=Government Entity,1.3.6.1.4.1.311.60.2.1.3=IN",
+        "organization": "Punjab National Bank",
+        "certificate_authority": "CN=GeoTrust EV RSA CA G2,O=DigiCert Inc,C=US",
+        "public_key_algorithm": "RSA",
+        "public_key_size": 2048,
+        "signature_algorithm": "sha256WithRSAEncryption",
+        "san_entries": [
+          "pnb.bank.in",
+          "www.pnb.bank.in"
+        ],
+        "is_expired": false,
+        "is_self_signed": false,
+        "days_until_expiry": 132,
+        "expiry_bucket": "90+ days"
+      },
+      {
+        "detection_date": "2026-03-31T13:22:00.921700",
+        "sha256_fingerprint": "849b49caac18bb2bacfb8f28a93f0ec84fb91726318cbca506651e4471a98684",
+        "valid_from": "2025-10-14T00:00:00+00:00",
+        "valid_until": "2026-10-13T23:59:59+00:00",
+        "common_name": "CN=digi2wl.pnb.bank.in,O=Punjab National Bank,L=New Delhi,ST=Delhi,C=IN,2.5.4.5=Government Entity,2.5.4.15=Government Entity,1.3.6.1.4.1.311.60.2.1.3=IN",
+        "organization": "Punjab National Bank",
+        "certificate_authority": "CN=GeoTrust EV RSA CA G2,O=DigiCert Inc,C=US",
+        "public_key_algorithm": "RSA",
+        "public_key_size": 2048,
+        "signature_algorithm": "sha256WithRSAEncryption",
+        "san_entries": [
+          "digi2wl.pnb.bank.in"
+        ],
+        "is_expired": false,
+        "is_self_signed": false,
+        "days_until_expiry": 196,
+        "expiry_bucket": "90+ days"
+      },
+      {
+        "detection_date": "2026-03-31T13:22:00.924027",
+        "sha256_fingerprint": "fea77256fea0c1584b7929e1178cb54c7686cfe9304e4b0e73fb343399604bb6",
+        "valid_from": "2026-02-12T07:01:13+00:00",
+        "valid_until": "2027-03-16T07:01:12+00:00",
+        "common_name": "CN=ams.pnb.bank.in,O=Punjab National Bank,L=New Delhi,ST=Delhi,C=IN,1.3.6.1.4.1.311.60.2.1.3=IN,2.5.4.5=Government Entities,2.5.4.15=Government Entity",
+        "organization": "Punjab National Bank",
+        "certificate_authority": "CN=GlobalSign GCC R3 EV TLS CA 2025,O=GlobalSign nv-sa,C=BE",
+        "public_key_algorithm": "RSA",
+        "public_key_size": 2048,
+        "signature_algorithm": "sha256WithRSAEncryption",
+        "san_entries": [
+          "ams.pnb.bank.in"
+        ],
+        "is_expired": false,
+        "is_self_signed": false,
+        "days_until_expiry": 349,
+        "expiry_bucket": "90+ days"
+      },
+      {
+        "detection_date": "2026-03-31T13:22:00.926420",
+        "sha256_fingerprint": "2d7ec39719cbcfaf291570818c10ef1c8610a7f5f23ed5c57a7c334c570dd6d3",
+        "valid_from": "2025-11-19T08:01:15+00:00",
+        "valid_until": "2026-12-21T08:01:14+00:00",
+        "common_name": "CN=digihltopup.pnb.bank.in,O=Punjab National Bank,L=New Delhi,ST=Delhi,C=IN,1.3.6.1.4.1.311.60.2.1.3=IN,2.5.4.5=Government Entities,2.5.4.15=Government Entity",
+        "organization": "Punjab National Bank",
+        "certificate_authority": "CN=GlobalSign GCC R3 EV TLS CA 2025,O=GlobalSign nv-sa,C=BE",
+        "public_key_algorithm": "RSA",
+        "public_key_size": 2048,
+        "signature_algorithm": "sha256WithRSAEncryption",
+        "san_entries": [
+          "digihltopup.pnb.bank.in"
+        ],
+        "is_expired": false,
+        "is_self_signed": false,
+        "days_until_expiry": 264,
+        "expiry_bucket": "90+ days"
+      },
+      {
+        "detection_date": "2026-03-31T13:22:00.929149",
+        "sha256_fingerprint": "5092802fabac4c6178c55f40fc6b12c21cef52d2801f6ef7d788cdc490216ea5",
+        "valid_from": "2024-09-03T02:44:01+00:00",
+        "valid_until": "2034-09-01T02:44:01+00:00",
+        "common_name": "1.2.840.113549.1.9.1=root@localhost.localdomain,CN=localhost.localdomain,OU=IT,O=MyCompany,L=Seattle,ST=WA,C=US",
+        "organization": "MyCompany",
+        "certificate_authority": "1.2.840.113549.1.9.1=root@localhost.localdomain,CN=localhost.localdomain,OU=IT,O=MyCompany,L=Seattle,ST=WA,C=US",
+        "public_key_algorithm": "RSA",
+        "public_key_size": 2048,
+        "signature_algorithm": "sha256WithRSAEncryption",
+        "san_entries": [],
+        "is_expired": false,
+        "is_self_signed": true,
+        "days_until_expiry": 3075,
+        "expiry_bucket": "90+ days"
+      },
+      {
+        "detection_date": "2026-03-31T13:22:08.258338",
+        "sha256_fingerprint": "6eef3f922f74f84251ca37fffd72cdf29fb999c3f3dbed7e070f3a1fcd13db0e",
+        "valid_from": "2025-07-30T00:00:00+00:00",
+        "valid_until": "2026-07-29T23:59:59+00:00",
+        "common_name": "CN=tncorpmbs.pnb.bank.in,O=Punjab National Bank,L=New Delhi,ST=Delhi,C=IN,2.5.4.5=Government Entity,2.5.4.15=Government Entity,1.3.6.1.4.1.311.60.2.1.3=IN",
+        "organization": "Punjab National Bank",
+        "certificate_authority": "CN=GeoTrust EV RSA CA G2,O=DigiCert Inc,C=US",
+        "public_key_algorithm": "RSA",
+        "public_key_size": 2048,
+        "signature_algorithm": "sha256WithRSAEncryption",
+        "san_entries": [
+          "tncorpmbs.pnb.bank.in",
+          "www.tncorpmbs.pnb.bank.in"
+        ],
+        "is_expired": false,
+        "is_self_signed": false,
+        "days_until_expiry": 120,
+        "expiry_bucket": "90+ days"
+      },
+      {
+        "detection_date": "2026-03-31T13:22:11.540239",
+        "sha256_fingerprint": "808e64f8b0cf65e21bcd45a8b100f89cb528527cbbbcedddd238fef4e1de0547",
+        "valid_from": "2025-07-25T00:00:00+00:00",
+        "valid_until": "2026-07-24T23:59:59+00:00",
+        "common_name": "CN=weblens.pnb.bank.in,O=Punjab National Bank,L=New Delhi,ST=Delhi,C=IN,2.5.4.5=Government Entity,2.5.4.15=Government Entity,1.3.6.1.4.1.311.60.2.1.3=IN",
+        "organization": "Punjab National Bank",
+        "certificate_authority": "CN=GeoTrust EV RSA CA G2,O=DigiCert Inc,C=US",
+        "public_key_algorithm": "RSA",
+        "public_key_size": 2048,
+        "signature_algorithm": "sha256WithRSAEncryption",
+        "san_entries": [
+          "weblens.pnb.bank.in"
+        ],
+        "is_expired": false,
+        "is_self_signed": false,
+        "days_until_expiry": 115,
+        "expiry_bucket": "90+ days"
+      },
+      {
+        "detection_date": "2026-03-31T13:22:18.208726",
+        "sha256_fingerprint": "92732ce1e72735f3c9f9bbacb76daae5dd962a92633cf4941088b9417d798cd5",
+        "valid_from": "2025-09-12T00:00:00+00:00",
+        "valid_until": "2026-09-11T23:59:59+00:00",
+        "common_name": "CN=share.pnb.bank.in",
+        "organization": "",
+        "certificate_authority": "CN=Thawte TLS RSA CA G1,OU=www.digicert.com,O=DigiCert Inc,C=US",
+        "public_key_algorithm": "RSA",
+        "public_key_size": 2048,
+        "signature_algorithm": "sha256WithRSAEncryption",
+        "san_entries": [
+          "share.pnb.bank.in",
+          "www.share.pnb.bank.in"
+        ],
+        "is_expired": false,
+        "is_self_signed": false,
+        "days_until_expiry": 164,
+        "expiry_bucket": "90+ days"
+      },
+      {
+        "detection_date": "2026-03-31T13:22:24.212929",
+        "sha256_fingerprint": "0c08eaaae738689bc213d42607b19378cc6fd6bf1bb5c264ea43899ebba90f84",
+        "valid_from": "2025-08-14T00:00:00+00:00",
+        "valid_until": "2026-08-13T23:59:59+00:00",
+        "common_name": "CN=udaan.pnb.bank.in,O=Punjab National Bank,L=New Delhi,ST=Delhi,C=IN,2.5.4.5=Government Entity,2.5.4.15=Government Entity,1.3.6.1.4.1.311.60.2.1.3=IN",
+        "organization": "Punjab National Bank",
+        "certificate_authority": "CN=GeoTrust EV RSA CA G2,O=DigiCert Inc,C=US",
+        "public_key_algorithm": "RSA",
+        "public_key_size": 4096,
+        "signature_algorithm": "sha256WithRSAEncryption",
+        "san_entries": [
+          "udaan.pnb.bank.in"
+        ],
+        "is_expired": false,
+        "is_self_signed": false,
+        "days_until_expiry": 135,
+        "expiry_bucket": "90+ days"
+      }
+    ],
+    "dns_records": [
+      {
+        "hostname": "pnb.bank.in",
+        "record_type": "A",
+        "value": "49.50.72.184",
+        "ipv4_address": "49.50.72.184",
+        "ipv6_address": null,
+        "ttl": null
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "record_type": "A",
+        "value": "49.50.72.184",
+        "ipv4_address": "49.50.72.184",
+        "ipv6_address": null,
+        "ttl": null
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "record_type": "A",
+        "value": "49.50.72.184",
+        "ipv4_address": "49.50.72.184",
+        "ipv6_address": null,
+        "ttl": null
+      }
+    ],
+    "crypto_security": [
+      {
+        "asset": "pnb.bank.in",
+        "key_length": 2048,
+        "cipher_suite": "",
+        "tls_version": "TLS 1.0",
+        "certificate_authority": "GeoTrust EV RSA CA G2",
+        "last_scan_time": "2026-03-31T13:22:00.956212",
+        "quantum_safety": "QUANTUM_VULNERABLE"
+      },
+      {
+        "asset": "digi2wl.pnb.bank.in",
+        "key_length": 2048,
+        "cipher_suite": "",
+        "tls_version": "TLS 1.3",
+        "certificate_authority": "GeoTrust EV RSA CA G2",
+        "last_scan_time": "2026-03-31T13:22:00.921700",
+        "quantum_safety": "QUANTUM_VULNERABLE"
+      },
+      {
+        "asset": "ams.pnb.bank.in",
+        "key_length": 2048,
+        "cipher_suite": "",
+        "tls_version": "TLS 1.3",
+        "certificate_authority": "GlobalSign GCC R3 EV TLS CA 2025",
+        "last_scan_time": "2026-03-31T13:22:00.924027",
+        "quantum_safety": "QUANTUM_VULNERABLE"
+      },
+      {
+        "asset": "digihltopup.pnb.bank.in",
+        "key_length": 2048,
+        "cipher_suite": "",
+        "tls_version": "TLS 1.3",
+        "certificate_authority": "GlobalSign GCC R3 EV TLS CA 2025",
+        "last_scan_time": "2026-03-31T13:22:00.926420",
+        "quantum_safety": "QUANTUM_VULNERABLE"
+      },
+      {
+        "asset": "mcaapi.pnb.bank.in",
+        "key_length": 2048,
+        "cipher_suite": "",
+        "tls_version": "TLS 1.2",
+        "certificate_authority": "localhost.localdomain",
+        "last_scan_time": "2026-03-31T13:22:00.929149",
+        "quantum_safety": "QUANTUM_VULNERABLE"
+      },
+      {
+        "asset": "tncorpmbs.pnb.bank.in",
+        "key_length": 2048,
+        "cipher_suite": "",
+        "tls_version": "TLS 1.3",
+        "certificate_authority": "GeoTrust EV RSA CA G2",
+        "last_scan_time": "2026-03-31T13:22:08.258338",
+        "quantum_safety": "QUANTUM_VULNERABLE"
+      },
+      {
+        "asset": "weblens.pnb.bank.in",
+        "key_length": 2048,
+        "cipher_suite": "",
+        "tls_version": "TLS 1.3",
+        "certificate_authority": "GeoTrust EV RSA CA G2",
+        "last_scan_time": "2026-03-31T13:22:11.540239",
+        "quantum_safety": "QUANTUM_VULNERABLE"
+      },
+      {
+        "asset": "share.pnb.bank.in",
+        "key_length": 2048,
+        "cipher_suite": "",
+        "tls_version": "TLS 1.3",
+        "certificate_authority": "Thawte TLS RSA CA G1",
+        "last_scan_time": "2026-03-31T13:22:18.208726",
+        "quantum_safety": "QUANTUM_VULNERABLE"
+      },
+      {
+        "asset": "udaan.pnb.bank.in",
+        "key_length": 4096,
+        "cipher_suite": "",
+        "tls_version": "TLS 1.3",
+        "certificate_authority": "GeoTrust EV RSA CA G2",
+        "last_scan_time": "2026-03-31T13:22:24.212929",
+        "quantum_safety": "QUANTUM_VULNERABLE"
+      }
+    ]
+  },
+  "nameserver_records": {
+    "ns_records": [
+      {
+        "hostname": "pnb.bank.in",
+        "nameserver": "ns3.pnb.bank.in",
+        "ip_address": "49.50.91.195",
+        "ttl": 329
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "nameserver": "ns4.pnb.bank.in",
+        "ip_address": "49.50.122.27",
+        "ttl": 329
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "nameserver": "ns3.pnbindia.com",
+        "ip_address": "49.50.91.195",
+        "ttl": 329
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "nameserver": "ns2.pnb.bank.in",
+        "ip_address": "49.50.79.113",
+        "ttl": 329
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "nameserver": "ns1.pnbindia.com",
+        "ip_address": "49.50.69.49",
+        "ttl": 329
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "nameserver": "ns1.pnb.bank.in",
+        "ip_address": "49.50.69.49",
+        "ttl": 329
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "nameserver": "ns4.pnbindia.com",
+        "ip_address": "49.50.122.27",
+        "ttl": 329
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "nameserver": "ns2.pnbindia.com",
+        "ip_address": "49.50.79.113",
+        "ttl": 329
+      }
+    ],
+    "mx_records": [
+      {
+        "hostname": "pnb.bank.in",
+        "mail_server": "pnb.bank.in",
+        "priority": 30,
+        "ip_address": "49.50.72.184",
+        "ttl": 10913
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "mail_server": "cluster1.us.messagelabs.com",
+        "priority": 10,
+        "ip_address": "67.219.246.210",
+        "ttl": 10913
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "mail_server": "cluster1a.us.messagelabs.com",
+        "priority": 20,
+        "ip_address": "34.75.172.113",
+        "ttl": 10913
+      }
+    ],
+    "txt_records": [
+      {
+        "hostname": "pnb.bank.in",
+        "value": "_cteinsmyfucefxpshrfbvazgyyb3t1v",
+        "record_type": "TXT",
+        "ttl": 200
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "value": "_globalsign-domain-verification=MGFDaI1yhBiiXu8jwfkLKW46YVDgzkevGMzwNpNhr1",
+        "record_type": "TXT",
+        "ttl": 200
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "value": "_m8jhdslmnryv9yu9mhif1sef1pjbi8z",
+        "record_type": "TXT",
+        "ttl": 200
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "value": "MS=ms72997512",
+        "record_type": "Microsoft Verification",
+        "ttl": 200
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "value": "v=spf1 mx ip4:1.7.178.12 ip4:1.7.178.13 ip4:115.249.110.106 ip4:115.249.110.67 ip4:1.6.46.71 ip4:1.6.46.83 ip4:1.6.46.99 ip4:115.249.110.81 include:spf.messagelabs.com include:spf.protection.outlook.com -all",
+        "record_type": "SPF",
+        "ttl": 200
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "value": "P0U4N88250",
+        "record_type": "TXT",
+        "ttl": 200
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "value": "_h17gf50ky4g78x3znbxl0b24tf6k3r6",
+        "record_type": "TXT",
+        "ttl": 200
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "value": "v=DKIM1; k=rsa; t=s; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0VLMnYHSbAWFrO6wNVicHNdoAyr0ElTpQ6JB6hAvtkruOJ9+gptaxWYw2TADxD4qwhtw75zENYRdY5+1rMymFx1r0OTJSj4RpvWRMDexaRApYeB9auOT5Ul7aUa+zg2f3l9AECI4cxVpkj8fuwlVNqMkatEYmsQzPcG/KTP+EjvwooUMqW4cQZgQlevp\" \"2Tl1xKrVDGnM2e8j556fRkKV6PtwKWuODv8uA3uL6TKiskf3YjjVaTTy4scROCZxF2LFmr89PNtHqnwhGs9Q56Q1S+2zYoGgntsu1jY75gFq5ylUWNO4og+OYs0aDzEqPG003JQ+U2vS4IOXCFePR9h33QIDAQAB",
+        "record_type": "DKIM",
+        "ttl": 200
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "value": "v=DMARC1; p=reject; rua=mailto:smghelp@pnb.bank.in",
+        "record_type": "DMARC",
+        "ttl": 200
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "value": "_b41ryz7u8lk8l732mzf8sonp1qg4aye",
+        "record_type": "TXT",
+        "ttl": 200
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "value": "_ie6ifn3sc1tevkmx23tbkyp63t4b1jq",
+        "record_type": "TXT",
+        "ttl": 200
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "value": "_globalsign-domain-verification=emK7g9fiENuVQZ-ldewjC7ofIIY-OcQC4cgrUtvp4F",
+        "record_type": "TXT",
+        "ttl": 200
+      },
+      {
+        "hostname": "_dmarc.pnb.bank.in",
+        "value": "v=DMARC1;p=reject;sp=reject;adkim=r;aspf=r;pct=100;fo=0;rf=afrf;ri=86400;rua=mailto:smghelp@pnb.bank.in",
+        "record_type": "DMARC",
+        "ttl": 127
+      }
+    ]
+  },
+  "whois": {
+    "domain": "pnb.bank.in",
+    "registrar": "National Internet Exchange of India",
+    "registration_date": "2005-02-17T05:28:51.675000+00:00",
+    "expiration_date": "2027-02-17T05:28:51.675000+00:00",
+    "updated_date": "2026-03-06T17:00:47.315000+00:00",
+    "organization": "",
+    "registrant_name": "",
+    "registrant_country": "IN",
+    "name_servers": [
+      "ns01.trs-dns.com",
+      "ns01.trs-dns.net",
+      "ns10.trs-dns.org",
+      "ns10.trs-dns.info"
+    ],
+    "dnssec": true,
+    "status": [
+      "clientTransferProhibited https://icann.org/epp#clientTransferProhibited",
+      "autoRenewPeriod https://icann.org/epp#autoRenewPeriod"
+    ]
+  },
+  "port_scan": {
+    "results": [],
+    "services": []
+  },
+  "detection": {
+    "cloud_assets": [],
+    "iot_devices": [],
+    "forms": []
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "domain:bank.in",
+        "label": "bank.in",
+        "node_type": "domain",
+        "metadata": {
+          "fqdn": "bank.in"
+        }
+      },
+      {
+        "id": "subdomain:pnb.bank.in",
+        "label": "pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "pnb.bank.in",
+          "asset_type": "Server"
+        }
+      },
+      {
+        "id": "ip:49.50.72.184",
+        "label": "49.50.72.184",
+        "node_type": "ip",
+        "metadata": {
+          "version": "IPv4"
+        }
+      },
+      {
+        "id": "subdomain:digi2wl.pnb.bank.in",
+        "label": "digi2wl.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "digi2wl.pnb.bank.in",
+          "asset_type": "Server"
+        }
+      },
+      {
+        "id": "ip:103.109.224.211",
+        "label": "103.109.224.211",
+        "node_type": "ip",
+        "metadata": {
+          "version": "IPv4"
+        }
+      },
+      {
+        "id": "subdomain:ams.pnb.bank.in",
+        "label": "ams.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "ams.pnb.bank.in",
+          "asset_type": "Server"
+        }
+      },
+      {
+        "id": "ip:103.109.224.217",
+        "label": "103.109.224.217",
+        "node_type": "ip",
+        "metadata": {
+          "version": "IPv4"
+        }
+      },
+      {
+        "id": "subdomain:digihltopup.pnb.bank.in",
+        "label": "digihltopup.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "digihltopup.pnb.bank.in",
+          "asset_type": "Server"
+        }
+      },
+      {
+        "id": "ip:103.109.225.246",
+        "label": "103.109.225.246",
+        "node_type": "ip",
+        "metadata": {
+          "version": "IPv4"
+        }
+      },
+      {
+        "id": "subdomain:mcaapi.pnb.bank.in",
+        "label": "mcaapi.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "mcaapi.pnb.bank.in",
+          "asset_type": "API"
+        }
+      },
+      {
+        "id": "ip:103.109.227.36",
+        "label": "103.109.227.36",
+        "node_type": "ip",
+        "metadata": {
+          "version": "IPv4"
+        }
+      },
+      {
+        "id": "subdomain:tncorpmbs.pnb.bank.in",
+        "label": "tncorpmbs.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "tncorpmbs.pnb.bank.in",
+          "asset_type": "Server"
+        }
+      },
+      {
+        "id": "ip:103.109.225.75",
+        "label": "103.109.225.75",
+        "node_type": "ip",
+        "metadata": {
+          "version": "IPv4"
+        }
+      },
+      {
+        "id": "subdomain:weblens.pnb.bank.in",
+        "label": "weblens.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "weblens.pnb.bank.in",
+          "asset_type": "Web Application"
+        }
+      },
+      {
+        "id": "ip:103.109.225.53",
+        "label": "103.109.225.53",
+        "node_type": "ip",
+        "metadata": {
+          "version": "IPv4"
+        }
+      },
+      {
+        "id": "subdomain:share.pnb.bank.in",
+        "label": "share.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "share.pnb.bank.in",
+          "asset_type": "Server"
+        }
+      },
+      {
+        "id": "ip:103.109.224.149",
+        "label": "103.109.224.149",
+        "node_type": "ip",
+        "metadata": {
+          "version": "IPv4"
+        }
+      },
+      {
+        "id": "subdomain:udaan.pnb.bank.in",
+        "label": "udaan.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "udaan.pnb.bank.in",
+          "asset_type": "Server"
+        }
+      },
+      {
+        "id": "ip:103.109.225.152",
+        "label": "103.109.225.152",
+        "node_type": "ip",
+        "metadata": {
+          "version": "IPv4"
+        }
+      },
+      {
+        "id": "ns:ns3.pnb.bank.in",
+        "label": "ns3.pnb.bank.in",
+        "node_type": "nameserver",
+        "metadata": {
+          "ip": "49.50.91.195"
+        }
+      },
+      {
+        "id": "ns:ns4.pnb.bank.in",
+        "label": "ns4.pnb.bank.in",
+        "node_type": "nameserver",
+        "metadata": {
+          "ip": "49.50.122.27"
+        }
+      },
+      {
+        "id": "ns:ns3.pnbindia.com",
+        "label": "ns3.pnbindia.com",
+        "node_type": "nameserver",
+        "metadata": {
+          "ip": "49.50.91.195"
+        }
+      },
+      {
+        "id": "ns:ns2.pnb.bank.in",
+        "label": "ns2.pnb.bank.in",
+        "node_type": "nameserver",
+        "metadata": {
+          "ip": "49.50.79.113"
+        }
+      },
+      {
+        "id": "ns:ns1.pnbindia.com",
+        "label": "ns1.pnbindia.com",
+        "node_type": "nameserver",
+        "metadata": {
+          "ip": "49.50.69.49"
+        }
+      },
+      {
+        "id": "ns:ns1.pnb.bank.in",
+        "label": "ns1.pnb.bank.in",
+        "node_type": "nameserver",
+        "metadata": {
+          "ip": "49.50.69.49"
+        }
+      },
+      {
+        "id": "ns:ns4.pnbindia.com",
+        "label": "ns4.pnbindia.com",
+        "node_type": "nameserver",
+        "metadata": {
+          "ip": "49.50.122.27"
+        }
+      },
+      {
+        "id": "ns:ns2.pnbindia.com",
+        "label": "ns2.pnbindia.com",
+        "node_type": "nameserver",
+        "metadata": {
+          "ip": "49.50.79.113"
+        }
+      },
+      {
+        "id": "mx:pnb.bank.in",
+        "label": "pnb.bank.in",
+        "node_type": "mail_server",
+        "metadata": {
+          "priority": 30,
+          "ip": "49.50.72.184"
+        }
+      },
+      {
+        "id": "mx:cluster1.us.messagelabs.com",
+        "label": "cluster1.us.messagelabs.com",
+        "node_type": "mail_server",
+        "metadata": {
+          "priority": 10,
+          "ip": "67.219.246.210"
+        }
+      },
+      {
+        "id": "mx:cluster1a.us.messagelabs.com",
+        "label": "cluster1a.us.messagelabs.com",
+        "node_type": "mail_server",
+        "metadata": {
+          "priority": 20,
+          "ip": "34.75.172.113"
+        }
+      },
+      {
+        "id": "cert:59684eb8f189f5a1",
+        "label": "CN=pnb.bank.in,O=Punjab National Bank,L=New Delhi,",
+        "node_type": "certificate",
+        "metadata": {
+          "issuer": "CN=GeoTrust EV RSA CA G2,O=DigiCert Inc,C=US",
+          "valid_until": "2026-08-10T23:59:59+00:00",
+          "algorithm": "RSA",
+          "organization": "Punjab National Bank"
+        }
+      },
+      {
+        "id": "org:punjab_national_bank",
+        "label": "Punjab National Bank",
+        "node_type": "organization",
+        "metadata": {
+          "name": "Punjab National Bank"
+        }
+      },
+      {
+        "id": "cert:849b49caac18bb2b",
+        "label": "CN=digi2wl.pnb.bank.in,O=Punjab National Bank,L=Ne",
+        "node_type": "certificate",
+        "metadata": {
+          "issuer": "CN=GeoTrust EV RSA CA G2,O=DigiCert Inc,C=US",
+          "valid_until": "2026-10-13T23:59:59+00:00",
+          "algorithm": "RSA",
+          "organization": "Punjab National Bank"
+        }
+      },
+      {
+        "id": "cert:fea77256fea0c158",
+        "label": "CN=ams.pnb.bank.in,O=Punjab National Bank,L=New De",
+        "node_type": "certificate",
+        "metadata": {
+          "issuer": "CN=GlobalSign GCC R3 EV TLS CA 2025,O=GlobalSign nv-sa,C=BE",
+          "valid_until": "2027-03-16T07:01:12+00:00",
+          "algorithm": "RSA",
+          "organization": "Punjab National Bank"
+        }
+      },
+      {
+        "id": "cert:2d7ec39719cbcfaf",
+        "label": "CN=digihltopup.pnb.bank.in,O=Punjab National Bank,",
+        "node_type": "certificate",
+        "metadata": {
+          "issuer": "CN=GlobalSign GCC R3 EV TLS CA 2025,O=GlobalSign nv-sa,C=BE",
+          "valid_until": "2026-12-21T08:01:14+00:00",
+          "algorithm": "RSA",
+          "organization": "Punjab National Bank"
+        }
+      },
+      {
+        "id": "cert:5092802fabac4c61",
+        "label": "1.2.840.113549.1.9.1=root@localhost.localdomain,CN",
+        "node_type": "certificate",
+        "metadata": {
+          "issuer": "1.2.840.113549.1.9.1=root@localhost.localdomain,CN=localhost.localdomain,OU=IT,O=MyCompany,L=Seattle,ST=WA,C=US",
+          "valid_until": "2034-09-01T02:44:01+00:00",
+          "algorithm": "RSA",
+          "organization": "MyCompany"
+        }
+      },
+      {
+        "id": "org:mycompany",
+        "label": "MyCompany",
+        "node_type": "organization",
+        "metadata": {
+          "name": "MyCompany"
+        }
+      },
+      {
+        "id": "cert:6eef3f922f74f842",
+        "label": "CN=tncorpmbs.pnb.bank.in,O=Punjab National Bank,L=",
+        "node_type": "certificate",
+        "metadata": {
+          "issuer": "CN=GeoTrust EV RSA CA G2,O=DigiCert Inc,C=US",
+          "valid_until": "2026-07-29T23:59:59+00:00",
+          "algorithm": "RSA",
+          "organization": "Punjab National Bank"
+        }
+      },
+      {
+        "id": "cert:808e64f8b0cf65e2",
+        "label": "CN=weblens.pnb.bank.in,O=Punjab National Bank,L=Ne",
+        "node_type": "certificate",
+        "metadata": {
+          "issuer": "CN=GeoTrust EV RSA CA G2,O=DigiCert Inc,C=US",
+          "valid_until": "2026-07-24T23:59:59+00:00",
+          "algorithm": "RSA",
+          "organization": "Punjab National Bank"
+        }
+      },
+      {
+        "id": "cert:92732ce1e72735f3",
+        "label": "CN=share.pnb.bank.in",
+        "node_type": "certificate",
+        "metadata": {
+          "issuer": "CN=Thawte TLS RSA CA G1,OU=www.digicert.com,O=DigiCert Inc,C=US",
+          "valid_until": "2026-09-11T23:59:59+00:00",
+          "algorithm": "RSA",
+          "organization": ""
+        }
+      },
+      {
+        "id": "cert:0c08eaaae738689b",
+        "label": "CN=udaan.pnb.bank.in,O=Punjab National Bank,L=New ",
+        "node_type": "certificate",
+        "metadata": {
+          "issuer": "CN=GeoTrust EV RSA CA G2,O=DigiCert Inc,C=US",
+          "valid_until": "2026-08-13T23:59:59+00:00",
+          "algorithm": "RSA",
+          "organization": "Punjab National Bank"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "subdomain:pnb.bank.in",
+        "target": "ip:49.50.72.184",
+        "relationship": "resolves_to"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:digi2wl.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "subdomain:digi2wl.pnb.bank.in",
+        "target": "ip:103.109.224.211",
+        "relationship": "resolves_to"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:ams.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "subdomain:ams.pnb.bank.in",
+        "target": "ip:103.109.224.217",
+        "relationship": "resolves_to"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:digihltopup.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "subdomain:digihltopup.pnb.bank.in",
+        "target": "ip:103.109.225.246",
+        "relationship": "resolves_to"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:mcaapi.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "subdomain:mcaapi.pnb.bank.in",
+        "target": "ip:103.109.227.36",
+        "relationship": "resolves_to"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:tncorpmbs.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "subdomain:tncorpmbs.pnb.bank.in",
+        "target": "ip:103.109.225.75",
+        "relationship": "resolves_to"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:weblens.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "subdomain:weblens.pnb.bank.in",
+        "target": "ip:103.109.225.53",
+        "relationship": "resolves_to"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:share.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "subdomain:share.pnb.bank.in",
+        "target": "ip:103.109.224.149",
+        "relationship": "resolves_to"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:udaan.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "subdomain:udaan.pnb.bank.in",
+        "target": "ip:103.109.225.152",
+        "relationship": "resolves_to"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "ns:ns3.pnb.bank.in",
+        "relationship": "uses_nameserver"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "ns:ns4.pnb.bank.in",
+        "relationship": "uses_nameserver"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "ns:ns3.pnbindia.com",
+        "relationship": "uses_nameserver"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "ns:ns2.pnb.bank.in",
+        "relationship": "uses_nameserver"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "ns:ns1.pnbindia.com",
+        "relationship": "uses_nameserver"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "ns:ns1.pnb.bank.in",
+        "relationship": "uses_nameserver"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "ns:ns4.pnbindia.com",
+        "relationship": "uses_nameserver"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "ns:ns2.pnbindia.com",
+        "relationship": "uses_nameserver"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "mx:pnb.bank.in",
+        "relationship": "uses_mail_server"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "mx:cluster1.us.messagelabs.com",
+        "relationship": "uses_mail_server"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "mx:cluster1a.us.messagelabs.com",
+        "relationship": "uses_mail_server"
+      },
+      {
+        "source": "subdomain:pnb.bank.in",
+        "target": "cert:59684eb8f189f5a1",
+        "relationship": "has_certificate"
+      },
+      {
+        "source": "org:punjab_national_bank",
+        "target": "cert:59684eb8f189f5a1",
+        "relationship": "owns_certificate"
+      },
+      {
+        "source": "subdomain:digi2wl.pnb.bank.in",
+        "target": "cert:849b49caac18bb2b",
+        "relationship": "has_certificate"
+      },
+      {
+        "source": "org:punjab_national_bank",
+        "target": "cert:849b49caac18bb2b",
+        "relationship": "owns_certificate"
+      },
+      {
+        "source": "subdomain:ams.pnb.bank.in",
+        "target": "cert:fea77256fea0c158",
+        "relationship": "has_certificate"
+      },
+      {
+        "source": "org:punjab_national_bank",
+        "target": "cert:fea77256fea0c158",
+        "relationship": "owns_certificate"
+      },
+      {
+        "source": "subdomain:digihltopup.pnb.bank.in",
+        "target": "cert:2d7ec39719cbcfaf",
+        "relationship": "has_certificate"
+      },
+      {
+        "source": "org:punjab_national_bank",
+        "target": "cert:2d7ec39719cbcfaf",
+        "relationship": "owns_certificate"
+      },
+      {
+        "source": "subdomain:mcaapi.pnb.bank.in",
+        "target": "cert:5092802fabac4c61",
+        "relationship": "has_certificate"
+      },
+      {
+        "source": "org:mycompany",
+        "target": "cert:5092802fabac4c61",
+        "relationship": "owns_certificate"
+      },
+      {
+        "source": "subdomain:tncorpmbs.pnb.bank.in",
+        "target": "cert:6eef3f922f74f842",
+        "relationship": "has_certificate"
+      },
+      {
+        "source": "org:punjab_national_bank",
+        "target": "cert:6eef3f922f74f842",
+        "relationship": "owns_certificate"
+      },
+      {
+        "source": "subdomain:weblens.pnb.bank.in",
+        "target": "cert:808e64f8b0cf65e2",
+        "relationship": "has_certificate"
+      },
+      {
+        "source": "org:punjab_national_bank",
+        "target": "cert:808e64f8b0cf65e2",
+        "relationship": "owns_certificate"
+      },
+      {
+        "source": "subdomain:share.pnb.bank.in",
+        "target": "cert:92732ce1e72735f3",
+        "relationship": "has_certificate"
+      },
+      {
+        "source": "subdomain:udaan.pnb.bank.in",
+        "target": "cert:0c08eaaae738689b",
+        "relationship": "has_certificate"
+      },
+      {
+        "source": "org:punjab_national_bank",
+        "target": "cert:0c08eaaae738689b",
+        "relationship": "owns_certificate"
+      }
+    ]
+  },
+  "summaries": {
+    "cbom": {
+      "total_applications": 9,
+      "active_certificates": 9,
+      "weak_cryptography_count": 0,
+      "certificate_issues": 1,
+      "key_length_distribution": {
+        "2048-bit": 8,
+        "4096-bit": 1
+      },
+      "cipher_usage_distribution": {},
+      "top_certificate_authorities": [
+        {
+          "name": "GeoTrust EV RSA CA G2",
+          "count": 5
+        },
+        {
+          "name": "GlobalSign GCC R3 EV TLS CA 2025",
+          "count": 2
+        },
+        {
+          "name": "localhost.localdomain",
+          "count": 1
+        },
+        {
+          "name": "Thawte TLS RSA CA G1",
+          "count": 1
+        }
+      ],
+      "protocol_distribution": {
+        "TLS 1.0": 0,
+        "TLS 1.1": 0,
+        "TLS 1.2": 1,
+        "TLS 1.3": 7
+      },
+      "per_app_crypto": []
+    },
+    "pqc_compliance": {
+      "assets_with_pqc_support": [
+        {
+          "asset_name": "pnb.bank.in",
+          "ip": "49.50.72.184",
+          "pqc_support": false,
+          "quantum_safety": "QUANTUM_VULNERABLE"
+        },
+        {
+          "asset_name": "digi2wl.pnb.bank.in",
+          "ip": "103.109.224.211",
+          "pqc_support": false,
+          "quantum_safety": "QUANTUM_VULNERABLE"
+        },
+        {
+          "asset_name": "ams.pnb.bank.in",
+          "ip": "103.109.224.217",
+          "pqc_support": false,
+          "quantum_safety": "QUANTUM_VULNERABLE"
+        },
+        {
+          "asset_name": "digihltopup.pnb.bank.in",
+          "ip": "103.109.225.246",
+          "pqc_support": false,
+          "quantum_safety": "QUANTUM_VULNERABLE"
+        },
+        {
+          "asset_name": "mcaapi.pnb.bank.in",
+          "ip": "103.109.227.36",
+          "pqc_support": false,
+          "quantum_safety": "QUANTUM_VULNERABLE"
+        },
+        {
+          "asset_name": "tncorpmbs.pnb.bank.in",
+          "ip": "103.109.225.75",
+          "pqc_support": false,
+          "quantum_safety": "QUANTUM_VULNERABLE"
+        },
+        {
+          "asset_name": "weblens.pnb.bank.in",
+          "ip": "103.109.225.53",
+          "pqc_support": false,
+          "quantum_safety": "QUANTUM_VULNERABLE"
+        },
+        {
+          "asset_name": "share.pnb.bank.in",
+          "ip": "103.109.224.149",
+          "pqc_support": false,
+          "quantum_safety": "QUANTUM_VULNERABLE"
+        },
+        {
+          "asset_name": "udaan.pnb.bank.in",
+          "ip": "103.109.225.152",
+          "pqc_support": false,
+          "quantum_safety": "QUANTUM_VULNERABLE"
+        }
+      ],
+      "classification_counts": {
+        "Elite": 0,
+        "Critical": 0,
+        "Standard": 0
+      },
+      "status_distribution": {
+        "PQC Ready": 0,
+        "Standard": 0,
+        "Legacy": 0,
+        "Critical": 0
+      },
+      "risk_heatmap": [
+        {
+          "asset": "pnb.bank.in",
+          "risk_score": 0.541,
+          "risk_label": "MEDIUM"
+        },
+        {
+          "asset": "digi2wl.pnb.bank.in",
+          "risk_score": 0.541,
+          "risk_label": "MEDIUM"
+        },
+        {
+          "asset": "ams.pnb.bank.in",
+          "risk_score": 0.541,
+          "risk_label": "MEDIUM"
+        },
+        {
+          "asset": "digihltopup.pnb.bank.in",
+          "risk_score": 0.541,
+          "risk_label": "MEDIUM"
+        },
+        {
+          "asset": "mcaapi.pnb.bank.in",
+          "risk_score": 0.541,
+          "risk_label": "MEDIUM"
+        },
+        {
+          "asset": "tncorpmbs.pnb.bank.in",
+          "risk_score": 0.541,
+          "risk_label": "MEDIUM"
+        },
+        {
+          "asset": "weblens.pnb.bank.in",
+          "risk_score": 0.541,
+          "risk_label": "MEDIUM"
+        },
+        {
+          "asset": "share.pnb.bank.in",
+          "risk_score": 0.541,
+          "risk_label": "MEDIUM"
+        },
+        {
+          "asset": "udaan.pnb.bank.in",
+          "risk_score": 0.541,
+          "risk_label": "MEDIUM"
+        }
+      ],
+      "pqc_adoption_progress": 0.0
+    },
+    "cyber_rating": {
+      "enterprise_score": 392,
+      "category": "Legacy",
+      "per_url_scores": {
+        "pnb.bank.in": 392,
+        "digi2wl.pnb.bank.in": 392,
+        "ams.pnb.bank.in": 392,
+        "digihltopup.pnb.bank.in": 392,
+        "mcaapi.pnb.bank.in": 392,
+        "tncorpmbs.pnb.bank.in": 392,
+        "weblens.pnb.bank.in": 392,
+        "share.pnb.bank.in": 392,
+        "udaan.pnb.bank.in": 392
+      },
+      "factors": {
+        "pqc_readiness": 0.0,
+        "certificate_health": 88.88888888888889,
+        "crypto_strength": 100.0
+      }
+    },
+    "metrics": {
+      "total_domains": 1,
+      "total_subdomains": 8,
+      "cloud_assets_count": 0,
+      "ssl_certificates_count": 9,
+      "software_count": 0,
+      "iot_devices_count": 0,
+      "login_forms_count": 0,
+      "vulnerable_components_count": 0,
+      "pqc_adoption_progress": 0.0
+    }
+  },
+  "layer_outputs": {
+    "layer1_discovery": {
+      "total_discovered": 9,
+      "sources": [
+        "base_domain",
+        "httpx"
+      ],
+      "assets": [
+        {
+          "fqdn": "pnb.bank.in",
+          "port": 443,
+          "source": "base_domain",
+          "discovered_at": "2026-03-31T13:21:55.667868",
+          "ipv4": "49.50.72.184",
+          "ipv6": null,
+          "asset_type": "Server"
+        },
+        {
+          "fqdn": "digi2wl.pnb.bank.in",
+          "port": 443,
+          "source": "httpx",
+          "discovered_at": "2026-03-31T13:21:55.664926",
+          "ipv4": "103.109.224.211",
+          "ipv6": null,
+          "asset_type": "Server"
+        },
+        {
+          "fqdn": "ams.pnb.bank.in",
+          "port": 443,
+          "source": "httpx",
+          "discovered_at": "2026-03-31T13:21:55.665002",
+          "ipv4": "103.109.224.217",
+          "ipv6": null,
+          "asset_type": "Server"
+        },
+        {
+          "fqdn": "digihltopup.pnb.bank.in",
+          "port": 443,
+          "source": "httpx",
+          "discovered_at": "2026-03-31T13:21:55.665152",
+          "ipv4": "103.109.225.246",
+          "ipv6": "2001:df1:1580::224:a1",
+          "asset_type": "Server"
+        },
+        {
+          "fqdn": "mcaapi.pnb.bank.in",
+          "port": 443,
+          "source": "httpx",
+          "discovered_at": "2026-03-31T13:21:55.665419",
+          "ipv4": "103.109.227.36",
+          "ipv6": null,
+          "asset_type": "API"
+        },
+        {
+          "fqdn": "tncorpmbs.pnb.bank.in",
+          "port": 443,
+          "source": "httpx",
+          "discovered_at": "2026-03-31T13:21:55.665663",
+          "ipv4": "103.109.225.75",
+          "ipv6": null,
+          "asset_type": "Server"
+        },
+        {
+          "fqdn": "weblens.pnb.bank.in",
+          "port": 443,
+          "source": "httpx",
+          "discovered_at": "2026-03-31T13:21:55.665701",
+          "ipv4": "103.109.225.53",
+          "ipv6": null,
+          "asset_type": "Web Application"
+        },
+        {
+          "fqdn": "share.pnb.bank.in",
+          "port": 443,
+          "source": "httpx",
+          "discovered_at": "2026-03-31T13:21:55.665749",
+          "ipv4": "103.109.224.149",
+          "ipv6": null,
+          "asset_type": "Server"
+        },
+        {
+          "fqdn": "udaan.pnb.bank.in",
+          "port": 443,
+          "source": "httpx",
+          "discovered_at": "2026-03-31T13:21:55.665782",
+          "ipv4": "103.109.225.152",
+          "ipv6": null,
+          "asset_type": "Server"
+        }
+      ],
+      "dns_records": [
+        {
+          "hostname": "pnb.bank.in",
+          "record_type": "A",
+          "value": "49.50.72.184",
+          "ipv4_address": "49.50.72.184",
+          "ipv6_address": null,
+          "ttl": null
+        },
+        {
+          "hostname": "pnb.bank.in",
+          "record_type": "A",
+          "value": "49.50.72.184",
+          "ipv4_address": "49.50.72.184",
+          "ipv6_address": null,
+          "ttl": null
+        },
+        {
+          "hostname": "pnb.bank.in",
+          "record_type": "A",
+          "value": "49.50.72.184",
+          "ipv4_address": "49.50.72.184",
+          "ipv6_address": null,
+          "ttl": null
+        }
+      ]
+    },
+    "layer2_scanning": {
+      "total_scanned": 9,
+      "successful_scans": 9,
+      "certificates_found": 9,
+      "scans": [
+        {
+          "target": "pnb.bank.in",
+          "port": 443,
+          "status": "success",
+          "scan_time": "2026-03-31T13:22:00.956212",
+          "duration_ms": 149497.10673499794,
+          "tls_versions": {
+            "tls_1_0": false,
+            "tls_1_1": false,
+            "tls_1_2": false,
+            "tls_1_3": false
+          },
+          "cipher_suites": {
+            "tls_1_2": [],
+            "tls_1_3": []
+          },
+          "key_exchange_algorithms": [],
+          "certificate": {
+            "subject": "CN=pnb.bank.in,O=Punjab National Bank,L=New Delhi,ST=Delhi,C=IN,2.5.4.5=Government Entity,2.5.4.15=Government Entity,1.3.6.1.4.1.311.60.2.1.3=IN",
+            "issuer": "CN=GeoTrust EV RSA CA G2,O=DigiCert Inc,C=US",
+            "not_after": "2026-08-10T23:59:59+00:00",
+            "public_key_algorithm": "RSA",
+            "public_key_size": 2048,
+            "signature_algorithm": "sha256WithRSAEncryption"
+          },
+          "pqc_assessment": {
+            "is_pqc": false,
+            "pqc_algorithm": null
+          },
+          "vulnerabilities": {
+            "heartbleed": false,
+            "downgrade_prevention": true
+          },
+          "error": null
+        },
+        {
+          "target": "digi2wl.pnb.bank.in",
+          "port": 443,
+          "status": "success",
+          "scan_time": "2026-03-31T13:22:00.921700",
+          "duration_ms": 17284.409799998684,
+          "tls_versions": {
+            "tls_1_0": false,
+            "tls_1_1": false,
+            "tls_1_2": false,
+            "tls_1_3": true
+          },
+          "cipher_suites": {
+            "tls_1_2": [],
+            "tls_1_3": []
+          },
+          "key_exchange_algorithms": [],
+          "certificate": {
+            "subject": "CN=digi2wl.pnb.bank.in,O=Punjab National Bank,L=New Delhi,ST=Delhi,C=IN,2.5.4.5=Government Entity,2.5.4.15=Government Entity,1.3.6.1.4.1.311.60.2.1.3=IN",
+            "issuer": "CN=GeoTrust EV RSA CA G2,O=DigiCert Inc,C=US",
+            "not_after": "2026-10-13T23:59:59+00:00",
+            "public_key_algorithm": "RSA",
+            "public_key_size": 2048,
+            "signature_algorithm": "sha256WithRSAEncryption"
+          },
+          "pqc_assessment": {
+            "is_pqc": false,
+            "pqc_algorithm": null
+          },
+          "vulnerabilities": {
+            "heartbleed": false,
+            "downgrade_prevention": true
+          },
+          "error": null
+        },
+        {
+          "target": "ams.pnb.bank.in",
+          "port": 443,
+          "status": "success",
+          "scan_time": "2026-03-31T13:22:00.924027",
+          "duration_ms": 10612.449699001445,
+          "tls_versions": {
+            "tls_1_0": false,
+            "tls_1_1": false,
+            "tls_1_2": false,
+            "tls_1_3": true
+          },
+          "cipher_suites": {
+            "tls_1_2": [],
+            "tls_1_3": []
+          },
+          "key_exchange_algorithms": [],
+          "certificate": {
+            "subject": "CN=ams.pnb.bank.in,O=Punjab National Bank,L=New Delhi,ST=Delhi,C=IN,1.3.6.1.4.1.311.60.2.1.3=IN,2.5.4.5=Government Entities,2.5.4.15=Government Entity",
+            "issuer": "CN=GlobalSign GCC R3 EV TLS CA 2025,O=GlobalSign nv-sa,C=BE",
+            "not_after": "2027-03-16T07:01:12+00:00",
+            "public_key_algorithm": "RSA",
+            "public_key_size": 2048,
+            "signature_algorithm": "sha256WithRSAEncryption"
+          },
+          "pqc_assessment": {
+            "is_pqc": false,
+            "pqc_algorithm": null
+          },
+          "vulnerabilities": {
+            "heartbleed": false,
+            "downgrade_prevention": true
+          },
+          "error": null
+        },
+        {
+          "target": "digihltopup.pnb.bank.in",
+          "port": 443,
+          "status": "success",
+          "scan_time": "2026-03-31T13:22:00.926420",
+          "duration_ms": 23282.72262900282,
+          "tls_versions": {
+            "tls_1_0": false,
+            "tls_1_1": false,
+            "tls_1_2": false,
+            "tls_1_3": true
+          },
+          "cipher_suites": {
+            "tls_1_2": [],
+            "tls_1_3": []
+          },
+          "key_exchange_algorithms": [],
+          "certificate": {
+            "subject": "CN=digihltopup.pnb.bank.in,O=Punjab National Bank,L=New Delhi,ST=Delhi,C=IN,1.3.6.1.4.1.311.60.2.1.3=IN,2.5.4.5=Government Entities,2.5.4.15=Government Entity",
+            "issuer": "CN=GlobalSign GCC R3 EV TLS CA 2025,O=GlobalSign nv-sa,C=BE",
+            "not_after": "2026-12-21T08:01:14+00:00",
+            "public_key_algorithm": "RSA",
+            "public_key_size": 2048,
+            "signature_algorithm": "sha256WithRSAEncryption"
+          },
+          "pqc_assessment": {
+            "is_pqc": false,
+            "pqc_algorithm": null
+          },
+          "vulnerabilities": {
+            "heartbleed": false,
+            "downgrade_prevention": true
+          },
+          "error": null
+        },
+        {
+          "target": "mcaapi.pnb.bank.in",
+          "port": 443,
+          "status": "success",
+          "scan_time": "2026-03-31T13:22:00.929149",
+          "duration_ms": 7325.035050002043,
+          "tls_versions": {
+            "tls_1_0": false,
+            "tls_1_1": false,
+            "tls_1_2": true,
+            "tls_1_3": false
+          },
+          "cipher_suites": {
+            "tls_1_2": [],
+            "tls_1_3": []
+          },
+          "key_exchange_algorithms": [],
+          "certificate": {
+            "subject": "1.2.840.113549.1.9.1=root@localhost.localdomain,CN=localhost.localdomain,OU=IT,O=MyCompany,L=Seattle,ST=WA,C=US",
+            "issuer": "1.2.840.113549.1.9.1=root@localhost.localdomain,CN=localhost.localdomain,OU=IT,O=MyCompany,L=Seattle,ST=WA,C=US",
+            "not_after": "2034-09-01T02:44:01+00:00",
+            "public_key_algorithm": "RSA",
+            "public_key_size": 2048,
+            "signature_algorithm": "sha256WithRSAEncryption"
+          },
+          "pqc_assessment": {
+            "is_pqc": false,
+            "pqc_algorithm": null
+          },
+          "vulnerabilities": {
+            "heartbleed": false,
+            "downgrade_prevention": true
+          },
+          "error": null
+        },
+        {
+          "target": "tncorpmbs.pnb.bank.in",
+          "port": 443,
+          "status": "success",
+          "scan_time": "2026-03-31T13:22:08.258338",
+          "duration_ms": 16001.157373000751,
+          "tls_versions": {
+            "tls_1_0": false,
+            "tls_1_1": false,
+            "tls_1_2": false,
+            "tls_1_3": true
+          },
+          "cipher_suites": {
+            "tls_1_2": [],
+            "tls_1_3": []
+          },
+          "key_exchange_algorithms": [],
+          "certificate": {
+            "subject": "CN=tncorpmbs.pnb.bank.in,O=Punjab National Bank,L=New Delhi,ST=Delhi,C=IN,2.5.4.5=Government Entity,2.5.4.15=Government Entity,1.3.6.1.4.1.311.60.2.1.3=IN",
+            "issuer": "CN=GeoTrust EV RSA CA G2,O=DigiCert Inc,C=US",
+            "not_after": "2026-07-29T23:59:59+00:00",
+            "public_key_algorithm": "RSA",
+            "public_key_size": 2048,
+            "signature_algorithm": "sha256WithRSAEncryption"
+          },
+          "pqc_assessment": {
+            "is_pqc": false,
+            "pqc_algorithm": null
+          },
+          "vulnerabilities": {
+            "heartbleed": false,
+            "downgrade_prevention": true
+          },
+          "error": null
+        },
+        {
+          "target": "weblens.pnb.bank.in",
+          "port": 443,
+          "status": "success",
+          "scan_time": "2026-03-31T13:22:11.540239",
+          "duration_ms": 12813.71094899805,
+          "tls_versions": {
+            "tls_1_0": false,
+            "tls_1_1": false,
+            "tls_1_2": false,
+            "tls_1_3": true
+          },
+          "cipher_suites": {
+            "tls_1_2": [],
+            "tls_1_3": []
+          },
+          "key_exchange_algorithms": [],
+          "certificate": {
+            "subject": "CN=weblens.pnb.bank.in,O=Punjab National Bank,L=New Delhi,ST=Delhi,C=IN,2.5.4.5=Government Entity,2.5.4.15=Government Entity,1.3.6.1.4.1.311.60.2.1.3=IN",
+            "issuer": "CN=GeoTrust EV RSA CA G2,O=DigiCert Inc,C=US",
+            "not_after": "2026-07-24T23:59:59+00:00",
+            "public_key_algorithm": "RSA",
+            "public_key_size": 2048,
+            "signature_algorithm": "sha256WithRSAEncryption"
+          },
+          "pqc_assessment": {
+            "is_pqc": false,
+            "pqc_algorithm": null
+          },
+          "vulnerabilities": {
+            "heartbleed": false,
+            "downgrade_prevention": true
+          },
+          "error": null
+        },
+        {
+          "target": "share.pnb.bank.in",
+          "port": 443,
+          "status": "success",
+          "scan_time": "2026-03-31T13:22:18.208726",
+          "duration_ms": 17241.19611900096,
+          "tls_versions": {
+            "tls_1_0": false,
+            "tls_1_1": false,
+            "tls_1_2": false,
+            "tls_1_3": true
+          },
+          "cipher_suites": {
+            "tls_1_2": [],
+            "tls_1_3": []
+          },
+          "key_exchange_algorithms": [],
+          "certificate": {
+            "subject": "CN=share.pnb.bank.in",
+            "issuer": "CN=Thawte TLS RSA CA G1,OU=www.digicert.com,O=DigiCert Inc,C=US",
+            "not_after": "2026-09-11T23:59:59+00:00",
+            "public_key_algorithm": "RSA",
+            "public_key_size": 2048,
+            "signature_algorithm": "sha256WithRSAEncryption"
+          },
+          "pqc_assessment": {
+            "is_pqc": false,
+            "pqc_algorithm": null
+          },
+          "vulnerabilities": {
+            "heartbleed": false,
+            "downgrade_prevention": true
+          },
+          "error": null
+        },
+        {
+          "target": "udaan.pnb.bank.in",
+          "port": 443,
+          "status": "success",
+          "scan_time": "2026-03-31T13:22:24.212929",
+          "duration_ms": 17438.39831600053,
+          "tls_versions": {
+            "tls_1_0": false,
+            "tls_1_1": false,
+            "tls_1_2": false,
+            "tls_1_3": true
+          },
+          "cipher_suites": {
+            "tls_1_2": [],
+            "tls_1_3": []
+          },
+          "key_exchange_algorithms": [],
+          "certificate": {
+            "subject": "CN=udaan.pnb.bank.in,O=Punjab National Bank,L=New Delhi,ST=Delhi,C=IN,2.5.4.5=Government Entity,2.5.4.15=Government Entity,1.3.6.1.4.1.311.60.2.1.3=IN",
+            "issuer": "CN=GeoTrust EV RSA CA G2,O=DigiCert Inc,C=US",
+            "not_after": "2026-08-13T23:59:59+00:00",
+            "public_key_algorithm": "RSA",
+            "public_key_size": 4096,
+            "signature_algorithm": "sha256WithRSAEncryption"
+          },
+          "pqc_assessment": {
+            "is_pqc": false,
+            "pqc_algorithm": null
+          },
+          "vulnerabilities": {
+            "heartbleed": false,
+            "downgrade_prevention": true
+          },
+          "error": null
+        }
+      ]
+    },
+    "layer3_analysis": {
+      "total_analyzed": 9,
+      "risk_distribution": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 9,
+        "LOW": 0
+      },
+      "analyses": [
+        {
+          "fqdn": "pnb.bank.in",
+          "port": 443,
+          "discovery_source": "base_domain",
+          "scan_success": true,
+          "quantum_safety": "QUANTUM_VULNERABLE",
+          "is_quantum_safe": false,
+          "hndl_score": 0.541,
+          "hndl_label": "MEDIUM",
+          "recommended_action": "MEDIUM: Schedule RSA migration to ML-DSA by 2027",
+          "key_exchange_algorithms": [],
+          "certificate_algorithm": "RSA",
+          "cert_tier": "VULNERABLE"
+        },
+        {
+          "fqdn": "digi2wl.pnb.bank.in",
+          "port": 443,
+          "discovery_source": "httpx",
+          "scan_success": true,
+          "quantum_safety": "QUANTUM_VULNERABLE",
+          "is_quantum_safe": false,
+          "hndl_score": 0.541,
+          "hndl_label": "MEDIUM",
+          "recommended_action": "MEDIUM: Schedule RSA migration to ML-DSA by 2027",
+          "key_exchange_algorithms": [],
+          "certificate_algorithm": "RSA",
+          "cert_tier": "VULNERABLE"
+        },
+        {
+          "fqdn": "ams.pnb.bank.in",
+          "port": 443,
+          "discovery_source": "httpx",
+          "scan_success": true,
+          "quantum_safety": "QUANTUM_VULNERABLE",
+          "is_quantum_safe": false,
+          "hndl_score": 0.541,
+          "hndl_label": "MEDIUM",
+          "recommended_action": "MEDIUM: Schedule RSA migration to ML-DSA by 2027",
+          "key_exchange_algorithms": [],
+          "certificate_algorithm": "RSA",
+          "cert_tier": "VULNERABLE"
+        },
+        {
+          "fqdn": "digihltopup.pnb.bank.in",
+          "port": 443,
+          "discovery_source": "httpx",
+          "scan_success": true,
+          "quantum_safety": "QUANTUM_VULNERABLE",
+          "is_quantum_safe": false,
+          "hndl_score": 0.541,
+          "hndl_label": "MEDIUM",
+          "recommended_action": "MEDIUM: Schedule RSA migration to ML-DSA by 2027",
+          "key_exchange_algorithms": [],
+          "certificate_algorithm": "RSA",
+          "cert_tier": "VULNERABLE"
+        },
+        {
+          "fqdn": "mcaapi.pnb.bank.in",
+          "port": 443,
+          "discovery_source": "httpx",
+          "scan_success": true,
+          "quantum_safety": "QUANTUM_VULNERABLE",
+          "is_quantum_safe": false,
+          "hndl_score": 0.541,
+          "hndl_label": "MEDIUM",
+          "recommended_action": "MEDIUM: Schedule RSA migration to ML-DSA by 2027",
+          "key_exchange_algorithms": [],
+          "certificate_algorithm": "RSA",
+          "cert_tier": "VULNERABLE"
+        },
+        {
+          "fqdn": "tncorpmbs.pnb.bank.in",
+          "port": 443,
+          "discovery_source": "httpx",
+          "scan_success": true,
+          "quantum_safety": "QUANTUM_VULNERABLE",
+          "is_quantum_safe": false,
+          "hndl_score": 0.541,
+          "hndl_label": "MEDIUM",
+          "recommended_action": "MEDIUM: Schedule RSA migration to ML-DSA by 2027",
+          "key_exchange_algorithms": [],
+          "certificate_algorithm": "RSA",
+          "cert_tier": "VULNERABLE"
+        },
+        {
+          "fqdn": "weblens.pnb.bank.in",
+          "port": 443,
+          "discovery_source": "httpx",
+          "scan_success": true,
+          "quantum_safety": "QUANTUM_VULNERABLE",
+          "is_quantum_safe": false,
+          "hndl_score": 0.541,
+          "hndl_label": "MEDIUM",
+          "recommended_action": "MEDIUM: Schedule RSA migration to ML-DSA by 2027",
+          "key_exchange_algorithms": [],
+          "certificate_algorithm": "RSA",
+          "cert_tier": "VULNERABLE"
+        },
+        {
+          "fqdn": "share.pnb.bank.in",
+          "port": 443,
+          "discovery_source": "httpx",
+          "scan_success": true,
+          "quantum_safety": "QUANTUM_VULNERABLE",
+          "is_quantum_safe": false,
+          "hndl_score": 0.541,
+          "hndl_label": "MEDIUM",
+          "recommended_action": "MEDIUM: Schedule RSA migration to ML-DSA by 2027",
+          "key_exchange_algorithms": [],
+          "certificate_algorithm": "RSA",
+          "cert_tier": "VULNERABLE"
+        },
+        {
+          "fqdn": "udaan.pnb.bank.in",
+          "port": 443,
+          "discovery_source": "httpx",
+          "scan_success": true,
+          "quantum_safety": "QUANTUM_VULNERABLE",
+          "is_quantum_safe": false,
+          "hndl_score": 0.541,
+          "hndl_label": "MEDIUM",
+          "recommended_action": "MEDIUM: Schedule RSA migration to ML-DSA by 2027",
+          "key_exchange_algorithms": [],
+          "certificate_algorithm": "RSA",
+          "cert_tier": "VULNERABLE"
+        }
+      ]
+    },
+    "layer4_certification": {
+      "total_certified": 0,
+      "certifications": [
+        {
+          "fqdn": "pnb.bank.in",
+          "cert_tier": "VULNERABLE",
+          "cert_issued": false,
+          "url_score": 392
+        },
+        {
+          "fqdn": "digi2wl.pnb.bank.in",
+          "cert_tier": "VULNERABLE",
+          "cert_issued": false,
+          "url_score": 392
+        },
+        {
+          "fqdn": "ams.pnb.bank.in",
+          "cert_tier": "VULNERABLE",
+          "cert_issued": false,
+          "url_score": 392
+        },
+        {
+          "fqdn": "digihltopup.pnb.bank.in",
+          "cert_tier": "VULNERABLE",
+          "cert_issued": false,
+          "url_score": 392
+        },
+        {
+          "fqdn": "mcaapi.pnb.bank.in",
+          "cert_tier": "VULNERABLE",
+          "cert_issued": false,
+          "url_score": 392
+        },
+        {
+          "fqdn": "tncorpmbs.pnb.bank.in",
+          "cert_tier": "VULNERABLE",
+          "cert_issued": false,
+          "url_score": 392
+        },
+        {
+          "fqdn": "weblens.pnb.bank.in",
+          "cert_tier": "VULNERABLE",
+          "cert_issued": false,
+          "url_score": 392
+        },
+        {
+          "fqdn": "share.pnb.bank.in",
+          "cert_tier": "VULNERABLE",
+          "cert_issued": false,
+          "url_score": 392
+        },
+        {
+          "fqdn": "udaan.pnb.bank.in",
+          "cert_tier": "VULNERABLE",
+          "cert_issued": false,
+          "url_score": 392
+        }
+      ]
+    }
+  }
+}

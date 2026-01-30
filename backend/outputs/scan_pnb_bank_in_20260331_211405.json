@@ -1,0 +1,1213 @@
+{
+  "metadata": {
+    "scan_id": "c844298c-658f-43c8-a688-b6b112239632",
+    "domain": "pnb.bank.in",
+    "scan_start": "2026-03-31T15:35:17.555299+00:00",
+    "scan_end": "2026-03-31T15:44:05.920312+00:00",
+    "duration_ms": 528365.0129999999
+  },
+  "dashboard": {
+    "counts": {
+      "total_assets": 5,
+      "public_web_apps": 0,
+      "apis": 0,
+      "servers": 5,
+      "expiring_certificates": 0,
+      "high_risk_assets": 0
+    },
+    "distributions": {
+      "asset_type": {
+        "Server": 5
+      },
+      "risk": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 2,
+        "LOW": 0
+      },
+      "certificate_expiry_timeline": {
+        "0-30 days": 0,
+        "30-60 days": 0,
+        "60-90 days": 0,
+        "90+ days": 2,
+        "Expired": 0
+      },
+      "ip_version_breakdown": {
+        "IPv4": 100.0,
+        "IPv6": 0.0
+      }
+    },
+    "lists": {
+      "all_assets": [
+        "pnb.bank.in",
+        "feepayment.pnb.bank.in",
+        "instaloans.pnb.bank.in",
+        "npciservices.pnb.bank.in",
+        "pnbfirst.pnb.bank.in"
+      ],
+      "web_apps": [],
+      "apis": [],
+      "servers": [
+        "pnb.bank.in",
+        "feepayment.pnb.bank.in",
+        "instaloans.pnb.bank.in",
+        "npciservices.pnb.bank.in",
+        "pnbfirst.pnb.bank.in"
+      ],
+      "expiring_certificates": [],
+      "high_risk_assets": []
+    }
+  },
+  "inventory": {
+    "assets": [
+      {
+        "asset_name": "pnb",
+        "url": "https://pnb.bank.in:443",
+        "fqdn": "pnb.bank.in",
+        "port": 443,
+        "ipv4_address": "49.50.72.184",
+        "ipv6_address": null,
+        "asn": 55470,
+        "asn_name": "CYFUTURE-AS-IN Cyfuture India Pvt. Ltd., IN",
+        "country": "",
+        "country_code": "IN",
+        "city": "",
+        "isp": "CYFUTURE-AS-IN Cyfuture India Pvt. Ltd., IN",
+        "asset_type": "Server",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [
+          443
+        ],
+        "services": [],
+        "risk_level": "Unknown",
+        "hndl_score": null,
+        "quantum_safety": "UNKNOWN",
+        "certificate_status": "Unknown",
+        "key_length": null,
+        "detection_date": "2026-03-31T15:37:38.640649",
+        "last_scan_time": "2026-03-31T15:37:44.074777",
+        "discovery_source": "base_domain"
+      },
+      {
+        "asset_name": "feepayment",
+        "url": "https://feepayment.pnb.bank.in:443",
+        "fqdn": "feepayment.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": "103.109.224.67",
+        "ipv6_address": null,
+        "asn": 137130,
+        "asn_name": "ITDPNB-AS Punjab National Bank, IN",
+        "country": "",
+        "country_code": "IN",
+        "city": "",
+        "isp": "ITDPNB-AS Punjab National Bank, IN",
+        "asset_type": "Server",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [
+          443
+        ],
+        "services": [],
+        "risk_level": "Unknown",
+        "hndl_score": null,
+        "quantum_safety": "Unknown",
+        "certificate_status": "Unknown",
+        "key_length": null,
+        "detection_date": "2026-03-31T15:37:38.639584",
+        "last_scan_time": "",
+        "discovery_source": "httpx"
+      },
+      {
+        "asset_name": "instaloans",
+        "url": "https://instaloans.pnb.bank.in:443",
+        "fqdn": "instaloans.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": "103.109.225.158",
+        "ipv6_address": null,
+        "asn": 137130,
+        "asn_name": "ITDPNB-AS Punjab National Bank, IN",
+        "country": "",
+        "country_code": "IN",
+        "city": "",
+        "isp": "ITDPNB-AS Punjab National Bank, IN",
+        "asset_type": "Server",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [
+          443
+        ],
+        "services": [],
+        "risk_level": "MEDIUM",
+        "hndl_score": 0.541,
+        "quantum_safety": "QUANTUM_VULNERABLE",
+        "certificate_status": "Valid",
+        "key_length": 2048,
+        "detection_date": "2026-03-31T15:37:38.639651",
+        "last_scan_time": "2026-03-31T15:37:44.006581",
+        "discovery_source": "httpx"
+      },
+      {
+        "asset_name": "npciservices",
+        "url": "https://npciservices.pnb.bank.in:443",
+        "fqdn": "npciservices.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": "103.109.225.229",
+        "ipv6_address": null,
+        "asn": 137130,
+        "asn_name": "ITDPNB-AS Punjab National Bank, IN",
+        "country": "",
+        "country_code": "IN",
+        "city": "",
+        "isp": "ITDPNB-AS Punjab National Bank, IN",
+        "asset_type": "Server",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [
+          443
+        ],
+        "services": [],
+        "risk_level": "Unknown",
+        "hndl_score": null,
+        "quantum_safety": "Unknown",
+        "certificate_status": "Unknown",
+        "key_length": null,
+        "detection_date": "2026-03-31T15:37:38.639712",
+        "last_scan_time": "",
+        "discovery_source": "httpx"
+      },
+      {
+        "asset_name": "pnbfirst",
+        "url": "https://pnbfirst.pnb.bank.in:443",
+        "fqdn": "pnbfirst.pnb.bank.in",
+        "port": 443,
+        "ipv4_address": "45.60.3.89",
+        "ipv6_address": null,
+        "asn": 19551,
+        "asn_name": "INCAPSULA - Incapsula Inc, US",
+        "country": "",
+        "country_code": "US",
+        "city": "",
+        "isp": "INCAPSULA - Incapsula Inc, US",
+        "asset_type": "Server",
+        "owner": "",
+        "status": "Confirmed",
+        "is_cloud_hosted": false,
+        "cloud_provider": "",
+        "cdn_provider": "",
+        "is_iot_device": false,
+        "iot_device_type": "",
+        "open_ports": [
+          443
+        ],
+        "services": [],
+        "risk_level": "MEDIUM",
+        "hndl_score": 0.541,
+        "quantum_safety": "QUANTUM_VULNERABLE",
+        "certificate_status": "Valid",
+        "key_length": 2048,
+        "detection_date": "2026-03-31T15:37:38.639790",
+        "last_scan_time": "2026-03-31T15:37:44.005235",
+        "discovery_source": "httpx"
+      }
+    ],
+    "certificates": [
+      {
+        "detection_date": "2026-03-31T15:37:44.006581",
+        "sha256_fingerprint": "137a1084efd234fe32368aa4604d0a49291573f9ad36f3cc5858a0c015522080",
+        "valid_from": "2025-08-13T00:00:00+00:00",
+        "valid_until": "2026-08-12T23:59:59+00:00",
+        "common_name": "CN=instaloans.pnb.bank.in,O=Punjab National Bank,L=New Delhi,ST=Delhi,C=IN,2.5.4.5=Government Entity,2.5.4.15=Government Entity,1.3.6.1.4.1.311.60.2.1.3=IN",
+        "organization": "Punjab National Bank",
+        "certificate_authority": "CN=GeoTrust EV RSA CA G2,O=DigiCert Inc,C=US",
+        "public_key_algorithm": "RSA",
+        "public_key_size": 2048,
+        "signature_algorithm": "sha256WithRSAEncryption",
+        "san_entries": [
+          "instaloans.pnb.bank.in"
+        ],
+        "is_expired": false,
+        "is_self_signed": false,
+        "days_until_expiry": 134,
+        "expiry_bucket": "90+ days"
+      },
+      {
+        "detection_date": "2026-03-31T15:37:44.005235",
+        "sha256_fingerprint": "c405a7981e72c061198c7ffc9cfbdec3583456cbc8cd7cfd029ce07453b4fe6f",
+        "valid_from": "2025-08-27T00:00:00+00:00",
+        "valid_until": "2026-08-26T23:59:59+00:00",
+        "common_name": "CN=pnbfirst.pnb.bank.in,O=Punjab National Bank,L=New Delhi,ST=Delhi,C=IN,2.5.4.5=Government Entity,2.5.4.15=Government Entity,1.3.6.1.4.1.311.60.2.1.3=IN",
+        "organization": "Punjab National Bank",
+        "certificate_authority": "CN=GeoTrust EV RSA CA G2,O=DigiCert Inc,C=US",
+        "public_key_algorithm": "RSA",
+        "public_key_size": 2048,
+        "signature_algorithm": "sha256WithRSAEncryption",
+        "san_entries": [
+          "pnbfirst.pnb.bank.in"
+        ],
+        "is_expired": false,
+        "is_self_signed": false,
+        "days_until_expiry": 148,
+        "expiry_bucket": "90+ days"
+      }
+    ],
+    "dns_records": [
+      {
+        "hostname": "pnb.bank.in",
+        "record_type": "A",
+        "value": "49.50.72.184",
+        "ipv4_address": "49.50.72.184",
+        "ipv6_address": null,
+        "ttl": null
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "record_type": "A",
+        "value": "49.50.72.184",
+        "ipv4_address": "49.50.72.184",
+        "ipv6_address": null,
+        "ttl": null
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "record_type": "A",
+        "value": "49.50.72.184",
+        "ipv4_address": "49.50.72.184",
+        "ipv6_address": null,
+        "ttl": null
+      }
+    ],
+    "crypto_security": [
+      {
+        "asset": "pnb.bank.in",
+        "key_length": null,
+        "cipher_suite": "",
+        "tls_version": "TLS 1.0",
+        "certificate_authority": "",
+        "last_scan_time": "2026-03-31T15:37:44.074777",
+        "quantum_safety": "UNKNOWN"
+      },
+      {
+        "asset": "instaloans.pnb.bank.in",
+        "key_length": 2048,
+        "cipher_suite": "",
+        "tls_version": "TLS 1.3",
+        "certificate_authority": "GeoTrust EV RSA CA G2",
+        "last_scan_time": "2026-03-31T15:37:44.006581",
+        "quantum_safety": "QUANTUM_VULNERABLE"
+      },
+      {
+        "asset": "pnbfirst.pnb.bank.in",
+        "key_length": 2048,
+        "cipher_suite": "",
+        "tls_version": "TLS 1.3",
+        "certificate_authority": "GeoTrust EV RSA CA G2",
+        "last_scan_time": "2026-03-31T15:37:44.005235",
+        "quantum_safety": "QUANTUM_VULNERABLE"
+      }
+    ]
+  },
+  "nameserver_records": {
+    "ns_records": [
+      {
+        "hostname": "pnb.bank.in",
+        "nameserver": "ns4.pnb.bank.in",
+        "ip_address": "49.50.122.27",
+        "ttl": 208
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "nameserver": "ns4.pnbindia.com",
+        "ip_address": "49.50.122.27",
+        "ttl": 208
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "nameserver": "ns2.pnb.bank.in",
+        "ip_address": "49.50.79.113",
+        "ttl": 208
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "nameserver": "ns1.pnb.bank.in",
+        "ip_address": "49.50.69.49",
+        "ttl": 208
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "nameserver": "ns3.pnbindia.com",
+        "ip_address": "49.50.91.195",
+        "ttl": 208
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "nameserver": "ns1.pnbindia.com",
+        "ip_address": "49.50.69.49",
+        "ttl": 208
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "nameserver": "ns2.pnbindia.com",
+        "ip_address": "49.50.79.113",
+        "ttl": 208
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "nameserver": "ns3.pnb.bank.in",
+        "ip_address": "49.50.91.195",
+        "ttl": 208
+      }
+    ],
+    "mx_records": [
+      {
+        "hostname": "pnb.bank.in",
+        "mail_server": "cluster1.us.messagelabs.com",
+        "priority": 10,
+        "ip_address": "67.219.247.202",
+        "ttl": 35
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "mail_server": "cluster1a.us.messagelabs.com",
+        "priority": 20,
+        "ip_address": "34.75.172.113",
+        "ttl": 35
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "mail_server": "pnb.bank.in",
+        "priority": 30,
+        "ip_address": "49.50.72.184",
+        "ttl": 35
+      }
+    ],
+    "txt_records": [
+      {
+        "hostname": "pnb.bank.in",
+        "value": "_globalsign-domain-verification=MGFDaI1yhBiiXu8jwfkLKW46YVDgzkevGMzwNpNhr1",
+        "record_type": "TXT",
+        "ttl": 167
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "value": "_h17gf50ky4g78x3znbxl0b24tf6k3r6",
+        "record_type": "TXT",
+        "ttl": 167
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "value": "_cteinsmyfucefxpshrfbvazgyyb3t1v",
+        "record_type": "TXT",
+        "ttl": 167
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "value": "_b41ryz7u8lk8l732mzf8sonp1qg4aye",
+        "record_type": "TXT",
+        "ttl": 167
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "value": "v=DMARC1; p=reject; rua=mailto:smghelp@pnb.bank.in",
+        "record_type": "DMARC",
+        "ttl": 167
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "value": "v=DKIM1; k=rsa; t=s; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0VLMnYHSbAWFrO6wNVicHNdoAyr0ElTpQ6JB6hAvtkruOJ9+gptaxWYw2TADxD4qwhtw75zENYRdY5+1rMymFx1r0OTJSj4RpvWRMDexaRApYeB9auOT5Ul7aUa+zg2f3l9AECI4cxVpkj8fuwlVNqMkatEYmsQzPcG/KTP+EjvwooUMqW4cQZgQlevp\" \"2Tl1xKrVDGnM2e8j556fRkKV6PtwKWuODv8uA3uL6TKiskf3YjjVaTTy4scROCZxF2LFmr89PNtHqnwhGs9Q56Q1S+2zYoGgntsu1jY75gFq5ylUWNO4og+OYs0aDzEqPG003JQ+U2vS4IOXCFePR9h33QIDAQAB",
+        "record_type": "DKIM",
+        "ttl": 167
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "value": "_globalsign-domain-verification=emK7g9fiENuVQZ-ldewjC7ofIIY-OcQC4cgrUtvp4F",
+        "record_type": "TXT",
+        "ttl": 167
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "value": "_m8jhdslmnryv9yu9mhif1sef1pjbi8z",
+        "record_type": "TXT",
+        "ttl": 167
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "value": "P0U4N88250",
+        "record_type": "TXT",
+        "ttl": 167
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "value": "v=spf1 mx ip4:1.7.178.12 ip4:1.7.178.13 ip4:115.249.110.106 ip4:115.249.110.67 ip4:1.6.46.71 ip4:1.6.46.83 ip4:1.6.46.99 ip4:115.249.110.81 include:spf.messagelabs.com include:spf.protection.outlook.com -all",
+        "record_type": "SPF",
+        "ttl": 167
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "value": "_ie6ifn3sc1tevkmx23tbkyp63t4b1jq",
+        "record_type": "TXT",
+        "ttl": 167
+      },
+      {
+        "hostname": "pnb.bank.in",
+        "value": "MS=ms72997512",
+        "record_type": "Microsoft Verification",
+        "ttl": 167
+      },
+      {
+        "hostname": "_dmarc.pnb.bank.in",
+        "value": "v=DMARC1;p=reject;sp=reject;adkim=r;aspf=r;pct=100;fo=0;rf=afrf;ri=86400;rua=mailto:smghelp@pnb.bank.in",
+        "record_type": "DMARC",
+        "ttl": 167
+      }
+    ]
+  },
+  "whois": null,
+  "port_scan": {
+    "results": [],
+    "services": []
+  },
+  "detection": {
+    "cloud_assets": [],
+    "iot_devices": [],
+    "forms": []
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "domain:bank.in",
+        "label": "bank.in",
+        "node_type": "domain",
+        "metadata": {
+          "fqdn": "bank.in"
+        }
+      },
+      {
+        "id": "subdomain:pnb.bank.in",
+        "label": "pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "pnb.bank.in",
+          "asset_type": "Server"
+        }
+      },
+      {
+        "id": "ip:49.50.72.184",
+        "label": "49.50.72.184",
+        "node_type": "ip",
+        "metadata": {
+          "version": "IPv4"
+        }
+      },
+      {
+        "id": "subdomain:feepayment.pnb.bank.in",
+        "label": "feepayment.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "feepayment.pnb.bank.in",
+          "asset_type": "Server"
+        }
+      },
+      {
+        "id": "ip:103.109.224.67",
+        "label": "103.109.224.67",
+        "node_type": "ip",
+        "metadata": {
+          "version": "IPv4"
+        }
+      },
+      {
+        "id": "subdomain:instaloans.pnb.bank.in",
+        "label": "instaloans.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "instaloans.pnb.bank.in",
+          "asset_type": "Server"
+        }
+      },
+      {
+        "id": "ip:103.109.225.158",
+        "label": "103.109.225.158",
+        "node_type": "ip",
+        "metadata": {
+          "version": "IPv4"
+        }
+      },
+      {
+        "id": "subdomain:npciservices.pnb.bank.in",
+        "label": "npciservices.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "npciservices.pnb.bank.in",
+          "asset_type": "Server"
+        }
+      },
+      {
+        "id": "ip:103.109.225.229",
+        "label": "103.109.225.229",
+        "node_type": "ip",
+        "metadata": {
+          "version": "IPv4"
+        }
+      },
+      {
+        "id": "subdomain:pnbfirst.pnb.bank.in",
+        "label": "pnbfirst.pnb.bank.in",
+        "node_type": "subdomain",
+        "metadata": {
+          "fqdn": "pnbfirst.pnb.bank.in",
+          "asset_type": "Server"
+        }
+      },
+      {
+        "id": "ip:45.60.3.89",
+        "label": "45.60.3.89",
+        "node_type": "ip",
+        "metadata": {
+          "version": "IPv4"
+        }
+      },
+      {
+        "id": "ns:ns4.pnb.bank.in",
+        "label": "ns4.pnb.bank.in",
+        "node_type": "nameserver",
+        "metadata": {
+          "ip": "49.50.122.27"
+        }
+      },
+      {
+        "id": "ns:ns4.pnbindia.com",
+        "label": "ns4.pnbindia.com",
+        "node_type": "nameserver",
+        "metadata": {
+          "ip": "49.50.122.27"
+        }
+      },
+      {
+        "id": "ns:ns2.pnb.bank.in",
+        "label": "ns2.pnb.bank.in",
+        "node_type": "nameserver",
+        "metadata": {
+          "ip": "49.50.79.113"
+        }
+      },
+      {
+        "id": "ns:ns1.pnb.bank.in",
+        "label": "ns1.pnb.bank.in",
+        "node_type": "nameserver",
+        "metadata": {
+          "ip": "49.50.69.49"
+        }
+      },
+      {
+        "id": "ns:ns3.pnbindia.com",
+        "label": "ns3.pnbindia.com",
+        "node_type": "nameserver",
+        "metadata": {
+          "ip": "49.50.91.195"
+        }
+      },
+      {
+        "id": "ns:ns1.pnbindia.com",
+        "label": "ns1.pnbindia.com",
+        "node_type": "nameserver",
+        "metadata": {
+          "ip": "49.50.69.49"
+        }
+      },
+      {
+        "id": "ns:ns2.pnbindia.com",
+        "label": "ns2.pnbindia.com",
+        "node_type": "nameserver",
+        "metadata": {
+          "ip": "49.50.79.113"
+        }
+      },
+      {
+        "id": "ns:ns3.pnb.bank.in",
+        "label": "ns3.pnb.bank.in",
+        "node_type": "nameserver",
+        "metadata": {
+          "ip": "49.50.91.195"
+        }
+      },
+      {
+        "id": "mx:cluster1.us.messagelabs.com",
+        "label": "cluster1.us.messagelabs.com",
+        "node_type": "mail_server",
+        "metadata": {
+          "priority": 10,
+          "ip": "67.219.247.202"
+        }
+      },
+      {
+        "id": "mx:cluster1a.us.messagelabs.com",
+        "label": "cluster1a.us.messagelabs.com",
+        "node_type": "mail_server",
+        "metadata": {
+          "priority": 20,
+          "ip": "34.75.172.113"
+        }
+      },
+      {
+        "id": "mx:pnb.bank.in",
+        "label": "pnb.bank.in",
+        "node_type": "mail_server",
+        "metadata": {
+          "priority": 30,
+          "ip": "49.50.72.184"
+        }
+      },
+      {
+        "id": "cert:137a1084efd234fe",
+        "label": "CN=instaloans.pnb.bank.in,O=Punjab National Bank,L",
+        "node_type": "certificate",
+        "metadata": {
+          "issuer": "CN=GeoTrust EV RSA CA G2,O=DigiCert Inc,C=US",
+          "valid_until": "2026-08-12T23:59:59+00:00",
+          "algorithm": "RSA",
+          "organization": "Punjab National Bank"
+        }
+      },
+      {
+        "id": "org:punjab_national_bank",
+        "label": "Punjab National Bank",
+        "node_type": "organization",
+        "metadata": {
+          "name": "Punjab National Bank"
+        }
+      },
+      {
+        "id": "cert:c405a7981e72c061",
+        "label": "CN=pnbfirst.pnb.bank.in,O=Punjab National Bank,L=N",
+        "node_type": "certificate",
+        "metadata": {
+          "issuer": "CN=GeoTrust EV RSA CA G2,O=DigiCert Inc,C=US",
+          "valid_until": "2026-08-26T23:59:59+00:00",
+          "algorithm": "RSA",
+          "organization": "Punjab National Bank"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "subdomain:pnb.bank.in",
+        "target": "ip:49.50.72.184",
+        "relationship": "resolves_to"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:feepayment.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "subdomain:feepayment.pnb.bank.in",
+        "target": "ip:103.109.224.67",
+        "relationship": "resolves_to"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:instaloans.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "subdomain:instaloans.pnb.bank.in",
+        "target": "ip:103.109.225.158",
+        "relationship": "resolves_to"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:npciservices.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "subdomain:npciservices.pnb.bank.in",
+        "target": "ip:103.109.225.229",
+        "relationship": "resolves_to"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "subdomain:pnbfirst.pnb.bank.in",
+        "relationship": "has_subdomain"
+      },
+      {
+        "source": "subdomain:pnbfirst.pnb.bank.in",
+        "target": "ip:45.60.3.89",
+        "relationship": "resolves_to"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "ns:ns4.pnb.bank.in",
+        "relationship": "uses_nameserver"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "ns:ns4.pnbindia.com",
+        "relationship": "uses_nameserver"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "ns:ns2.pnb.bank.in",
+        "relationship": "uses_nameserver"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "ns:ns1.pnb.bank.in",
+        "relationship": "uses_nameserver"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "ns:ns3.pnbindia.com",
+        "relationship": "uses_nameserver"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "ns:ns1.pnbindia.com",
+        "relationship": "uses_nameserver"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "ns:ns2.pnbindia.com",
+        "relationship": "uses_nameserver"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "ns:ns3.pnb.bank.in",
+        "relationship": "uses_nameserver"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "mx:cluster1.us.messagelabs.com",
+        "relationship": "uses_mail_server"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "mx:cluster1a.us.messagelabs.com",
+        "relationship": "uses_mail_server"
+      },
+      {
+        "source": "domain:bank.in",
+        "target": "mx:pnb.bank.in",
+        "relationship": "uses_mail_server"
+      },
+      {
+        "source": "subdomain:instaloans.pnb.bank.in",
+        "target": "cert:137a1084efd234fe",
+        "relationship": "has_certificate"
+      },
+      {
+        "source": "org:punjab_national_bank",
+        "target": "cert:137a1084efd234fe",
+        "relationship": "owns_certificate"
+      },
+      {
+        "source": "subdomain:pnbfirst.pnb.bank.in",
+        "target": "cert:c405a7981e72c061",
+        "relationship": "has_certificate"
+      },
+      {
+        "source": "org:punjab_national_bank",
+        "target": "cert:c405a7981e72c061",
+        "relationship": "owns_certificate"
+      }
+    ]
+  },
+  "summaries": {
+    "cbom": {
+      "total_applications": 5,
+      "active_certificates": 2,
+      "weak_cryptography_count": 0,
+      "certificate_issues": 0,
+      "key_length_distribution": {
+        "2048-bit": 2
+      },
+      "cipher_usage_distribution": {},
+      "top_certificate_authorities": [
+        {
+          "name": "GeoTrust EV RSA CA G2",
+          "count": 2
+        }
+      ],
+      "protocol_distribution": {
+        "TLS 1.0": 0,
+        "TLS 1.1": 0,
+        "TLS 1.2": 0,
+        "TLS 1.3": 2
+      },
+      "per_app_crypto": []
+    },
+    "pqc_compliance": {
+      "assets_with_pqc_support": [
+        {
+          "asset_name": "pnb.bank.in",
+          "ip": "49.50.72.184",
+          "pqc_support": false,
+          "quantum_safety": "UNKNOWN"
+        },
+        {
+          "asset_name": "instaloans.pnb.bank.in",
+          "ip": "103.109.225.158",
+          "pqc_support": false,
+          "quantum_safety": "QUANTUM_VULNERABLE"
+        },
+        {
+          "asset_name": "pnbfirst.pnb.bank.in",
+          "ip": "45.60.3.89",
+          "pqc_support": false,
+          "quantum_safety": "QUANTUM_VULNERABLE"
+        }
+      ],
+      "classification_counts": {
+        "Elite": 0,
+        "Critical": 0,
+        "Standard": 0
+      },
+      "status_distribution": {
+        "PQC Ready": 0,
+        "Standard": 0,
+        "Legacy": 0,
+        "Critical": 0
+      },
+      "risk_heatmap": [
+        {
+          "asset": "instaloans.pnb.bank.in",
+          "risk_score": 0.541,
+          "risk_label": "MEDIUM"
+        },
+        {
+          "asset": "pnbfirst.pnb.bank.in",
+          "risk_score": 0.541,
+          "risk_label": "MEDIUM"
+        }
+      ],
+      "pqc_adoption_progress": 0.0
+    },
+    "cyber_rating": {
+      "enterprise_score": 456,
+      "category": "Standard",
+      "per_url_scores": {
+        "pnb.bank.in": 500,
+        "feepayment.pnb.bank.in": 500,
+        "instaloans.pnb.bank.in": 392,
+        "npciservices.pnb.bank.in": 500,
+        "pnbfirst.pnb.bank.in": 392
+      },
+      "factors": {
+        "pqc_readiness": 0.0,
+        "certificate_health": 100.0,
+        "crypto_strength": 100.0
+      }
+    },
+    "metrics": {
+      "total_domains": 1,
+      "total_subdomains": 4,
+      "cloud_assets_count": 0,
+      "ssl_certificates_count": 2,
+      "software_count": 0,
+      "iot_devices_count": 0,
+      "login_forms_count": 0,
+      "vulnerable_components_count": 0,
+      "pqc_adoption_progress": 0.0
+    }
+  },
+  "layer_outputs": {
+    "layer1_discovery": {
+      "total_discovered": 5,
+      "sources": [
+        "base_domain",
+        "httpx"
+      ],
+      "assets": [
+        {
+          "fqdn": "pnb.bank.in",
+          "port": 443,
+          "source": "base_domain",
+          "discovered_at": "2026-03-31T15:37:38.640649",
+          "ipv4": "49.50.72.184",
+          "ipv6": null,
+          "asset_type": "Server"
+        },
+        {
+          "fqdn": "feepayment.pnb.bank.in",
+          "port": 443,
+          "source": "httpx",
+          "discovered_at": "2026-03-31T15:37:38.639584",
+          "ipv4": "103.109.224.67",
+          "ipv6": null,
+          "asset_type": "Server"
+        },
+        {
+          "fqdn": "instaloans.pnb.bank.in",
+          "port": 443,
+          "source": "httpx",
+          "discovered_at": "2026-03-31T15:37:38.639651",
+          "ipv4": "103.109.225.158",
+          "ipv6": null,
+          "asset_type": "Server"
+        },
+        {
+          "fqdn": "npciservices.pnb.bank.in",
+          "port": 443,
+          "source": "httpx",
+          "discovered_at": "2026-03-31T15:37:38.639712",
+          "ipv4": "103.109.225.229",
+          "ipv6": null,
+          "asset_type": "Server"
+        },
+        {
+          "fqdn": "pnbfirst.pnb.bank.in",
+          "port": 443,
+          "source": "httpx",
+          "discovered_at": "2026-03-31T15:37:38.639790",
+          "ipv4": "45.60.3.89",
+          "ipv6": null,
+          "asset_type": "Server"
+        }
+      ],
+      "dns_records": [
+        {
+          "hostname": "pnb.bank.in",
+          "record_type": "A",
+          "value": "49.50.72.184",
+          "ipv4_address": "49.50.72.184",
+          "ipv6_address": null,
+          "ttl": null
+        },
+        {
+          "hostname": "pnb.bank.in",
+          "record_type": "A",
+          "value": "49.50.72.184",
+          "ipv4_address": "49.50.72.184",
+          "ipv6_address": null,
+          "ttl": null
+        },
+        {
+          "hostname": "pnb.bank.in",
+          "record_type": "A",
+          "value": "49.50.72.184",
+          "ipv4_address": "49.50.72.184",
+          "ipv6_address": null,
+          "ttl": null
+        }
+      ]
+    },
+    "layer2_scanning": {
+      "total_scanned": 5,
+      "successful_scans": 3,
+      "certificates_found": 2,
+      "scans": [
+        {
+          "target": "pnb.bank.in",
+          "port": 443,
+          "status": "success",
+          "scan_time": "2026-03-31T15:37:44.074777",
+          "duration_ms": 372825.5696729975,
+          "tls_versions": {
+            "tls_1_0": false,
+            "tls_1_1": false,
+            "tls_1_2": false,
+            "tls_1_3": false
+          },
+          "cipher_suites": {
+            "tls_1_2": [],
+            "tls_1_3": []
+          },
+          "key_exchange_algorithms": [],
+          "certificate": null,
+          "pqc_assessment": {
+            "is_pqc": false,
+            "pqc_algorithm": null
+          },
+          "vulnerabilities": {
+            "heartbleed": false,
+            "downgrade_prevention": true
+          },
+          "error": null
+        },
+        {
+          "target": "instaloans.pnb.bank.in",
+          "port": 443,
+          "status": "success",
+          "scan_time": "2026-03-31T15:37:44.006581",
+          "duration_ms": 12799.534639998456,
+          "tls_versions": {
+            "tls_1_0": false,
+            "tls_1_1": false,
+            "tls_1_2": false,
+            "tls_1_3": true
+          },
+          "cipher_suites": {
+            "tls_1_2": [],
+            "tls_1_3": []
+          },
+          "key_exchange_algorithms": [],
+          "certificate": {
+            "subject": "CN=instaloans.pnb.bank.in,O=Punjab National Bank,L=New Delhi,ST=Delhi,C=IN,2.5.4.5=Government Entity,2.5.4.15=Government Entity,1.3.6.1.4.1.311.60.2.1.3=IN",
+            "issuer": "CN=GeoTrust EV RSA CA G2,O=DigiCert Inc,C=US",
+            "not_after": "2026-08-12T23:59:59+00:00",
+            "public_key_algorithm": "RSA",
+            "public_key_size": 2048,
+            "signature_algorithm": "sha256WithRSAEncryption"
+          },
+          "pqc_assessment": {
+            "is_pqc": false,
+            "pqc_algorithm": null
+          },
+          "vulnerabilities": {
+            "heartbleed": false,
+            "downgrade_prevention": true
+          },
+          "error": null
+        },
+        {
+          "target": "pnbfirst.pnb.bank.in",
+          "port": 443,
+          "status": "success",
+          "scan_time": "2026-03-31T15:37:44.005235",
+          "duration_ms": 21185.30946700048,
+          "tls_versions": {
+            "tls_1_0": false,
+            "tls_1_1": false,
+            "tls_1_2": false,
+            "tls_1_3": true
+          },
+          "cipher_suites": {
+            "tls_1_2": [],
+            "tls_1_3": []
+          },
+          "key_exchange_algorithms": [],
+          "certificate": {
+            "subject": "CN=pnbfirst.pnb.bank.in,O=Punjab National Bank,L=New Delhi,ST=Delhi,C=IN,2.5.4.5=Government Entity,2.5.4.15=Government Entity,1.3.6.1.4.1.311.60.2.1.3=IN",
+            "issuer": "CN=GeoTrust EV RSA CA G2,O=DigiCert Inc,C=US",
+            "not_after": "2026-08-26T23:59:59+00:00",
+            "public_key_algorithm": "RSA",
+            "public_key_size": 2048,
+            "signature_algorithm": "sha256WithRSAEncryption"
+          },
+          "pqc_assessment": {
+            "is_pqc": false,
+            "pqc_algorithm": null
+          },
+          "vulnerabilities": {
+            "heartbleed": false,
+            "downgrade_prevention": true
+          },
+          "error": null
+        }
+      ]
+    },
+    "layer3_analysis": {
+      "total_analyzed": 5,
+      "risk_distribution": {
+        "CRITICAL": 0,
+        "HIGH": 0,
+        "MEDIUM": 2,
+        "LOW": 0
+      },
+      "analyses": [
+        {
+          "fqdn": "pnb.bank.in",
+          "port": 443,
+          "discovery_source": "base_domain",
+          "scan_success": true,
+          "quantum_safety": "UNKNOWN",
+          "is_quantum_safe": false,
+          "hndl_score": null,
+          "hndl_label": null,
+          "recommended_action": null,
+          "key_exchange_algorithms": [],
+          "certificate_algorithm": "",
+          "cert_tier": "CRITICAL"
+        },
+        {
+          "fqdn": "instaloans.pnb.bank.in",
+          "port": 443,
+          "discovery_source": "httpx",
+          "scan_success": true,
+          "quantum_safety": "QUANTUM_VULNERABLE",
+          "is_quantum_safe": false,
+          "hndl_score": 0.541,
+          "hndl_label": "MEDIUM",
+          "recommended_action": "MEDIUM: Schedule RSA migration to ML-DSA by 2027",
+          "key_exchange_algorithms": [],
+          "certificate_algorithm": "RSA",
+          "cert_tier": "VULNERABLE"
+        },
+        {
+          "fqdn": "pnbfirst.pnb.bank.in",
+          "port": 443,
+          "discovery_source": "httpx",
+          "scan_success": true,
+          "quantum_safety": "QUANTUM_VULNERABLE",
+          "is_quantum_safe": false,
+          "hndl_score": 0.541,
+          "hndl_label": "MEDIUM",
+          "recommended_action": "MEDIUM: Schedule RSA migration to ML-DSA by 2027",
+          "key_exchange_algorithms": [],
+          "certificate_algorithm": "RSA",
+          "cert_tier": "VULNERABLE"
+        }
+      ]
+    },
+    "layer4_certification": {
+      "total_certified": 0,
+      "certifications": [
+        {
+          "fqdn": "pnb.bank.in",
+          "cert_tier": "CRITICAL",
+          "cert_issued": false,
+          "url_score": 500
+        },
+        {
+          "fqdn": "feepayment.pnb.bank.in",
+          "cert_tier": "NOT_SCANNED",
+          "cert_issued": false,
+          "url_score": 500
+        },
+        {
+          "fqdn": "instaloans.pnb.bank.in",
+          "cert_tier": "VULNERABLE",
+          "cert_issued": false,
+          "url_score": 392
+        },
+        {
+          "fqdn": "npciservices.pnb.bank.in",
+          "cert_tier": "NOT_SCANNED",
+          "cert_issued": false,
+          "url_score": 500
+        },
+        {
+          "fqdn": "pnbfirst.pnb.bank.in",
+          "cert_tier": "VULNERABLE",
+          "cert_issued": false,
+          "url_score": 392
+        }
+      ]
+    }
+  }
+}
