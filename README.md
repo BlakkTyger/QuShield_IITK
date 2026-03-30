@@ -39,32 +39,6 @@ QuShield IITK is architected with a decoupled, high performance stack designed t
    * **Quantum SDKs**: Utilizes `liboqs` (0.10.0+) for advanced ML-DSA-87 signature parsing and PQC capability discovery.
    * **Speed**: Single endpoint scan completion time strictly bounded to under 20 seconds.
 
-```mermaid
-graph TD
-    subgraph Client Space
-    A[Frontend React 19 App]
-    end
-    
-    subgraph Control Plane
-    B[FastAPI Backend]
-    C[(PostgreSQL DB)]
-    end
-    
-    subgraph Execution Plane
-    D[QuShield Async Orchestrator]
-    E[pqcscan / SSLyze / ike-scan]
-    end
-    
-    subgraph Target Infrastructure
-    F[Live Web Apps / APIs / VPNs / Gateways]
-    end
-
-    A -->|REST / HTTPS| B
-    B <-->|ORM| C
-    B -->|Trigger Scan| D
-    D -->|Spawn / Collect| E
-    D -->|Analyze| F
-```
 
 ## The 4-Layer Scanning Workflow
 
