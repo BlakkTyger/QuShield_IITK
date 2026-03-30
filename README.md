@@ -1,4 +1,4 @@
-# QuShiel
+# QuShield
 *(A QuRaccoons Project)*
 
 Enterprise grade cryptographic posture management and Post-Quantum Cryptography (PQC) readiness assessment platform. QuShield IITK provides end-to-end visibility into cryptographic assets, automated risk scoring, and strategic guidance for quantum safe migration.
