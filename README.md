@@ -39,6 +39,32 @@ QuShield IITK is architected with a decoupled, high performance stack designed t
    * **Quantum SDKs**: Utilizes `liboqs` (0.10.0+) for advanced ML-DSA-87 signature parsing and PQC capability discovery.
    * **Speed**: Single endpoint scan completion time strictly bounded to under 20 seconds.
 
+```mermaid
+graph TD
+    subgraph Client Space
+    A[Frontend React 19 App]
+    end
+    
+    subgraph Control Plane
+    B[FastAPI Backend]
+    C[(PostgreSQL DB)]
+    end
+    
+    subgraph Execution Plane
+    D[QuShield Async Orchestrator]
+    E[pqcscan / SSLyze / ike-scan]
+    end
+    
+    subgraph Target Infrastructure
+    F[Live Web Apps / APIs / VPNs / Gateways]
+    end
+
+    A -->|REST / HTTPS| B
+    B <-->|ORM| C
+    B -->|Trigger Scan| D
+    D -->|Spawn / Collect| E
+    D -->|Analyze| F
+```
 
 ## The 4-Layer Scanning Workflow
 
@@ -86,16 +112,3 @@ Mosca's Theorem asserts that a catastrophic cryptographic failure occurs if the 
 * **$T$-years (Migration Time)**: The operational timeline required to completely rotate, re factor, and replace current infrastructure with PQC compliant algorithmic suites. 
 * **$Z$-years (Quantum Threat Horizon)**: The estimated timespan until a threat actor possesses a Cryptographically Relevant Quantum Computer (CRQC) capable of executing Shor's algorithm efficiently against classical prime factorization and discrete logarithm problems.
 
-```mermaid
-flowchart LR
-    subgraph Temporal Variables
-    D[D-years: Data Shelf Life] 
-    T[T-years: Migration Time] 
-    end
-    
-    Temporal Variables --> Sum(Calculates sum of X + Y)
-    Sum --> Eval{Is X + Y >= Z?}
-    Z[Z-years: Threat Horizon] -.-> |Boundary Criteria| Eval
-    Eval -->|Yes| Risk[Cryptographic Crisis: Immediate Action Required]
-    Eval -->|No| Safe[Acceptable Risk Tolerance: Continue Monitoring]
-```
